@@ -15,7 +15,7 @@ Le schéma de création de fonction type est le suivant :
 ```cpp
 type nomFonction([Arg1, Arg2, ...]){
 	//Code
-	return; //type de retour étant le même que le type de fonction
+	return ...; //type de retour étant le même que le type de fonction
 }
 ```
 ``type`` pouvant être ``int, long, char, float, double, void, std::string, std::vector, std::array,...``
@@ -25,12 +25,12 @@ Comme la plupart des langages qu'on a vu, il existe les conditions et les boucle
 ```cpp
 if (condition){ //code
 }
-else if(){...}
-else {..}
+else if(){ ... }
+else { ... }
 
 //boucle
 while(condition){ ... }
-do {...} while (condition);
+do { ... } while (condition);
 for(initialisation; condition; opération sur l initialisation) { ... }
 ```
 
