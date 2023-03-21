@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "3f603853a43faa3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "61646fe8d63306e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba2eaa98ccd86914",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reseau Entreprise/TD/NAT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a462920806770f32",
+    "type": "split",
+    "children": [
+      {
+        "id": "f35234cf9bd5c397",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb5fd846e45ed00a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8eed9e40b405f0e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "69adafba62b38b5b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d83e63fbef5aec18",
+    "type": "split",
+    "children": [
+      {
+        "id": "71f162289b36c154",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1433139b2e9947aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Reseau Entreprise/TD/NAT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f72240f6d7a4eca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Reseau Entreprise/TD/NAT.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bf5a1fa9a7053ce6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e25f81aaa5334636",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Reseau Entreprise/TD/NAT.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:Créer une nouvelle toile": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "ba2eaa98ccd86914",
+  "lastOpenFiles": [
+    "Reseau Entreprise/TP/Compte rendu TP 7 Réseau d'entreprise.md",
+    "Mathématique de l'ingénieur/Diagonalisation.md",
+    "Developpement Objet",
+    "Probabilité",
+    "Probabilité/Exercice Probas TD2.md",
+    "Reseau Entreprise/TD/NAT.md",
+    "Mathématique de l'ingénieur",
+    "Reseau Entreprise/TP/Pasted image 20230320185541.png",
+    "Reseau Entreprise/TD",
+    "Reseau Entreprise/TP",
+    "Reseau Entreprise/TP/Pasted image 20230320190540.png",
+    "Reseau Entreprise",
+    "Reseau Entreprise/TP/Pasted image 20230320190422.png",
+    "Probabilité/Mathématiques - Probabilités.md",
+    "Developpement Objet/Premier cours C++.md",
+    "test.md",
+    "Mathématique de l'ingénieur/Mathématiques de l'ingénieur - Calcul matriciel.md",
+    "Probabilité/Les variables aléatoires.md",
+    "Probabilité/Indice de variable aléatoire.md",
+    "UDP.md",
+    "Reseaux d'entreprise - TD2.md",
+    "Sans titre.canvas",
+    "Sans titre 2.canvas",
+    "Sans titre 1.canvas",
+    "les.md",
+    "Probabilités.md",
+    "Test note atom.md",
+    "Test creat 1.md",
+    "Test 1.md"
+  ]
+}
