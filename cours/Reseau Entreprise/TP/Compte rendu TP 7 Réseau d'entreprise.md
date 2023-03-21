@@ -20,6 +20,7 @@ Dans cette première manipulation, nous devions relier deux ordinateurs à deux 
 ## Branchement
 ![[Pasted image 20230320190540.png]]
 ## Changement adresse IP
+
 Les postes ont eu les adresses IP suivantes : ``192.168.0.31`` et ``10.0.0.1`` avec leur masque respectif ``255.255.0.0``, ``255.0.0.0``.
 
 ## Configuration du routeur
@@ -49,7 +50,7 @@ Le port fastEthernet0 donne vers les réseaux en 192.168.0.x et le port fastEthe
 ## Fin de la manipulation : ping
 A la fin, les deux ordinateurs ont pu envoyer et recevoir un ping entre eux
 
-## 2ème manipulation : VLAN
+# 2ème manipulation : VLAN
 Dans cette deuxième manipulation, nous devions connecter 4 ordinateurs à un switch et les séparer dans 2 VLAN différentes.
 
 ## Branchement VLAN
@@ -86,5 +87,10 @@ Switch# ...
 # Manipulation 3 : Serveur web
 ## Branchement serveur web
 
+Un réseau disposant de deux switchs, deux ordinateurs - dont un servant de serveur web - et d'un routeur :
+
+## Configuration
+Comme dans [[#Changement adresse IP|la première manipulation]], les ordinateurs avaient leur adresse IP (le serveur avait l'ip ``192.168.0.31``).
+
 # Conclusion
-# test
+
