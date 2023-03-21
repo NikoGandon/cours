@@ -34,7 +34,7 @@ do { ... } while (condition);
 for(initialisation; condition; opération sur l initialisation) { ... }
 ```
 
-Il est important de parler également des pointeurs et références en C++:
+Il est important de parler également des #pointeurs et #références en C++:
 
 Une variable est stocké dans une adresse mémoire, le pointeur pointe cette case mémoire et la référence est l'emplacement de la case mémoire.
 Un pointeur est une variable qui stocke l'emplacement de la mémoire / la référence.
@@ -86,7 +86,7 @@ int main(){
 On initialise 2 variables `a` et `b` ayant respectivement pour valeur 15 et 10.
 Donc on va avoir pour première sortie : 
 ```
-15 10
+main : 15 10
 ```
 Ensuite, on appelle la fonction ``test(int a, int& b)``, qui prend en copie a et en référence b.
 On incrémente ``a`` et ``b``. 
@@ -106,7 +106,7 @@ main : 15 11
 Dans ``main``, ``b`` a sa valeur qui a été modifié, car on a pris en paramètre de fonction ``test`` son emplacement mémoire et pas sa valeur. ``a`` quant à lui, dans ``main`` n'a pas été modifié car ``test`` a juste copié sa valeur.
 
 
-Maintenant, on peut voir les classes.
+Maintenant, on peut voir les #classes.
 
 Une classe en C++ est similaire à une classe en Java : on a un nom de classe, des attributs et méthodes publics, privés et protégés.
 Cependant, on peut avoir plusieurs classes dans un même fichier, on peut aussi utiliser des opérateurs. D'ailleurs on peut écrire des classes de deux manières différentes : un fichier qui gère la classe en entier ou alors deux fichiers : un fichier header et un fichier cpp
