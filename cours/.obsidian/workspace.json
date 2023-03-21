@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Developpement Objet/Deuxième cours C++ - Les classes.md",
+                "file": "Reseau Entreprise/TP/Compte rendu TP 7 Réseau d'entreprise.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Developpement Objet/Deuxième cours C++ - Les classes.md",
+                "file": "Reseau Entreprise/TP/Compte rendu TP 7 Réseau d'entreprise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Developpement Objet/Deuxième cours C++ - Les classes.md",
+                "file": "Reseau Entreprise/TP/Compte rendu TP 7 Réseau d'entreprise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Developpement Objet/Deuxième cours C++ - Les classes.md"
+                "file": "Reseau Entreprise/TP/Compte rendu TP 7 Réseau d'entreprise.md"
               }
             }
           }
@@ -139,7 +139,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:Créer une nouvelle toile": false,
+      "canvas:Create new canvas": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
       "daily-notes:Ouvrir la note quotidienne": false,
@@ -149,35 +149,15 @@
   },
   "active": "d2c2a565fc339cbe",
   "lastOpenFiles": [
-    "Developpement Objet/Premier cours C++ - Introduction.md",
-    "Developpement Objet/Deuxième cours C++ - Les classes.md",
-    "Reseau Entreprise/TD/NAT.md",
-    "Reseau Entreprise/TP/Compte rendu TP 7 Réseau d'entreprise.md",
-    "Mathématique de l'ingénieur/Diagonalisation.md",
-    "Developpement Objet",
-    "Probabilité",
-    "Probabilité/Exercice Probas TD2.md",
-    "Mathématique de l'ingénieur",
-    "Reseau Entreprise/TP/Pasted image 20230320185541.png",
-    "Reseau Entreprise/TD",
-    "Reseau Entreprise/TP",
-    "Reseau Entreprise/TP/Pasted image 20230320190540.png",
-    "Reseau Entreprise",
-    "Reseau Entreprise/TP/Pasted image 20230320190422.png",
     "Probabilité/Mathématiques - Probabilités.md",
-    "test.md",
-    "Mathématique de l'ingénieur/Mathématiques de l'ingénieur - Calcul matriciel.md",
     "Probabilité/Les variables aléatoires.md",
     "Probabilité/Indice de variable aléatoire.md",
-    "UDP.md",
-    "Reseaux d'entreprise - TD2.md",
-    "Sans titre.canvas",
-    "Sans titre 2.canvas",
-    "Sans titre 1.canvas",
-    "les.md",
-    "Probabilités.md",
-    "Test note atom.md",
-    "Test creat 1.md",
-    "Test 1.md"
+    "Probabilité/Exercice Probas TD2.md",
+    "Mathématique de l'ingénieur/Mathématiques de l'ingénieur - Calcul matriciel.md",
+    "Mathématique de l'ingénieur/Diagonalisation.md",
+    "Developpement Objet/Premier cours C++ - Introduction.md",
+    "Developpement Objet/Deuxième cours C++ - Les classes.md",
+    "Reseau Entreprise/TP/Compte rendu TP 7 Réseau d'entreprise.md",
+    "Reseau Entreprise/TD/NAT.md"
   ]
 }
