@@ -1,3 +1,4 @@
+On s'interessera au C++ moderne (C++11, C++14, C++17 et C++20), les anciennes normes sont dépassés mais on en parlera un peu plus.
 
 ```cpp
 #include<iostream>

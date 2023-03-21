@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Developpement Objet/Deuxième cours C++.md",
+                "file": "Developpement Objet/Deuxième cours C++ - Les classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#classes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Developpement Objet/Deuxième cours C++.md",
+                "file": "Developpement Objet/Deuxième cours C++ - Les classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Developpement Objet/Deuxième cours C++.md",
+                "file": "Developpement Objet/Deuxième cours C++ - Les classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Developpement Objet/Deuxième cours C++.md"
+                "file": "Developpement Objet/Deuxième cours C++ - Les classes.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -148,8 +149,8 @@
   },
   "active": "d2c2a565fc339cbe",
   "lastOpenFiles": [
-    "Developpement Objet/Premier cours C++.md",
-    "Developpement Objet/Deuxième cours C++.md",
+    "Developpement Objet/Premier cours C++ - Introduction.md",
+    "Developpement Objet/Deuxième cours C++ - Les classes.md",
     "Reseau Entreprise/TD/NAT.md",
     "Reseau Entreprise/TP/Compte rendu TP 7 Réseau d'entreprise.md",
     "Mathématique de l'ingénieur/Diagonalisation.md",
