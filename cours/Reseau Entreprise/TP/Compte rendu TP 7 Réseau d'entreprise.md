@@ -12,6 +12,8 @@ Prénoms : Nikola, Morgan, Maximilien, Thomas
 	- [[#Commande]]
 - [[#Manipulation 3 : Serveur web|Serveur web]]
 	- [[#Branchement serveur web]]
+	- [[#Configuration|Configuration des machines]]
+	- [[]]
 - [[#Conclusion]]
 
 
@@ -71,7 +73,7 @@ Cette commande affiche les VLANs disponibles, par exemple :
 ```
 Id  Nom           Interfaces
  1  default       Fa0/0  Fa0/1  Fa0/2  Fa0/3
-                  Fa0/4  Fa0/5  Fa0/6  Fa0/7
+ ­                 Fa0/4  Fa0/5  Fa0/6  Fa0/7
  2  marketing     
  3  Informatique  
 ```
@@ -85,6 +87,7 @@ Switch# ...
 
 
 # Manipulation 3 : Serveur web
+Nous n'avons maheureusement pas pu faire cette partie du TP.
 ## Branchement serveur web
 
 Un réseau disposant de deux switchs, deux ordinateurs - dont un servant de serveur web - et d'un routeur :
