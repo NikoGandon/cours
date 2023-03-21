@@ -10,6 +10,10 @@ Prénoms : Nikola, Morgan, Maximilien, Thomas
 - [[#2ème manipulation :|VLAN]]
 	- [[#Branchement VLAN]]
 	- [[#Commande]]
+		- [[#Création et attribution du VLAN|Création des VLANs]]
+	- [[#Ping avec les VLANs|Ping]]
+		- [[#Ping avec la VLAN Premiere]]
+		- [[#Ping avec la VLAN Deuxieme]]
 - [[#Manipulation 3 : Serveur web|Serveur web]]
 	- [[#Branchement serveur web]]
 	- [[#Configuration|Configuration des machines]]
@@ -58,6 +62,7 @@ Dans cette deuxième manipulation, nous devions connecter 4 ordinateurs à un sw
 ## Branchement VLAN
 
 ![[Pasted image 20230320185541.png]]
+Les ports fastEthernet 1 à 4 seront utilisés par les PC 1 à 4.
 
 ## Commande
 ### Configuration du switch
@@ -78,14 +83,44 @@ Id  Nom           Interfaces
  3  Informatique  
 ```
 
-On peut créer des VLANs en utilisant la commande suivante :
+On peut créer des VLANs en utilisant la commande suivante ``...``. Nous allons créer 2 VLANs : Premiere et Deuxieme :
 ```
 Switch> en
 Switch# ...
 ```
 
+Une fois la VLAN ...
+On peut attribuer des interfaces à des VLANs, on va donc attribuer au PC1 et PC4 la VLAN 4 et au PC2 et PC3 la VLAN 5.
+```
+Switch# conf term
+Switch(config)# interface fastEthernet1
+Switch(config-if)# ...
+```
 
+Ensuite nous réutiliserons la commande ``sh vlan``
+```
+Switch> sh VLAN
+Id  Nom           Interfaces
+ 1  default       Fa0/0  Fa0/5  Fa0/6  Fa0/7
+ 2  marketing     
+ 3  Informatique  
+ 4  Premiere      Fa0/1  Fa0/4
+ 5  Deuxieme      Fa0/2  Fa0/3
+```
 
+## Ping avec les VLANs
+Pour des exemples, nous utiliserons les adresses IP suivantes - respectivement les PC1 à PC4 :
+``192.168.0.1``, ``192.168.0.2``, ``192.168.0.3``, ``192.168.0.4``
+
+### Ping avec la VLAN Premiere
+PC1 ping bien vers l'adresse IP ``192.168.1.4`` (Soit le PC4) mais pas avec les deux autres.
+PC4 ping bien vers l'adresse IP ``192.168.1.1`` (soit le PC1) mais pas avec les deux autres.
+
+### Ping avec la VLAN Deuxieme
+PC2 ping bien vers l'adresse IP ``192.168.1.3`` (Soit le PC3) mais pas avec les deux autres.
+PC3 ping bien vers l'adresse IP ``192.168.1.2`` (soit le PC2) mais pas avec les deux autres.
+
+Les VLANs sont donc effectifs.
 # Manipulation 3 : Serveur web
 Nous n'avons maheureusement pas pu faire cette partie du TP.
 ## Branchement serveur web
