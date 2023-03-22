@@ -22,6 +22,17 @@ __Exercice 4 :__
 Soit 3 urnes $A, B, C$ dont $A=\{1b, 3n\}, B=\{2b, 2n\}, C=\{3b, 1n\}$
 On tire une boule dans chacune des urnes, soit $X$ la variable aléatoire et $P$ l'évenement "On tire $X$ boule blanche". D'après les informations, $0 \leq X \leq 3$.
 
+# Exercice 14 :
+
+|X\Y|0|1|2|Total|
+| :--- | ---- | ---- | ---- | ----: |
+|$-1$|$a$|$2a$|$a$||
+|$0$|$0$|$a$|$a$||
+|$1$|$3a$|$0$|$a$||
+|Total|||||
+
+
+
 [Le reste des exercices](Exercice%20Probas%20TD2.md)
 
 
