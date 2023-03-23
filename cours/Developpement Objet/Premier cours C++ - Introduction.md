@@ -19,7 +19,7 @@ type nomFonction([Arg1, Arg2, ...]){
 	return ...; //type de retour étant le même que le type de fonction
 }
 ```
-``type`` pouvant être ``int, long, char, float, double, void, std::string, std::vector, std::array,...``
+En C++, les #types sont ``int, long, char, float, double, void, std::string, std::vector, std::array,...``
 A savoir que `void` ne retourne rien.
 
 Comme la plupart des langages qu'on a vu, il existe les conditions et les boucles
