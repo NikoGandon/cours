@@ -24,7 +24,7 @@ Prénoms : Nikola, Morgan, Maximilien, Thomas
 # 1ère manipulation :
 Dans cette première manipulation, nous devions relier deux ordinateurs à deux switchs différents reliés à un routeur. 
 ## Branchement
-![[Pasted image 20230320190540.png]]
+![[Pasted image 20230323132344.png]]
 ## Changement adresse IP
 
 Les postes ont eu les adresses IP suivantes : ``192.168.0.31`` et ``10.0.0.1`` avec leur masque respectif ``255.255.0.0``, ``255.0.0.0``.
@@ -61,7 +61,8 @@ Dans cette deuxième manipulation, nous devions connecter 4 ordinateurs à un sw
 
 ## Branchement VLAN
 
-![[Pasted image 20230320185541.png]]
+![[Pasted image 20230323132429.png]]
+
 Les ports fastEthernet 1 à 4 seront utilisés par les PC 1 à 4.
 
 ## Commande
@@ -83,19 +84,31 @@ Id  Nom           Interfaces
  3  Informatique  
 ```
 
-On peut créer des VLANs en utilisant la commande suivante ``...``. Nous allons créer 2 VLANs : Premiere et Deuxieme :
+On peut créer des VLANs en utilisant la commande suivante ``vlan id`` et ``name _nom_``. Nous allons créer 2 VLANs : Premiere et Deuxieme :
 ```
 Switch> en
-Switch# ...
+Switch# conf term
+Switch(config)# vlan 4
+Switch(config-vlan)# name Premiere
+Switch(config-vlan)# exit
+Switch(config)# vlan 5
+Switch(config-vlan)# name Deuxieme
 ```
 
-Une fois la VLAN ...
+Une fois les VLANs créés, on peut maintenant attribuer des  
 On peut attribuer des interfaces à des VLANs, on va donc attribuer au PC1 et PC4 la VLAN 4 et au PC2 et PC3 la VLAN 5.
 ```
 Switch# conf term
 Switch(config)# interface fastEthernet1
-Switch(config-if)# ...
+Switch(config-if)# switchport mode access
+Switch(config-if)# switchport access vlan 4
+Switch(config-if)# exit
+Switch(config)# interface fastEthernet2
+Switch(config-if)# switchport mode access
+Switch(config-if)# switchport access vlan 5
+Switch(config-if)# end
 ```
+Nous réaliserons les même commandes dans le même ordre pour ``fastEthernet4`` et ``fastEthernet3``.
 
 Ensuite nous réutiliserons la commande ``sh vlan``
 ```
@@ -127,8 +140,12 @@ Nous n'avons maheureusement pas pu faire cette partie du TP.
 
 Un réseau disposant de deux switchs, deux ordinateurs - dont un servant de serveur web - et d'un routeur :
 
+![[Pasted image 20230323133835.png]]
+
 ## Configuration
 Comme dans [[#Changement adresse IP|la première manipulation]], les ordinateurs avaient leur adresse IP (le serveur avait l'ip ``192.168.0.31``).
+
+
 
 # Conclusion
 
