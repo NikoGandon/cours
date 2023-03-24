@@ -17,7 +17,7 @@ Prénoms : Nikola, Morgan, Maximilien, Thomas
 - [[#Manipulation 3 : Serveur web|Serveur web]]
 	- [[#Branchement serveur web]]
 	- [[#Configuration|Configuration des machines]]
-	- [[]]
+	- [[#Création de l'ACL|Création de l'ACL 101]]
 - [[#Conclusion]]
 
 
@@ -27,7 +27,7 @@ Dans cette première manipulation, nous devions relier deux ordinateurs à deux 
 ![[Pasted image 20230323132344.png]]
 ## Changement adresse IP
 
-Les postes ont eu les adresses IP suivantes : ``192.168.0.31`` et ``10.0.0.1`` avec leur masque respectif ``255.255.0.0``, ``255.0.0.0``.
+Les postes ont eu les adresses IP suivantes : ``192.168.0.31`` et ``10.0.0.1`` avec leur masque respectif ``255.255.255.0``, ``255.0.0.0``.
 
 ## Configuration du routeur
 
@@ -45,7 +45,7 @@ Ensuite, nous allons donner la route des IPs :
 ```
 routeur# conf term
 routeur(config)# interface fastEthernet0
-routeur(config-if)# ip address 192.168.0.234 255.255.0.0
+routeur(config-if)# ip address 192.168.0.254 255.255.255.0
 routeur(config-if)# exit
 routeur(config)# interface fastEthernet1
 routeur(config-if)# ip address 10.0.0.254 255.0.0.0
@@ -147,7 +147,14 @@ Un réseau disposant de deux switchs, deux ordinateurs - dont un servant de serv
 ## Configuration
 Comme dans [[#Changement adresse IP|la première manipulation]], les ordinateurs avaient leur adresse IP (le serveur avait l'ip ``192.168.0.31``).
 
+## Création de l'ACL
 
+Pour créer l'access-list, nous utiliserons la commande suivante :
+```
+routeur(config)# access-list 101 deny tcp any eq 80 192.168.0.31 255.255.255.0
+```
+
+Cette commande créer une liste d'accès nommé ``101`` visant à empêcher les connexions TCP provenant de n'importe quelle source sur le port 80 (utilisé pour les connexions HTTP) vers l'adresse IP 192.168.0.31 et tous les hôtes sur son réseau local.
 
 # Conclusion
 

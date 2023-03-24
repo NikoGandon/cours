@@ -160,4 +160,24 @@ $$M_{f,b_2}=\begin{pmatrix}2&10\\0&-3\end{pmatrix}$$
 En sachant que la première colonne $f\begin{pmatrix}1\\1\end{pmatrix}$ et la deuxième est $f\begin{pmatrix}1\\0\end{pmatrix}$.
 
 
+
+
 //le cours du 17/03 n'a pas pu être pris
+
+- $A$ est diagonalisable si $\mathbb{R}^n$ admet une base de vecteur propre de $A$.
+- $A$ est [[Matrice diagonalisable|diagonalisable]] :
+	$$A=\begin{pmatrix}
+\vdots &   & \vdots \\
+v_{1} & \dots  & v_{n} \\
+\vdots &  & \vdots
+\end{pmatrix}
+\begin{pmatrix}
+\lambda_{1}  &   &  \\
+& \ddots  &  \\
+& & \lambda_{n}
+\end{pmatrix}
+\begin{pmatrix} \\
+\vdots &  & \vdots \\
+v_{2}
+\end{pmatrix}
+$$

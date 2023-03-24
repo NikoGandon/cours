@@ -16,7 +16,7 @@ Les #types sont ce que vous voulez
 
 ## Création de tableau avec []
 
-La vieille méthode pour créer des tableaux
+La vieille méthode pour créer des tableaux, il suffit juste de 
 
 ## Création de tableau avec ``std::array``
 
