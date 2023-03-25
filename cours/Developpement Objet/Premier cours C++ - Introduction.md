@@ -130,7 +130,7 @@ test::test(){
 }
 
 test::~test(){
-//Code pour le destructeur, généralement vide
+//Code pour le destructeur
 }
 
 int test::fonctionTest(){
