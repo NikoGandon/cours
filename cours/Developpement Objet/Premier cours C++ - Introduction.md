@@ -144,9 +144,22 @@ Ou alors en un seul fichier :
 //fichier testClasse.h
 class test{
 	test(){
-		...
+		...   //Corps de construction
 	}
-	~test(){...}
+	~test(){... } //Corps de destruction  
 	int fonctionTest(){...}
+};
+```
+Ou alors dans un seul et même fichier :
+```cpp
+//main.cpp
+
+class test{
+	test(){}
+	~test(){}
+};
+
+int main(){
+	...
 }
 ```

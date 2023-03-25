@@ -131,12 +131,30 @@ public :
 	}
 };
 
+class Homme : public Animal{
+private : 
+		bool estDansLeComa;
+public :
+	Homme(){
+		estDansLeComa = false;
+	}
+	~Homme(){
+	}
+	void drogue(){
+		estDansLeComa = true;
+	}
+
+}
+
 int main(){
 	Chien Maximilien;
+	Homme Cocainomane;             //estDansLeComa = false
 	Maximilien.mange();
 	Maximilien.boit();
 	//Maximilien.donneLaPate();
 	Maximilien.afficherEtat();
+	Cocainomane.drogue();          //estDansLeComa = true;
+	
 }
 ```
 
@@ -163,4 +181,4 @@ Ce principe garantit que les ressources allouées dynamiquements soient toujours
 
 Le principe de destructeur est de libérer les ressources prise par l'objet lorsqu'il est détruit, pour libérer la mémoire.
 
-Son utilisation est quelque chose d'assez complexe à faire comprendre pour ma part, on ne va pas s'attarder dessus pour l'instant.
+Son utilisation est assez complexe à faire comprendre pour ma part, on ne va pas s'attarder dessus pour l'instant.
