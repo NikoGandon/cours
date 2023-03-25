@@ -172,6 +172,32 @@ La classe ``chien`` a obtenu les méthodes publiques de sa classe mère ``animal
 Dès sa construction, ``Chien`` va mettre la variable ``nourriture`` à 15 (``nourriture`` étant protégé, les classes filles peuvent y avoir accès).
 On peut redéfinir une fonction de la classe mère dans une classe fille. Lorsque la classe fille appellera la fonction recréée, ce sera **sa définition** qui sera pris en compte.
 
+# Les meilleurs amis
+En C++, il existe un concepte d'amis : une fonction ou une classe peut avoir accès aux attributs et méthodes **privés et protégés** d'une autre classe. En gros, comme un ami qui connait vos secrets.
+Pour spécifier que c'est un ami, on utilise le mot clé ``friend`` :
+```cpp
+class A{
+private : 
+	int m_nombre;
+public :
+	A(){}
+	~A(){}
+	friend void fonctionAmi(A& obj);
+	friend class classeAmi;
+};
+
+void fonctionAmi(A& obj){
+	obj.m_nombre = 15; //Impossible sans le mot clé friend
+}
+
+class classeAmi{
+public :
+	void changerElement(A& obj){
+		obj.m_nombre = 15; // Impossible pour la classe de le modifier si elle n'est pas ami.
+	}
+};
+```
+
 # Le destructeur dans tout ça ? 
 
 On a vu l'utilité du constructeur, mais pas du destructeur.

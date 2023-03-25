@@ -14,7 +14,7 @@ std::array<type, tailletableau> nomTableau;
 
 Les #types sont ce que vous voulez.
 
-## Création de tableau avec []
+## Création de tableau avec ``type _nom_[]``
 
 La vieille méthode pour créer des tableaux, il suffit juste de mettre le type de variable que stockera le tableau, le nom de votre tableau suivi de sa taille entre-crochet
 ```cpp
@@ -31,8 +31,8 @@ int test2[]  = {2, 5, 6, 7, 9, 6, 14, 6, 9, 74, 6, 3};
 
 On les affiche : 
 ```cpp
-1 5 3 8 6 0 0 0 0 0
-2 5 6 7 9 6 14 6 9 74 6 3
+1 5 3 8 6 0 0 0 0 0               //Taille du tableau : 10
+2 5 6 7 9 6 14 6 9 74 6 3         //Taille du tableau : 12
 ```
 
 
@@ -59,8 +59,6 @@ On doit forcément passer par une constante :
 const int n = 15;
 std::array<int, n> tab;
 ```
-
-
 
 # Les tableaux dynamiques
 
@@ -90,22 +88,33 @@ Ce qui nous donnera à l'éxécution
 ```
 
 # Avoir accès aux éléments du tableau
-Que ce soit statique ou dynamique, vieux ou nouveau, on peut avoir accès aux éléments d'un tableau de la même manière en utilisant l'opérateur ``[]``.
+Que ce soit statique ou dynamique, vieux ou nouveau, on peut avoir accès aux éléments d'un tableau de la même manière en utilisant ``operator[]``.
 ```cpp
 tableau[i];
 ```
 Retournera l'élément à l'indice ``i`` du tableau.
 
-**Attention : l'indice maximal d'un tableau est size() - 1**.
+**Attention : l'indice maximal d'un tableau est tableau.size() - 1**.
 
-Mais pour ``array`` et ``vector``, il existe aussi la fonction ``at(i)``.
+Pour récuperer la taille d'un tableau, il existe la méthode ``size()`` pour ``vector`` et ``array``.
+Pour le cas de ``type _nom_[int taille]``, c'est plus délicat :
+On récupère la taille totale du tableau dans la mémoire et on divise par la taille que prend une variable de même type.
+Par exemple :
+```cpp
+int tab[15]; // tableau de taille 15
+std::cout << tab.size(); //Ne marche pas
+std::cout << sizeof(tab); //Renvoie le nombre d'éléments de tab multiplié par la taille que prend un entier dans la mémoire.    60
+std::cout << sizeof(tab) / sizeof(int); // 60 / 4 = 15
+```
+
+
+Pour ``array`` et ``vector``, il existe aussi la fonction ``at(i)``.
 ```cpp
 std::array<int, 5> arr { {1, 2, 3, 5, 6} };
 std::cout << arr.at(2);
 ```
 
-La principale différence entre ``operator[]`` et ``at()`` est que ``at`` vérifie si l'indice dont on tente d'accéder existe et soulève une erreur ``std::out_of_range``.
-si ce n'est pas le cas, alors que ``operator[]`` ne vérifie pas et que son comportement est indéfini.
+La principale différence entre ``operator[]`` et ``at()`` est que ``at`` vérifie si l'indice dont on tente d'accéder existe et soulève une erreur ``std::out_of_range`` si ce n'est pas le cas, alors que ``operator[]`` ne vérifie pas et son comportement est indéfini.
 
 Exemple d'erreur, ici on a un tableau de 5 éléments, on veut acceder au 6ème :
 ```
@@ -122,5 +131,3 @@ On veut modifier un élément d'un tableau, pour ce faire on accède à l'indice
 arr[2] = 10;
 arr.at(2) = 10;     //Ne marche que pour std::vector et std::array
 ```
-
-

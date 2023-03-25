@@ -68,4 +68,3 @@ template<typename T, typename U> void test(T a, U b){
 }
 ```
 Ici, la variable ``a`` et ``b`` peuvent être de deux types différents, comme du même type.
-
