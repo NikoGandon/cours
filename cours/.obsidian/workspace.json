@@ -156,15 +156,19 @@
       "graph:Ouvrir la vue graphique": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false
+      "command-palette:Ouvrir la palette de commandes": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "910aa988cd2cb109",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-03-25 03.19.07.excalidraw.md",
+    "Developpement Objet/Quatrième cours C++ - Les tableaux.md",
+    "Excalidraw",
+    "Sans titre.md",
     "Developpement Objet/Troisième cours C++ - Modèle.md",
     "Developpement Objet/Deuxième cours C++ - Les classes.md",
     "Mathématique de l'ingénieur/Matrice diagonalisable.md",
-    "Developpement Objet/Quatrième cours C++ - Les tableaux.md",
     "Developpement Objet/Premier cours C++ - Introduction.md",
     "Mathématique de l'ingénieur/Diagonalisation.md",
     "Reseau Entreprise/TP/Compte rendu TP 7 Réseau d'entreprise.md",
