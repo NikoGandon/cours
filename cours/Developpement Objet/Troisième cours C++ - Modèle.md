@@ -12,6 +12,7 @@ int addition(int a, int b){
 	return a + b;
 }
 ```
+
 Et ça marche bien, mais si on décide de vouloir additionner maintenant deux nombres flottants, il faudra recréer une autre fonction, ce qui donnera 
 ```cpp
 int addition(int a, int b){
@@ -28,7 +29,7 @@ Maintenant, si on veut aussi additionner deux ``double``, faudra encore recréer
 On peut régler ce problème en utilisant ``template`` (un modèle) qui indique que la fonction sera générique.
 
 On devra aussi indiquer à côté de template, entre chevrons, ce qui sera générique.
-Par exemple, pour les types, nous utiliserons ``typename T``, pour la taille ``size_t T``.
+Par exemple, pour les types, nous utiliserons ``typename T``, pour la taille ``size_t S``.
 ``T`` peut être aussi ``U, A, D, ...``.
 Pour revenir à la fonction ``addition()`` en utilisant les modèles, on écrit :
 ```cpp
@@ -67,3 +68,4 @@ template<typename T, typename U> void test(T a, U b){
 }
 ```
 Ici, la variable ``a`` et ``b`` peuvent être de deux types différents, comme du même type.
+
