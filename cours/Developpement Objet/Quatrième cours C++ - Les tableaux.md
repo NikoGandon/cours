@@ -56,7 +56,7 @@ std::array<type, taille> nomTableau; //Ne compilera pas
 
 On doit forcément passer par une constante :
 ```cpp
-const n = 15;
+const int n = 15;
 std::array<int, n> tab;
 ```
 
