@@ -87,6 +87,20 @@ Ce qui nous donnera à l'éxécution
 3
 ```
 
+On peut aussi ajouter un premier element en utilisant ``insert();`` :
+```cpp
+nomTableau.insert(nomTableau.begin(), 810);
+//Execution :
+810
+10
+105
+3
+```
+On ajoute un nouveau premier element et on décale le reste.
+
+``nomTableau.begin()`` ainsi que ``nomTableau.end()`` sont des itérateurs pointant vers le début et la fin de ``nomTableau``. 
+
+
 # Avoir accès aux éléments du tableau
 Que ce soit statique ou dynamique, vieux ou nouveau, on peut avoir accès aux éléments d'un tableau de la même manière en utilisant ``operator[]``.
 ```cpp
