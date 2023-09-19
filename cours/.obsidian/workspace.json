@@ -4,57 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "d2e56dfc4760bdf7",
+        "id": "c5466fddb8e37aa3",
         "type": "tabs",
         "children": [
           {
-            "id": "a63a90676c78d516",
+            "id": "6ccb9a91ee4d2d11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Programmation WebServ/Modalité d'exam.md",
+                "file": "L3/Automate/Cours/Automate fini non-deterministe vide.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ba9cd954bacf104c",
+            "id": "ce3ee996d8d54a3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Programmation WebServ/Les bonnes pratiques en programmation.md",
+                "file": "L3/Automate/Cours/Sans titre.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "b3ebceef2d626f84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L3/Automate/Cours/Exemple de calcul d'AFN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ad27201ab78ea42",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md"
+                "file": "Sans titre.md"
               }
             }
           },
@@ -201,18 +177,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9ad27201ab78ea42",
+  "active": "bb5fd846e45ed00a",
   "lastOpenFiles": [
     "L3/Automate/Cours/Sans titre.md",
+    "Sans titre.md",
+    "L3/Automate/Cours/Automate fini non-deterministe vide.md",
+    "L3/Programmation WebServ/Modalité d'exam.md",
+    "L3/Programmation WebServ/Les bonnes pratiques en programmation.md",
+    "L3/Automate/Cours/Exemple de calcul d'AFN.md",
+    "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md",
     "L3/Automate/Cours/Implémentation de fonction.md",
     "L3/Automate/Cours/Fonction de transition étendue.md",
     "L3/Automate/Cours/Fonction de transition.md",
-    "L3/Automate/Cours/Exemple de calcul d'AFN.md",
     "L3/Automate/Cours/Exemple transition non déterministe.md",
     "L3/Automate/Cours/Dessin",
-    "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md",
-    "L3/Programmation WebServ/Les bonnes pratiques en programmation.md",
-    "L3/Programmation WebServ/Modalité d'exam.md",
     "L3/Automate/TD/TD 1.md",
     "L3/Programmation WebServ",
     "L3/Statistique",
@@ -237,8 +215,6 @@
     "L2/Probabilité/Mathématiques - Probabilités.md",
     "L2/Probabilité/Les variables aléatoires.md",
     "L2/Probabilité/Indice de variable aléatoire.md",
-    "L2/Probabilité/Exercice Probas TD2.md",
-    "L2/Probabilité/Exercice Maths proba TD 5.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas",
     "Reseau Entreprise/TP/Pasted image 20230323132344.png",
