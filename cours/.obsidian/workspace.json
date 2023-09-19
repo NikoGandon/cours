@@ -18,8 +18,43 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ba9cd954bacf104c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L3/Programmation WebServ/Les bonnes pratiques en programmation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3ebceef2d626f84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L3/Automate/Cours/Exemple de calcul d'AFN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ad27201ab78ea42",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Programmation WebServ/Modalité d'exam.md",
+                "file": "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Programmation WebServ/Modalité d'exam.md",
+                "file": "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Programmation WebServ/Modalité d'exam.md"
+                "file": "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md"
               }
             }
           },
@@ -166,11 +201,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a63a90676c78d516",
+  "active": "9ad27201ab78ea42",
   "lastOpenFiles": [
+    "L3/Automate/Cours/Sans titre.md",
+    "L3/Automate/Cours/Implémentation de fonction.md",
+    "L3/Automate/Cours/Fonction de transition étendue.md",
+    "L3/Automate/Cours/Fonction de transition.md",
+    "L3/Automate/Cours/Exemple de calcul d'AFN.md",
+    "L3/Automate/Cours/Exemple transition non déterministe.md",
+    "L3/Automate/Cours/Dessin",
+    "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md",
+    "L3/Programmation WebServ/Les bonnes pratiques en programmation.md",
+    "L3/Programmation WebServ/Modalité d'exam.md",
     "L3/Automate/TD/TD 1.md",
     "L3/Programmation WebServ",
-    "L3/Programmation WebServ/Modalité d'exam.md",
     "L3/Statistique",
     "L3/Automate/TD/Dessin/TD1/TD1-Ex2-b.md",
     "L3/Automate/TD/Dessin/TD1/TD1-Ex2-a.md",
@@ -178,11 +222,9 @@
     "L3/Automate/TD/Dessin/TD1/TD1-Ex1-a.md",
     "L3/Automate/TD/Dessin/TD1",
     "L3/Automate/TD/Dessin",
-    "L3/Automate/Cours/Fonction de transition.md",
     "L3/Automate/TD/Dessin/TD1/TD1-Ex1-e.md",
     "L3/Automate/TD/Dessin/TD1/TD1-Ex1-c.md",
     "L3/Automate/TD/Dessin/TD1/TD1-Ex1-b.md",
-    "L3/Automate/Cours/Fonction de transition étendue.md",
     "Sans titre 1.md",
     "L3/Automate/TP",
     "L3/Automate/TD",
@@ -197,12 +239,6 @@
     "L2/Probabilité/Indice de variable aléatoire.md",
     "L2/Probabilité/Exercice Probas TD2.md",
     "L2/Probabilité/Exercice Maths proba TD 5.md",
-    "L2/Probabilité/Lois de proba usuelles/Lois de Bernoulli.md",
-    "L2/Mathématique de l'ingénieur/Matrice diagonalisable.md",
-    "L2/Mathématique de l'ingénieur/Mathématiques de l'ingénieur - Calcul matriciel.md",
-    "Developpement Objet/Cinquième cours C++ -.md",
-    "Developpement Objet/Deuxième cours C++ - Les classes.md",
-    "Probabilité/Lois de proba usuelles",
     "Sans titre.canvas",
     "Sans titre 1.canvas",
     "Reseau Entreprise/TP/Pasted image 20230323132344.png",
