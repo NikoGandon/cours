@@ -29,7 +29,7 @@ SELECT COUNT(*) FROM MEDECIN WHERE ville = 'Lyon'
 ```
 8. 
 ```sql
-SELECT * FROM CONSULTE WHERE numOrd IS NULL
+SELECT * FROM CONSULTE WHERE numOrd = NULL
 ```
 9. 
 ```sql
