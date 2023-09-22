@@ -1,0 +1,93 @@
+# Exercice 1
+1. 
+```sql
+SELECT * FROM MEDECIN
+```
+2. 
+```sql
+SELECT nomP, prenomP FROM PATIENT ORDER BY nomP DESC   
+```
+3. 
+```sql
+SELECT nomM, prenomM, NVL(specialite, "generaliste") WHERE ville = 'Lyon'
+```
+4. 
+```sql
+SELECT * FROM PATIENT WHERE dateNaiss > '01/05/1985'
+```
+5. 
+```sql
+SELECT nomM, prenomM FROM MEDECIN WHERE specialite LIKE "%logue%"
+``````
+6. 
+```sql
+SELECT prenomP FROM PATIENT WHERE nomP = "Dupont" OR nomP = "Durant" OR nomP = "Martin"
+```
+7. 
+```sql
+SELECT COUNT(*) FROM MEDECIN WHERE ville = 'Lyon'
+```
+8. 
+```sql
+SELECT * FROM CONSULTE WHERE numOrd = NULL
+```
+9. 
+```sql
+SELECT * FROM MEDECIN WHERE
+	ville = (SELECT ville FROM MEDECIN WHERE nom = "DESMON" and prenom = "Paul") AND specialite = (SELECT specialite FROM MEDECIN WHERE nom = "DESMON" and prenom = "Paul")
+```
+10. 
+```sql
+SELECT nomP, prenomP FROM PATIENT INNER JOIN MEDECIN ON PATIENT.numRPPS = MEDECIN.numRPPS ORDER BY nomP DESC, prenomP DESC
+```
+
+11. 
+```sql
+SELECT nomP, prenomP, nomM, prenomM FROM PATIENT INNER JOIN MEDECIN INNER JOIN CONSULTE
+ON PATIENT.numSS = CONSULTE.numSS AND MEDECIN.RPPS = CONSULTE.RPPS
+```
+12. 
+```sql
+SELECT nomM, prenomM, COUNT(*) FROM MEDECIN INNER JOIN CONSULTE ON MEDECIN.RPPS = CONSULTE.RPPS WHERE date = "14-10-2008" 
+```
+13. 
+```sql
+SELECT COUNT(*), numSS FROM PATIENT INNER JOIN CONSULTE ON PATIENT.numSS = CONSULTE.numSS ..........................
+```
+14. 
+```sql
+SELECT * FROM PATIENT INNER JOIN CONSULTE ON PATIENT.numSS = CONSULTE.numSS
+	WHERE CONSULTE.RPPS <> PATIENT.RPPS
+```
+15. 
+```sql
+SELECT *, COUNT(PATIENT.numSS) FROM MEDECIN INNER JOIN PATIENT ON MEDECIN.RPPS = PATIENT.RPPS ........................
+```
+16. 
+```sql
+SELECT * FROM PATIENT INER JOIN CONSULTE ON PATIENT.numSS = CONSULTE.numSS WHERE CONSULTE.RPPS = '12345' AND date >= '18-06-2008' AND date <= '17-07-2008'
+```
+17. 
+```sql
+SELECT * FROM PATIENT INER JOIN CONSULTE ON PATIENT.numSS = CONSULTE.numSS WHERE CONSULTE.RPPS = '12345' AND date = '18-06-2008' OR date = '17-07-2008'
+```
+18. 
+```sql
+SELECT *, COUNT(*) FROM PATIENT INNER JOIN CONSULTE INNER JOIN MEDECIN ON PATIENT.numSS = CONSULTE.numSS AND MEDECIN.RPPS = CONSULTE.RPPS WHERE .........
+```
+
+# Exercice 2
+
+1. 
+```sql
+SELECT prix, nom FROM MEDICAMENT INER JOIN PRESCRIPTION ON MEDICAMENT.idMed = PRESCRIPTION.idMed WHERE prix > (SELECT AVG(prix) FROM MEDICAMENT)
+```
+2. 
+```SQL
+SELECT categorie, prix FROM MEDICAMENT INNER JOIN PRESCRIPTION ON MEDICAMENT.idMed = PRESCRIPTION.idMed 
+	WHERE categorie = (SELECT ... FROM MEDICAMENT ) ..........
+```
+3. 
+```
+
+```
