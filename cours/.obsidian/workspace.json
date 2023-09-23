@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c5466fddb8e37aa3",
+        "id": "18ae0604edbb4602",
         "type": "tabs",
         "children": [
           {
-            "id": "6ccb9a91ee4d2d11",
+            "id": "b275518eb1d00135",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Automate/Cours/Automate fini non-deterministe vide.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce3ee996d8d54a3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L3/Automate/Cours/Sans titre.md",
+                "file": "L3/Genie Logiciel/TD 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "L3/Genie Logiciel/TD 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "L3/Genie Logiciel/TD 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sans titre.md"
+                "file": "L3/Genie Logiciel/TD 1.md"
               }
             }
           },
@@ -177,10 +166,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bb5fd846e45ed00a",
+  "active": "b275518eb1d00135",
   "lastOpenFiles": [
-    "L3/Automate/Cours/Sans titre.md",
+    "L3/Administrateur BDD/TD 1.md",
+    "L3/Genie Logiciel/TD 1.md",
+    "L3/Genie Logiciel",
+    "L3/Administrateur BDD",
     "Sans titre.md",
+    "Excalidraw/Drawing 2023-09-19 13.43.37.excalidraw.md",
+    "L3/Automate/Cours/Sans titre.md",
     "L3/Automate/Cours/Automate fini non-deterministe vide.md",
     "L3/Programmation WebServ/Modalité d'exam.md",
     "L3/Programmation WebServ/Les bonnes pratiques en programmation.md",
@@ -207,14 +201,9 @@
     "L3/Automate/TP",
     "L3/Automate/TD",
     "L3/Automate/Cours",
-    "L3/Automate",
-    "L3",
     "L2/Mathématique de l'ingénieur/Diagonalisation.md",
     "L2/Reseau Entreprise/TD/NAT.md",
     "L2/Probabilité/Sans titre.md",
-    "L2/Probabilité/Mathématiques - Probabilités.md",
-    "L2/Probabilité/Les variables aléatoires.md",
-    "L2/Probabilité/Indice de variable aléatoire.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas",
     "Reseau Entreprise/TP/Pasted image 20230323132344.png",
