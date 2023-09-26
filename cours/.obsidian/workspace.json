@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Administrateur BDD/TD 2.md",
+                "file": "L3/Automate/TD/TD 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Administrateur BDD/TD 2.md",
+                "file": "L3/Automate/Cours/Sans titre.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Administrateur BDD/TD 2.md",
+                "file": "L3/Automate/TD/TD 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Administrateur BDD/TD 2.md",
+                "file": "L3/Automate/TD/TD 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Administrateur BDD/TD 2.md"
+                "file": "L3/Automate/TD/TD 2.md"
               }
             }
           },
@@ -166,9 +166,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "da0f1ea2913fc347",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -184,34 +192,38 @@
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "b275518eb1d00135",
   "lastOpenFiles": [
+    "L3/Automate/TD/TD 1.md",
+    "L3/Automate/TD/TD 2.md",
+    "L3/Statistique/TD 1.md",
+    "L3/Automate/Cours/Sans titre.md",
+    "L3/Administrateur BDD/TD 2.md",
+    "L3/Statistique/TD 2.md",
+    "L3/Automate/Cours/Implémentation de fonction.md",
+    "L3/Automate/Cours/Exemple transition non déterministe.md",
+    "L3/Automate/Cours/Automate fini non-deterministe vide.md",
+    "L3/Automate/Cours/Exemple de calcul d'AFN.md",
     "L3/Administrateur BDD/TD 1.md",
     "L3/Administrateur BDD/Dessin/TD-2-Exercice-1-c.excalidraw.md",
-    "L3/Administrateur BDD/TD 2.md",
     "L3/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
     "Excalidraw/Drawing 2023-09-25 08.57.38.excalidraw.md",
-    "L3/Automate/Cours/Exemple transition non déterministe.md",
-    "L3/Automate/Cours/Exemple de calcul d'AFN.md",
-    "L3/Automate/Cours/Automate fini non-deterministe vide.md",
     "L3/Administrateur BDD/Dessin",
     "Excalidraw/Drawing 2023-09-19 13.43.37.excalidraw.md",
     "L3/Genie Logiciel/TD 1.md",
     "L3/Genie Logiciel",
     "L3/Administrateur BDD",
     "Sans titre.md",
-    "L3/Automate/Cours/Sans titre.md",
     "L3/Programmation WebServ/Modalité d'exam.md",
     "L3/Programmation WebServ/Les bonnes pratiques en programmation.md",
     "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md",
-    "L3/Automate/Cours/Implémentation de fonction.md",
     "L3/Automate/Cours/Fonction de transition étendue.md",
     "L3/Automate/Cours/Fonction de transition.md",
     "L3/Automate/Cours/Dessin",
-    "L3/Automate/TD/TD 1.md",
     "L3/Programmation WebServ",
     "L3/Statistique",
     "L3/Automate/TD/Dessin/TD1/TD1-Ex2-b.md",
@@ -220,9 +232,6 @@
     "L3/Automate/TD/Dessin/TD1/TD1-Ex1-a.md",
     "L3/Automate/TD/Dessin/TD1",
     "L3/Automate/TD/Dessin",
-    "L3/Automate/TD/Dessin/TD1/TD1-Ex1-e.md",
-    "L3/Automate/TD/Dessin/TD1/TD1-Ex1-c.md",
-    "L3/Automate/TD/Dessin/TD1/TD1-Ex1-b.md",
     "L3/Automate/TP",
     "L3/Automate/TD",
     "Sans titre.canvas",
