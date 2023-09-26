@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Genie Logiciel/TD 1.md",
+                "file": "L3/Administrateur BDD/TD 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "289ddb2eee0dbdae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L3/Administrateur BDD/TD 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Genie Logiciel/TD 1.md",
+                "file": "L3/Administrateur BDD/TD 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Genie Logiciel/TD 1.md",
+                "file": "L3/Administrateur BDD/TD 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Genie Logiciel/TD 1.md"
+                "file": "L3/Administrateur BDD/TD 2.md"
               }
             }
           },
@@ -146,8 +158,17 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "7db323cfd142f096",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -169,21 +190,26 @@
   "active": "b275518eb1d00135",
   "lastOpenFiles": [
     "L3/Administrateur BDD/TD 1.md",
+    "L3/Administrateur BDD/Dessin/TD-2-Exercice-1-c.excalidraw.md",
+    "L3/Administrateur BDD/TD 2.md",
+    "L3/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-25 08.57.38.excalidraw.md",
+    "L3/Automate/Cours/Exemple transition non déterministe.md",
+    "L3/Automate/Cours/Exemple de calcul d'AFN.md",
+    "L3/Automate/Cours/Automate fini non-deterministe vide.md",
+    "L3/Administrateur BDD/Dessin",
+    "Excalidraw/Drawing 2023-09-19 13.43.37.excalidraw.md",
     "L3/Genie Logiciel/TD 1.md",
     "L3/Genie Logiciel",
     "L3/Administrateur BDD",
     "Sans titre.md",
-    "Excalidraw/Drawing 2023-09-19 13.43.37.excalidraw.md",
     "L3/Automate/Cours/Sans titre.md",
-    "L3/Automate/Cours/Automate fini non-deterministe vide.md",
     "L3/Programmation WebServ/Modalité d'exam.md",
     "L3/Programmation WebServ/Les bonnes pratiques en programmation.md",
-    "L3/Automate/Cours/Exemple de calcul d'AFN.md",
     "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md",
     "L3/Automate/Cours/Implémentation de fonction.md",
     "L3/Automate/Cours/Fonction de transition étendue.md",
     "L3/Automate/Cours/Fonction de transition.md",
-    "L3/Automate/Cours/Exemple transition non déterministe.md",
     "L3/Automate/Cours/Dessin",
     "L3/Automate/TD/TD 1.md",
     "L3/Programmation WebServ",
@@ -197,13 +223,8 @@
     "L3/Automate/TD/Dessin/TD1/TD1-Ex1-e.md",
     "L3/Automate/TD/Dessin/TD1/TD1-Ex1-c.md",
     "L3/Automate/TD/Dessin/TD1/TD1-Ex1-b.md",
-    "Sans titre 1.md",
     "L3/Automate/TP",
     "L3/Automate/TD",
-    "L3/Automate/Cours",
-    "L2/Mathématique de l'ingénieur/Diagonalisation.md",
-    "L2/Reseau Entreprise/TD/NAT.md",
-    "L2/Probabilité/Sans titre.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas",
     "Reseau Entreprise/TP/Pasted image 20230323132344.png",
