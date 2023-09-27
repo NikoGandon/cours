@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Automate/TD/TD 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "289ddb2eee0dbdae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L3/Automate/Cours/Sans titre.md",
+                "file": "L3/Ergonomie/Projet.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Automate/TD/TD 2.md",
+                "file": "L3/Ergonomie/Projet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Automate/TD/TD 2.md",
+                "file": "L3/Ergonomie/Projet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Automate/TD/TD 2.md"
+                "file": "L3/Ergonomie/Projet.md"
               }
             }
           },
@@ -198,17 +186,30 @@
   },
   "active": "b275518eb1d00135",
   "lastOpenFiles": [
-    "L3/Automate/TD/TD 1.md",
-    "L3/Automate/TD/TD 2.md",
-    "L3/Statistique/TD 1.md",
+    "L3/Ergonomie/Image/Pasted image 20230927152603.png",
+    "L3/Ergonomie/Image/Pasted image 20230927155200.png",
+    "L3/Ergonomie/Projet.md",
+    "L3/Ergonomie/Image",
+    "L3/Ergonomie/Image/Pasted image 20230927155329.png",
+    "L3/Ergonomie/Image/Pasted image 20230927154531.png",
+    "L3/Ergonomie/Image/Pasted image 20230927154524.png",
+    "L3/Ergonomie/Image/Pasted image 20230927154045.png",
+    "L3/Ergonomie/Image/Pasted image 20230927152944.png",
+    "L3/Statistique/CM/CM 1.md",
+    "L3/Ergonomie",
+    "L3/Statistique/TD/TD 1.md",
+    "L3/Statistique/TD",
+    "L3/Statistique/CM",
+    "L3/Administrateur BDD/TD 1.md",
     "L3/Automate/Cours/Sans titre.md",
+    "L3/Automate/TD/TD 2.md",
+    "L3/Automate/TD/TD 1.md",
     "L3/Administrateur BDD/TD 2.md",
-    "L3/Statistique/TD 2.md",
+    "L3/Statistique/TD/TD 2.md",
     "L3/Automate/Cours/Implémentation de fonction.md",
     "L3/Automate/Cours/Exemple transition non déterministe.md",
     "L3/Automate/Cours/Automate fini non-deterministe vide.md",
     "L3/Automate/Cours/Exemple de calcul d'AFN.md",
-    "L3/Administrateur BDD/TD 1.md",
     "L3/Administrateur BDD/Dessin/TD-2-Exercice-1-c.excalidraw.md",
     "L3/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
     "Excalidraw/Drawing 2023-09-25 08.57.38.excalidraw.md",
@@ -227,22 +228,10 @@
     "L3/Programmation WebServ",
     "L3/Statistique",
     "L3/Automate/TD/Dessin/TD1/TD1-Ex2-b.md",
-    "L3/Automate/TD/Dessin/TD1/TD1-Ex2-a.md",
-    "L3/Automate/TD/Dessin/TD1/TD1-Ex1-d.md",
-    "L3/Automate/TD/Dessin/TD1/TD1-Ex1-a.md",
-    "L3/Automate/TD/Dessin/TD1",
-    "L3/Automate/TD/Dessin",
-    "L3/Automate/TP",
-    "L3/Automate/TD",
     "Sans titre.canvas",
     "Sans titre 1.canvas",
     "Reseau Entreprise/TP/Pasted image 20230323132344.png",
     "Reseau Entreprise/TP/Pasted image 20230323133835.png",
-    "Pasted image 20230323133814.png",
-    "Reseau Entreprise/TP/Pasted image 20230323132429.png",
-    "Pasted image 20230323132400.png",
-    "Reseau Entreprise/TP/Pasted image 20230320185541.png",
-    "Reseau Entreprise/TP/Pasted image 20230320190422.png",
-    "Reseau Entreprise/TP/Pasted image 20230320190540.png"
+    "Pasted image 20230323133814.png"
   ]
 }
