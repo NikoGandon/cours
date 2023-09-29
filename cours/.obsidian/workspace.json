@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Ergonomie/Projet.md",
+                "file": "L3/Programmation WebServ/Information/info.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Ergonomie/Projet.md",
+                "file": "L3/Programmation WebServ/Information/info.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Ergonomie/Projet.md",
+                "file": "L3/Programmation WebServ/Information/info.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Ergonomie/Projet.md"
+                "file": "L3/Programmation WebServ/Information/info.md"
               }
             }
           },
@@ -186,9 +186,21 @@
   },
   "active": "b275518eb1d00135",
   "lastOpenFiles": [
+    "L3/Programmation WebServ/Cours/Inconvenients factory pattern.md",
+    "L3/Programmation WebServ/Cours/Factory pattern Schema.md",
+    "L3/Programmation WebServ/Cours/Factory pattern.md",
+    "L3/Programmation WebServ/Cours/Outils existant factory pattern.md",
+    "L3/Programmation WebServ/Cours/Avantage factory pattern.md",
+    "L3/Programmation WebServ/Information/info.md",
+    "L3/Programmation WebServ/Cours",
+    "L3/Programmation WebServ/Information/Modalité d'exam.md",
+    "L3/Programmation WebServ/Projet",
+    "L3/Programmation WebServ/Information",
+    "L3/Programmation WebServ/Information/Les bonnes pratiques en programmation.md",
+    "L3/Ergonomie/Projet.md",
+    "Sans titre.canvas",
     "L3/Ergonomie/Image/Pasted image 20230927152603.png",
     "L3/Ergonomie/Image/Pasted image 20230927155200.png",
-    "L3/Ergonomie/Projet.md",
     "L3/Ergonomie/Image",
     "L3/Ergonomie/Image/Pasted image 20230927155329.png",
     "L3/Ergonomie/Image/Pasted image 20230927154531.png",
@@ -218,17 +230,6 @@
     "L3/Genie Logiciel/TD 1.md",
     "L3/Genie Logiciel",
     "L3/Administrateur BDD",
-    "Sans titre.md",
-    "L3/Programmation WebServ/Modalité d'exam.md",
-    "L3/Programmation WebServ/Les bonnes pratiques en programmation.md",
-    "L3/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md",
-    "L3/Automate/Cours/Fonction de transition étendue.md",
-    "L3/Automate/Cours/Fonction de transition.md",
-    "L3/Automate/Cours/Dessin",
-    "L3/Programmation WebServ",
-    "L3/Statistique",
-    "L3/Automate/TD/Dessin/TD1/TD1-Ex2-b.md",
-    "Sans titre.canvas",
     "Sans titre 1.canvas",
     "Reseau Entreprise/TP/Pasted image 20230323132344.png",
     "Reseau Entreprise/TP/Pasted image 20230323133835.png",
