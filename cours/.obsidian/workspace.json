@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Programmation WebServ/Information/info.md",
+                "file": "L3/Programmation WebServ/Projet/home.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Programmation WebServ/Information/info.md",
+                "file": "L3/Programmation WebServ/Projet/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Programmation WebServ/Information/info.md",
+                "file": "L3/Programmation WebServ/Projet/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Programmation WebServ/Information/info.md"
+                "file": "L3/Programmation WebServ/Projet/home.md"
               }
             }
           },
@@ -186,15 +186,22 @@
   },
   "active": "b275518eb1d00135",
   "lastOpenFiles": [
+    "L3/Genie Logiciel/TD 1.md",
+    "L3/Programmation WebServ/Projet/test",
+    "L3/Programmation WebServ/Projet/Serveur",
+    "L3/Programmation WebServ/Projet/Documentation",
+    "L3/Programmation WebServ/Projet/readme.md",
+    "L3/Programmation WebServ/Projet/home.md",
+    "L3/Programmation WebServ/Projet/Client",
+    "L3/Programmation WebServ/Projet",
+    "L3/Programmation WebServ/Information/info.md",
     "L3/Programmation WebServ/Cours/Inconvenients factory pattern.md",
     "L3/Programmation WebServ/Cours/Factory pattern Schema.md",
     "L3/Programmation WebServ/Cours/Factory pattern.md",
     "L3/Programmation WebServ/Cours/Outils existant factory pattern.md",
     "L3/Programmation WebServ/Cours/Avantage factory pattern.md",
-    "L3/Programmation WebServ/Information/info.md",
     "L3/Programmation WebServ/Cours",
     "L3/Programmation WebServ/Information/Modalité d'exam.md",
-    "L3/Programmation WebServ/Projet",
     "L3/Programmation WebServ/Information",
     "L3/Programmation WebServ/Information/Les bonnes pratiques en programmation.md",
     "L3/Ergonomie/Projet.md",
@@ -211,7 +218,6 @@
     "L3/Ergonomie",
     "L3/Statistique/TD/TD 1.md",
     "L3/Statistique/TD",
-    "L3/Statistique/CM",
     "L3/Administrateur BDD/TD 1.md",
     "L3/Automate/Cours/Sans titre.md",
     "L3/Automate/TD/TD 2.md",
@@ -224,12 +230,6 @@
     "L3/Automate/Cours/Exemple de calcul d'AFN.md",
     "L3/Administrateur BDD/Dessin/TD-2-Exercice-1-c.excalidraw.md",
     "L3/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-25 08.57.38.excalidraw.md",
-    "L3/Administrateur BDD/Dessin",
-    "Excalidraw/Drawing 2023-09-19 13.43.37.excalidraw.md",
-    "L3/Genie Logiciel/TD 1.md",
-    "L3/Genie Logiciel",
-    "L3/Administrateur BDD",
     "Sans titre 1.canvas",
     "Reseau Entreprise/TP/Pasted image 20230323132344.png",
     "Reseau Entreprise/TP/Pasted image 20230323133835.png",
