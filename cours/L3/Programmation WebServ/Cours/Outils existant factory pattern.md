@@ -1,0 +1,4 @@
+- Spring framework (Java)
+- Angular Depedency Injection(JS)
+- Boost.factory (C++)
+- Laravel (PHP)

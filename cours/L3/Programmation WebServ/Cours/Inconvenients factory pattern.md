@@ -1,0 +1,1 @@
+- Très lourd: pour chaque `classProduit` créée, il faut une `classCreateur`

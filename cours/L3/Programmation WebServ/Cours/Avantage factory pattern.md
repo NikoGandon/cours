@@ -1,0 +1,3 @@
+- Application modulaire
+- Bonne testabilité
+- Noms de méthodes significatifs
