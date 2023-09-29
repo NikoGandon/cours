@@ -1,0 +1,16 @@
+- Commenter
+- Espacé
+- Facile à comprendre (variable et nom de fonction explicite)
+- Documentation
+- Bon versionnement
+- Structure des fichiers/dossiers
+- Respecter les règles du langage
+- Convention dans l'entreprise
+- Travail en équipe
+- Etre organisé (i.e. ne pas faire le projet 3j avant)
+- Portabilité
+- Optimisé
+- Maintenable
+- Tester
+- Eviter de C/C tout ce qu'on voit sur StackOverflow
+
