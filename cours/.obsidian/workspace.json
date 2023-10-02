@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Genie Logiciel/TD 1.md",
+                "file": "L3/Administrateur BDD/TD 2.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "562c6f06329b7fc8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "L3/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md"
               }
             }
           }
@@ -93,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Genie Logiciel/TD 1.md",
+                "file": "L3/Administrateur BDD/TD 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Genie Logiciel/TD 1.md",
+                "file": "L3/Administrateur BDD/TD 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Genie Logiciel/TD 1.md"
+                "file": "L3/Administrateur BDD/TD 2.md"
               }
             }
           },
@@ -186,8 +196,15 @@
   },
   "active": "b275518eb1d00135",
   "lastOpenFiles": [
-    "L3/Genie Logiciel/TD 2.md",
+    "L3/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
+    "L3/Administrateur BDD/TD 2.md",
+    "L3/Statistique/TD/TD 2.md",
+    "L3/Statistique/TD/TD 1.md",
+    "L3/Statistique/CM/CM 1.md",
+    "Excalidraw/Drawing 2023-09-19 13.43.37.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-25 08.57.38.excalidraw.md",
     "L3/Genie Logiciel/TD 1.md",
+    "L3/Genie Logiciel/TD 2.md",
     "L3/Programmation WebServ/Projet/readme.md",
     "L3/Programmation WebServ/Projet/home.md",
     "L3/Programmation WebServ/Projet/test",
@@ -215,21 +232,13 @@
     "L3/Ergonomie/Image/Pasted image 20230927154524.png",
     "L3/Ergonomie/Image/Pasted image 20230927154045.png",
     "L3/Ergonomie/Image/Pasted image 20230927152944.png",
-    "L3/Statistique/CM/CM 1.md",
     "L3/Ergonomie",
-    "L3/Statistique/TD/TD 1.md",
     "L3/Statistique/TD",
     "L3/Administrateur BDD/TD 1.md",
     "L3/Automate/Cours/Sans titre.md",
     "L3/Automate/TD/TD 2.md",
     "L3/Automate/TD/TD 1.md",
-    "L3/Administrateur BDD/TD 2.md",
-    "L3/Statistique/TD/TD 2.md",
     "L3/Automate/Cours/Implémentation de fonction.md",
-    "L3/Automate/Cours/Exemple transition non déterministe.md",
-    "L3/Automate/Cours/Automate fini non-deterministe vide.md",
-    "L3/Automate/Cours/Exemple de calcul d'AFN.md",
-    "L3/Administrateur BDD/Dessin/TD-2-Exercice-1-c.excalidraw.md",
     "Sans titre 1.canvas",
     "Reseau Entreprise/TP/Pasted image 20230323132344.png",
     "Reseau Entreprise/TP/Pasted image 20230323133835.png",
