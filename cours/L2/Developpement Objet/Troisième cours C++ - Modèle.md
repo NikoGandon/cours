@@ -1,3 +1,7 @@
+---
+quickshare-date: 06-10-2023 16:04:51
+quickshare-url: "https://noteshare.space/note/clneohfkb1597301mwk3gi64th#4rfDjIlQBVhOp0AeHgT3IR1IJ0Do40pnmHGTba5jBKs"
+---
 Le langage C++ est un langage multi-paradigme, il a plusieurs philosophie d'écriture :
 - Objet
 - Procédurale
