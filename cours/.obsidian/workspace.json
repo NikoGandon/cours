@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Automate/Cours/Expression reguliere.md",
+                "file": "L3/Semestre 5/Statistique/CM/Sans titre.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Automate/Cours/Expression reguliere.md",
+                "file": "L3/Semestre 5/Statistique/CM/Sans titre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Automate/Cours/Expression reguliere.md",
+                "file": "L3/Semestre 5/Statistique/CM/Sans titre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Automate/Cours/Expression reguliere.md"
+                "file": "L3/Semestre 5/Statistique/CM/Sans titre.md"
               }
             }
           },
@@ -194,9 +194,10 @@
   },
   "active": "88da1e93131c28fa",
   "lastOpenFiles": [
+    "L3/Semestre 5/Automate/Cours/Expression reguliere.md",
+    "L3/Semestre 5/Statistique/CM/Sans titre.md",
     "L3/Semestre 5/Automate/Cours/Formule importante.md",
     "L3/Semestre 5/Automate/Cours/Construction expression.md",
-    "L3/Semestre 5/Automate/Cours/Expression reguliere.md",
     "L3/Semestre 5/Automate/Cours/Sans titre.md",
     "L3/Semestre 5/Automate/Cours/Dualité expression regulière - automate finis.md",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
@@ -221,7 +222,6 @@
     "L3/Administrateur BDD/TD 2.md",
     "L3/Statistique/TD/TD 2.md",
     "L3/Statistique/TD/TD 1.md",
-    "L3/Statistique/CM/CM 1.md",
     "L3/Programmation WebServ/Projet/test",
     "L3/Programmation WebServ/Projet/Serveur",
     "L3/Programmation WebServ/Projet/Documentation",
