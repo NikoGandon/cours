@@ -1,0 +1,4 @@
+- Soit un AFD de $n$ états, pour toutes les paires d'états $i$ et $j$, on construit les expressions à partir de $R_{i:j}(0)$ jusqu'à $R_{i:j}(n)$
+- Si $i = j$, alors $R_{i:j}(0)=\epsilon+a_{1}+a_{2}+\dots$dots
+- Si $i \ne j$
+	- $R_{i:j}(0)=\emptyset$ si aucune transition 
