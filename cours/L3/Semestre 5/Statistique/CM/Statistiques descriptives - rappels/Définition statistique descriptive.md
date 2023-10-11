@@ -1,0 +1,3 @@
+La statistique recouvre un ensemble de méthodes d'obtention puis de traitement et d'analyse de données numériques sur des ensembles nombreux et souvent à effectif important.
+Les premières statistiques furent élaborées à partir de recensements démographiques. On en a gardé le vocabulaire de base: les ensembles étudiés sont nommés *population* et leur éléments *individus*.
+Les éléments que l'on étudie sur une population sont appelés *variable* ou *caractère*.
