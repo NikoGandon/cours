@@ -24,3 +24,24 @@
 
 ```
 
+3) .
+```chart
+	type: bar
+	labels: [60,62,64,66,68,70,72,74]
+	series: 
+		- title: Title 1 
+		  data: [70, 75, 75, 80, 80, 85, 90, 100]
+	
+```
+
+
+$\bar{X} = 66,2$
+$\bar{Y} = 80,5$
+
+$Var(X)=$
+$Var(Y)=$
+
+$\sigma=\sqrt{ \frac{(\sum^n_{i=1}| x_{i}-µ |^2 )}{n} }$
+
+$\sigma=\sqrt{ 19.236 }\approx4.38$
+
