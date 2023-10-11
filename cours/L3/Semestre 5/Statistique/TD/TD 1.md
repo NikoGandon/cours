@@ -33,6 +33,10 @@
 		  data: [70, 75, 75, 80, 80, 85, 90, 100]
 	
 ```
+```vega
+{ "width": 300, "data": {"url": "data/cars.json"}, "mark": {"type": "point", "filled": true}, "encoding": { "x": {"field": "Horsepower", "type": "quantitative"}, "y": {"field": "Miles_per_Gallon", "type": "quantitative"} } }
+```
+
 
 
 $\overline{X} = 66,2$
