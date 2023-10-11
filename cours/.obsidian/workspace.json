@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Projet.md",
+                "file": "L3/Semestre 5/Ergonomie/Projet 3/Information.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Projet.md",
+                "file": "L3/Semestre 5/Ergonomie/Projet 3/Information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Projet.md",
+                "file": "L3/Semestre 5/Ergonomie/Projet 3/Information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Projet.md"
+                "file": "L3/Semestre 5/Ergonomie/Projet 3/Information.md"
               }
             }
           },
@@ -194,6 +194,11 @@
   },
   "active": "b04849c6d2dd129d",
   "lastOpenFiles": [
+    "L3/Semestre 5/Ergonomie/Projet 1/Projet.md",
+    "L3/Semestre 5/Ergonomie/Projet 3/Information.md",
+    "L3/Semestre 5/Ergonomie/Projet 3",
+    "L3/Semestre 5/Ergonomie/Projet 2",
+    "L3/Semestre 5/Ergonomie/Projet 1",
     "L3/Semestre 5/Entreprise/Projet/Projet.md",
     "L3/Semestre 5/Entreprise/Information.md",
     "L3/Semestre 5/Entreprise/Bloc 3/Bloc 3 - Droit social.md",
@@ -224,14 +229,9 @@
     "L3/Semestre 5/Automate/Cours/Exemple transition non déterministe.md",
     "L3/Semestre 5/Automate/Cours/Dualité expression regulière - automate finis.md",
     "L3/Semestre 5/Automate/Cours/Construction expression reguliere.md",
-    "L3/Semestre 5/Automate/Cours/Automate fini non-deterministe vide.md",
-    "L3/Semestre 5/Automate/TD/TD 2.md",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
     "Excalidraw/Drawing 2023-04-05 21.41.58.excalidraw.png",
     "L3/Programmation WebServ/Projet/test",
-    "L3/Programmation WebServ/Projet/Serveur",
-    "L3/Programmation WebServ/Projet/Documentation",
-    "L3/Programmation WebServ/Projet/Client",
     "Sans titre.canvas",
     "L3/Ergonomie/Image/Pasted image 20230927152603.png",
     "L3/Ergonomie/Image/Pasted image 20230927155200.png",
