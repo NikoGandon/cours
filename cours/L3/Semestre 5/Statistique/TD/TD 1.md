@@ -35,8 +35,8 @@
 ```
 
 
-$\bar{X} = 66,2$
-$\bar{Y} = 80,5$
+$\overline{X} = 66,2$
+$\overline{Y} = 80,5$
 
 $Var(X)=$
 $Var(Y)=$
