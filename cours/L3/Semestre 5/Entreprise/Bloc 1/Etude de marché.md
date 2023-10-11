@@ -1,0 +1,3 @@
+L'étude documentaire marché, 1er stade de l'étude de marché, est une démarche structuré qui étudie l'environnement, le marché et la demande actuelle des clients, la distribution, la technologie, les fournisseurs et tout aspect particulier de ce marché
+
+Sa synthèse permet de visualiser le panorama du marché, pour ensuite effectuer les premiers choix stratégiques de positionnement et de conquête du premier couple produit/marché sur la base de ses avantages concurrentiels.
