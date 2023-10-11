@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b3d04d612b46f3e9",
+        "id": "ae8bdd3405667f3f",
         "type": "tabs",
         "children": [
           {
-            "id": "88da1e93131c28fa",
+            "id": "b04849c6d2dd129d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Statistique/CM/Sans titre.md",
+                "file": "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Statistique/CM/Sans titre.md",
+                "file": "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Statistique/CM/Sans titre.md",
+                "file": "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Statistique/CM/Sans titre.md"
+                "file": "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md"
               }
             }
           },
@@ -192,36 +192,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "88da1e93131c28fa",
+  "active": "b04849c6d2dd129d",
   "lastOpenFiles": [
-    "L3/Semestre 5/Automate/Cours/Expression reguliere.md",
-    "L3/Semestre 5/Statistique/CM/Sans titre.md",
-    "L3/Semestre 5/Automate/Cours/Formule importante.md",
-    "L3/Semestre 5/Automate/Cours/Construction expression.md",
+    "L2/Developpement Objet/Troisième cours C++ - Modèle.md",
+    "L3/Semestre 5/Statistique/TD/TD 1.md",
+    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Tableau statistique et représentation graphique.md",
+    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
+    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Série statistique.md",
+    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Définition statistique descriptive.md",
+    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels",
+    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Les variables étudiées.md",
+    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Récuperation de données.md",
+    "L3/Semestre 5/Statistique/CM/CM 1.md",
+    "L3/Semestre 5/Automate/Cours/Prouver une propriété.md",
     "L3/Semestre 5/Automate/Cours/Sans titre.md",
+    "L3/Semestre 5/Automate/Cours/Implémentation de fonction.md",
+    "L3/Semestre 5/Automate/Cours/Formule importante.md",
+    "L3/Semestre 5/Automate/Cours/Expression reguliere.md",
+    "L3/Semestre 5/Automate/Cours/Exemple transition non déterministe.md",
     "L3/Semestre 5/Automate/Cours/Dualité expression regulière - automate finis.md",
+    "L3/Semestre 5/Automate/Cours/Construction expression reguliere.md",
+    "L3/Semestre 5/Automate/Cours/Automate fini non-deterministe vide.md",
+    "L3/Semestre 5/Automate/TD/TD 2.md",
+    "L3/Semestre 5/Automate/TD/TD 1.md",
+    "L2/Developpement Objet/Deuxième cours C++ - Les classes.md",
+    "L2/Developpement Objet/Cinquième cours C++ -.md",
+    "L2/Developpement Objet/Quatrième cours C++ - Les tableaux.md",
+    "L3/Semestre 5/Automate/Cours/Construction expression.md",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
     "L3/Semestre 5/Automate/Cours/Expression régulière pour chemin et langage AFD.md",
-    "L3/Semestre 5/Automate/Cours/Exemple transition non déterministe.md",
-    "L3/Semestre 5/Automate/Cours/Construction expression reguliere.md",
-    "L3/Semestre 5/Automate/Cours/Implémentation de fonction.md",
-    "L3/Semestre 5/Automate/Cours/Prouver une propriété.md",
     "L3/Semestre 5/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
-    "L3/Semestre 5/Administrateur BDD/Dessin/TD-2-Exercice-1-c.excalidraw.md",
-    "L2/Developpement Objet/Troisième cours C++ - Modèle.md",
-    "L2/Developpement Objet/Cinquième cours C++ -.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Outils existant factory pattern.md",
-    "L3/Semestre 5/Administrateur BDD/TD 2.md",
-    "L3/Semestre 5/Administrateur BDD/TD 1.md",
-    "Excalidraw/Drawing 2023-04-14 00.46.04.excalidraw.md",
-    "Excalidraw/Drawing 2023-04-05 21.41.58.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-25 08.57.38.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-19 13.43.37.excalidraw.md",
     "Excalidraw/Drawing 2023-04-05 21.41.58.excalidraw.png",
-    "L3/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
-    "L3/Administrateur BDD/TD 2.md",
-    "L3/Statistique/TD/TD 2.md",
-    "L3/Statistique/TD/TD 1.md",
     "L3/Programmation WebServ/Projet/test",
     "L3/Programmation WebServ/Projet/Serveur",
     "L3/Programmation WebServ/Projet/Documentation",
@@ -239,7 +240,6 @@
     "L3/Ergonomie/Image/Pasted image 20230927154045.png",
     "L3/Ergonomie/Image/Pasted image 20230927152944.png",
     "L3/Ergonomie",
-    "L3/Statistique/TD",
     "Sans titre 1.canvas",
     "Reseau Entreprise/TP/Pasted image 20230323132344.png"
   ]
