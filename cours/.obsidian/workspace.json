@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
+                "file": "L3/Semestre 5/Entreprise/Information.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
+                "file": "L3/Semestre 5/Entreprise/Information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
+                "file": "L3/Semestre 5/Entreprise/Information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md"
+                "file": "L3/Semestre 5/Entreprise/Information.md"
               }
             }
           },
@@ -194,10 +194,16 @@
   },
   "active": "b04849c6d2dd129d",
   "lastOpenFiles": [
-    "L2/Developpement Objet/Troisième cours C++ - Modèle.md",
+    "L3/Semestre 5/Entreprise/Information.md",
+    "L3/Semestre 5/Entreprise/Bloc 1/Bloc 1 - Etude de stratégies.md",
+    "L3/Semestre 5/Entreprise/Bloc 1/Etude de marché.md",
     "L3/Semestre 5/Statistique/TD/TD 1.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Tableau statistique et représentation graphique.md",
+    "L3/Semestre 5/Statistique/TD/TD 2.md",
+    "L3/Semestre 5/Entreprise/Bloc 1",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
+    "L3/Semestre 5/Entreprise",
+    "L2/Developpement Objet/Troisième cours C++ - Modèle.md",
+    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Tableau statistique et représentation graphique.md",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Série statistique.md",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Définition statistique descriptive.md",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels",
@@ -217,11 +223,7 @@
     "L3/Semestre 5/Automate/TD/TD 1.md",
     "L2/Developpement Objet/Deuxième cours C++ - Les classes.md",
     "L2/Developpement Objet/Cinquième cours C++ -.md",
-    "L2/Developpement Objet/Quatrième cours C++ - Les tableaux.md",
-    "L3/Semestre 5/Automate/Cours/Construction expression.md",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
-    "L3/Semestre 5/Automate/Cours/Expression régulière pour chemin et langage AFD.md",
-    "L3/Semestre 5/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
     "Excalidraw/Drawing 2023-04-05 21.41.58.excalidraw.png",
     "L3/Programmation WebServ/Projet/test",
     "L3/Programmation WebServ/Projet/Serveur",
@@ -233,13 +235,11 @@
     "Sans titre.canvas",
     "L3/Ergonomie/Image/Pasted image 20230927152603.png",
     "L3/Ergonomie/Image/Pasted image 20230927155200.png",
-    "L3/Ergonomie/Image",
     "L3/Ergonomie/Image/Pasted image 20230927155329.png",
     "L3/Ergonomie/Image/Pasted image 20230927154531.png",
     "L3/Ergonomie/Image/Pasted image 20230927154524.png",
     "L3/Ergonomie/Image/Pasted image 20230927154045.png",
     "L3/Ergonomie/Image/Pasted image 20230927152944.png",
-    "L3/Ergonomie",
     "Sans titre 1.canvas",
     "Reseau Entreprise/TP/Pasted image 20230323132344.png"
   ]
