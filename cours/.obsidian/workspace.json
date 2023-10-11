@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Entreprise/Information.md",
+                "file": "L3/Semestre 5/Entreprise/Projet/Projet.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Entreprise/Information.md",
+                "file": "L3/Semestre 5/Entreprise/Projet/Projet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Entreprise/Information.md",
+                "file": "L3/Semestre 5/Entreprise/Projet/Projet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Entreprise/Information.md"
+                "file": "L3/Semestre 5/Entreprise/Projet/Projet.md"
               }
             }
           },
@@ -195,6 +195,8 @@
   "active": "b04849c6d2dd129d",
   "lastOpenFiles": [
     "L3/Semestre 5/Entreprise/Information.md",
+    "L3/Semestre 5/Entreprise/Projet/Projet.md",
+    "L3/Semestre 5/Entreprise/Projet",
     "L3/Semestre 5/Entreprise/Bloc 1/Bloc 1 - Etude de stratégies.md",
     "L3/Semestre 5/Entreprise/Bloc 1/Etude de marché.md",
     "L3/Semestre 5/Statistique/TD/TD 1.md",
@@ -222,7 +224,6 @@
     "L3/Semestre 5/Automate/TD/TD 2.md",
     "L3/Semestre 5/Automate/TD/TD 1.md",
     "L2/Developpement Objet/Deuxième cours C++ - Les classes.md",
-    "L2/Developpement Objet/Cinquième cours C++ -.md",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
     "Excalidraw/Drawing 2023-04-05 21.41.58.excalidraw.png",
     "L3/Programmation WebServ/Projet/test",
@@ -231,7 +232,6 @@
     "L3/Programmation WebServ/Projet/Client",
     "L3/Programmation WebServ/Projet",
     "L3/Programmation WebServ/Cours",
-    "L3/Programmation WebServ/Information",
     "Sans titre.canvas",
     "L3/Ergonomie/Image/Pasted image 20230927152603.png",
     "L3/Ergonomie/Image/Pasted image 20230927155200.png",
