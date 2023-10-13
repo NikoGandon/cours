@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Projet 3/Information.md",
+                "file": "L3/Semestre 5/Administrateur BDD/TD 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Projet 3/Information.md",
+                "file": "L3/Semestre 5/Administrateur BDD/TD 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Projet 3/Information.md",
+                "file": "L3/Semestre 5/Administrateur BDD/TD 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Projet 3/Information.md"
+                "file": "L3/Semestre 5/Administrateur BDD/TD 3.md"
               }
             }
           },
@@ -194,8 +194,12 @@
   },
   "active": "b04849c6d2dd129d",
   "lastOpenFiles": [
-    "L3/Semestre 5/Ergonomie/Projet 1/Projet.md",
+    "L3/Semestre 5/Programmation WebServ/Information/info.md",
+    "L3/Semestre 5/Administrateur BDD/TD 3.md",
+    "L3/Semestre 5/Statistique/TD/TD 1.md",
+    "L3/Semestre 5/Statistique/TD/TD1-Ex3.md",
     "L3/Semestre 5/Ergonomie/Projet 3/Information.md",
+    "L3/Semestre 5/Ergonomie/Projet 1/Projet.md",
     "L3/Semestre 5/Ergonomie/Projet 3",
     "L3/Semestre 5/Ergonomie/Projet 2",
     "L3/Semestre 5/Ergonomie/Projet 1",
@@ -208,7 +212,6 @@
     "L3/Semestre 5/Entreprise/Bloc 1/Etude de marché.md",
     "L3/Semestre 5/Entreprise/Projet",
     "L3/Semestre 5/Entreprise/Bloc 1/Bloc 1 - Etude de stratégies.md",
-    "L3/Semestre 5/Statistique/TD/TD 1.md",
     "L3/Semestre 5/Statistique/TD/TD 2.md",
     "L3/Semestre 5/Entreprise/Bloc 1",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
@@ -226,9 +229,6 @@
     "L3/Semestre 5/Automate/Cours/Implémentation de fonction.md",
     "L3/Semestre 5/Automate/Cours/Formule importante.md",
     "L3/Semestre 5/Automate/Cours/Expression reguliere.md",
-    "L3/Semestre 5/Automate/Cours/Exemple transition non déterministe.md",
-    "L3/Semestre 5/Automate/Cours/Dualité expression regulière - automate finis.md",
-    "L3/Semestre 5/Automate/Cours/Construction expression reguliere.md",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
     "Excalidraw/Drawing 2023-04-05 21.41.58.excalidraw.png",
     "L3/Programmation WebServ/Projet/test",
