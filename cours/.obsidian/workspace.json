@@ -23,11 +23,9 @@
             "id": "4be8b7a690e38df9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
-                "mode": "source",
-                "source": false
+                "file": "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png"
               }
             }
           }
@@ -106,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md"
+                "file": "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png"
               }
             }
           },
@@ -207,11 +205,25 @@
   },
   "active": "4be8b7a690e38df9",
   "lastOpenFiles": [
-    "L3/Semestre 5/Programmation WebServ/Cours/Analyse dynamique.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013152211.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013151858.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013142910.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013150236.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013150212.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Pasted image 20231013093808.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013145457.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Schema API.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png",
+    "L3/Semestre 5/Administrateur BDD/TD 2.md",
     "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.632823b8",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.6326ef4f",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.632357c1",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.63200f2d",
+    "L3/Semestre 5/Programmation WebServ/Cours/Analyse dynamique.md",
     "L3/Semestre 5/Programmation WebServ/Information/info.md",
     "L3/Semestre 5/Administrateur BDD/TD 3.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Pasted image 20231013093808.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Factory pattern.md",
     "L3/Semestre 5/Programmation WebServ/Cours/Avantage factory pattern.md",
     "L3/Semestre 5/Statistique/TD/TD 1.md",
@@ -228,32 +240,17 @@
     "L3/Semestre 5/Entreprise/Bloc 3",
     "L3/Semestre 5/Entreprise/Bloc 2",
     "L3/Semestre 5/Entreprise/Bloc 1/Etude de marché.md",
-    "L3/Semestre 5/Entreprise/Projet",
     "L3/Semestre 5/Entreprise/Bloc 1/Bloc 1 - Etude de stratégies.md",
     "L3/Semestre 5/Statistique/TD/TD 2.md",
-    "L3/Semestre 5/Entreprise/Bloc 1",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
-    "L3/Semestre 5/Entreprise",
     "L2/Developpement Objet/Troisième cours C++ - Modèle.md",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Tableau statistique et représentation graphique.md",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Série statistique.md",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Définition statistique descriptive.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Les variables étudiées.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Récuperation de données.md",
-    "L3/Semestre 5/Statistique/CM/CM 1.md",
-    "L3/Semestre 5/Automate/Cours/Prouver une propriété.md",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
     "Excalidraw/Drawing 2023-04-05 21.41.58.excalidraw.png",
-    "L3/Programmation WebServ/Projet/test",
     "Sans titre.canvas",
-    "L3/Ergonomie/Image/Pasted image 20230927152603.png",
-    "L3/Ergonomie/Image/Pasted image 20230927155200.png",
-    "L3/Ergonomie/Image/Pasted image 20230927155329.png",
-    "L3/Ergonomie/Image/Pasted image 20230927154531.png",
-    "L3/Ergonomie/Image/Pasted image 20230927154524.png",
-    "L3/Ergonomie/Image/Pasted image 20230927154045.png",
-    "L3/Ergonomie/Image/Pasted image 20230927152944.png",
     "Sans titre 1.canvas"
   ]
 }
