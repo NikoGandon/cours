@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "L3/Semestre 5/Programmation WebServ/Cours/Analyse dynamique.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4be8b7a690e38df9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "L3/Semestre 5/Administrateur BDD/TD 3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,9 +205,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b04849c6d2dd129d",
+  "active": "4be8b7a690e38df9",
   "lastOpenFiles": [
+    "L3/Semestre 5/Programmation WebServ/Cours/Analyse dynamique.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Pasted image 20231013093808.png",
     "L3/Semestre 5/Programmation WebServ/Information/info.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Factory pattern.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Avantage factory pattern.md",
     "L3/Semestre 5/Administrateur BDD/TD 3.md",
     "L3/Semestre 5/Statistique/TD/TD 1.md",
     "L3/Semestre 5/Statistique/TD/TD1-Ex3.md",
@@ -225,10 +242,6 @@
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Récuperation de données.md",
     "L3/Semestre 5/Statistique/CM/CM 1.md",
     "L3/Semestre 5/Automate/Cours/Prouver une propriété.md",
-    "L3/Semestre 5/Automate/Cours/Sans titre.md",
-    "L3/Semestre 5/Automate/Cours/Implémentation de fonction.md",
-    "L3/Semestre 5/Automate/Cours/Formule importante.md",
-    "L3/Semestre 5/Automate/Cours/Expression reguliere.md",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
     "Excalidraw/Drawing 2023-04-05 21.41.58.excalidraw.png",
     "L3/Programmation WebServ/Projet/test",
@@ -240,7 +253,6 @@
     "L3/Ergonomie/Image/Pasted image 20230927154524.png",
     "L3/Ergonomie/Image/Pasted image 20230927154045.png",
     "L3/Ergonomie/Image/Pasted image 20230927152944.png",
-    "Sans titre 1.canvas",
-    "Reseau Entreprise/TP/Pasted image 20230323132344.png"
+    "Sans titre 1.canvas"
   ]
 }
