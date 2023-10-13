@@ -25,17 +25,34 @@
 ```
 
 3) .
-```chart
-	type: bar
-	labels: [60,62,64,66,68,70,72,74]
-	series: 
-		- title: Title 1 
-		  data: [70, 75, 75, 80, 80, 85, 90, 100]
-	
+```desmos-graph
+
+left = 58;right = 74;
+bottom = 65;top = 105;
+---
+(60,70)
+(62,75)
+(62,70)
+(64,75)
+(64,80)
+(66,80)
+(68,80)
+(70,85)
+(72,90)
+(74,100)
+
 ```
-```vega
-{ "width": 300, "data": {"url": "data/cars.json"}, "mark": {"type": "point", "filled": true}, "encoding": { "x": {"field": "Horsepower", "type": "quantitative"}, "y": {"field": "Miles_per_Gallon", "type": "quantitative"} } }
+
+```dataview
+TABLE FROM [[TD1-Ex3]]
 ```
+
+```desmos-graph
+x = [60, 62, 62, 64, 64, 66, 68, 70, 72, 74]
+y = [70, 70, 75, 75, 80, 80, 80, 85, 90, 100]
+xy = (x, y)
+```
+
 
 
 
