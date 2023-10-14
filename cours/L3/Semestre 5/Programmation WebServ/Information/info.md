@@ -4,5 +4,4 @@ Nous devons voir ce qu'est le concept, les outils existants, les avantages et in
 Nous devons le factory pattern
 
 # Projet
-Lien vers les indications du projet :
-[https://noteshare.space/note/clmum1thg913401mwlep483ib#y4GmHZzwByB/idd8JccMfnAGYzkzzUWlzz4I6St/GK8]
+Lien vers les indications du [projet](https://noteshare.space/note/clmum1thg913401mwlep483ib#y4GmHZzwByB/idd8JccMfnAGYzkzzUWlzz4I6St/GK8)
