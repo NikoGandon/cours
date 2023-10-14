@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Cours/Analyse dynamique.md",
+                "file": "L3/Semestre 5/Ergonomie/Projet 1/Projet.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "4be8b7a690e38df9",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png",
+                "file": "L3/Semestre 5/Ergonomie/Projet 1/Projet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png",
+                "file": "L3/Semestre 5/Ergonomie/Projet 1/Projet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png"
+                "file": "L3/Semestre 5/Ergonomie/Projet 1/Projet.md"
               }
             }
           },
@@ -203,26 +192,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4be8b7a690e38df9",
+  "active": "bb5fd846e45ed00a",
   "lastOpenFiles": [
+    "L3/Semestre 5/Ergonomie/Image/Zou - Erreur page achat billet.mp4",
+    "Pasted image 20231014134704.png",
+    "Pasted image 20231014134449.png",
+    "Pasted image 20231014134357.png",
+    "Pasted image 20231014134005.png",
+    "Pasted image 20231014133957.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Liste API.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API",
+    "L3/Semestre 5/Programmation WebServ/Cours/Schema API.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.63d13f68",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.63d13e9d",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.63d13e10",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.63d13d55",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.63d0f3d8",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.63d0f33c",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.63d0f281",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.63d0f1d5",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/aa.png",
+    "L3/Semestre 5/Genie Logiciel/Sans titre.md",
+    "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
+    "L3/Semestre 5/Programmation WebServ/Information/info.md",
+    "L3/Semestre 5/Programmation WebServ/Information/Les bonnes pratiques en programmation.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Analyse dynamique.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013152211.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013151858.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013142910.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013150236.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013150212.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Pasted image 20231013093808.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013145457.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Schema API.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png",
     "L3/Semestre 5/Administrateur BDD/TD 2.md",
-    "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.632823b8",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.6326ef4f",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.632357c1",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.63200f2d",
-    "L3/Semestre 5/Programmation WebServ/Cours/Analyse dynamique.md",
-    "L3/Semestre 5/Programmation WebServ/Information/info.md",
     "L3/Semestre 5/Administrateur BDD/TD 3.md",
     "L3/Semestre 5/Programmation WebServ/Cours/Factory pattern.md",
     "L3/Semestre 5/Programmation WebServ/Cours/Avantage factory pattern.md",
@@ -230,26 +232,14 @@
     "L3/Semestre 5/Statistique/TD/TD1-Ex3.md",
     "L3/Semestre 5/Ergonomie/Projet 3/Information.md",
     "L3/Semestre 5/Ergonomie/Projet 1/Projet.md",
-    "L3/Semestre 5/Ergonomie/Projet 3",
-    "L3/Semestre 5/Ergonomie/Projet 2",
-    "L3/Semestre 5/Ergonomie/Projet 1",
     "L3/Semestre 5/Entreprise/Projet/Projet.md",
     "L3/Semestre 5/Entreprise/Information.md",
     "L3/Semestre 5/Entreprise/Bloc 3/Bloc 3 - Droit social.md",
     "L3/Semestre 5/Entreprise/Bloc 2/Bloc 2 - Budget prévisionnel.md",
-    "L3/Semestre 5/Entreprise/Bloc 3",
-    "L3/Semestre 5/Entreprise/Bloc 2",
     "L3/Semestre 5/Entreprise/Bloc 1/Etude de marché.md",
     "L3/Semestre 5/Entreprise/Bloc 1/Bloc 1 - Etude de stratégies.md",
     "L3/Semestre 5/Statistique/TD/TD 2.md",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
-    "L2/Developpement Objet/Troisième cours C++ - Modèle.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Tableau statistique et représentation graphique.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Série statistique.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Définition statistique descriptive.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Les variables étudiées.md",
-    "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
-    "Excalidraw/Drawing 2023-04-05 21.41.58.excalidraw.png",
     "Sans titre.canvas",
     "Sans titre 1.canvas"
   ]
