@@ -1,4 +1,3 @@
-# Cas d'usage 2 - pompe à insuline
 # Besoin non fonctionnelle
 - Connexion
 	- Biométrie
