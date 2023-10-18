@@ -14,17 +14,20 @@
 | $[42.5,43[$ | 4        | 99           |
 | $[43,44[$   | 1        | 100          |
 
-2) La variable étudié est une variable semi continue
+2) La variable étudié est une variable continue
 3) .
 4) .
-5) .
+5) $\overline{X}=\frac{1}{100}\times(3\times38.5+5\times39.25+\dots+1\times43.5)$
+   La médiane est 41 ?
+   $Q_{1}=31$
+   $Q_{2}=84$
 6) .
 
 ```mermaid
 
 ```
 
-3) .
+# Exercice 3
 ```desmos-graph
 
 left = 58;right = 74;
@@ -43,26 +46,12 @@ bottom = 65;top = 105;
 
 ```
 
-```dataview
-TABLE FROM [[TD1-Ex3]]
-```
-
-```desmos-graph
-x = [60, 62, 62, 64, 64, 66, 68, 70, 72, 74]
-y = [70, 70, 75, 75, 80, 80, 80, 85, 90, 100]
-xy = (x, y)
-```
-
-
-
-
 $\overline{X} = 66,2$
 $\overline{Y} = 80,5$
 
-$Var(X)=$
-$Var(Y)=$
+$Var(X)={ \frac{(\sum^n_{i=1}| X_{i}-\overline{X} |^2 )}{n} }\approx 19.18$
+$Var(Y)={ \frac{(\sum^n_{i=1}| Y_{i}-\overline{Y} |^2 )}{n} }\approx \dots$
 
-$\sigma=\sqrt{ \frac{(\sum^n_{i=1}| x_{i}-µ |^2 )}{n} }$
-
-$\sigma=\sqrt{ 19.236 }\approx4.38$
+$\sigma_{X}=\sqrt{ \frac{(\sum^n_{i=1}| X_{i}-µ |^2 )}{n} }$
+$\sigma_{Y}=\sqrt{ \frac{(\sum^n_{i=1}| Y_{i}-µ |^2 )}{n} }$
 
