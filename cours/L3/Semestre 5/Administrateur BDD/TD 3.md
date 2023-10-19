@@ -1,7 +1,7 @@
 # Exercice 1
-1) Oui
+1) Oui, si A et B sont positifs
 2) Non
-3) Oui
+3) Oui, si A et B sont positifs
 
 # Exercice 2
 
