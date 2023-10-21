@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "89473cc8ca2fb39e",
+        "id": "c6e97292f132fd57",
         "type": "tabs",
         "children": [
           {
-            "id": "ff4d044820ea803a",
+            "id": "0cd9223d80645cca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Administrateur BDD/Cours/Undo loggin/Undo loggin.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Cours/Avantage factory pattern.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Administrateur BDD/Cours/Undo loggin/Undo loggin.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Cours/Avantage factory pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Administrateur BDD/Cours/Undo loggin/Undo loggin.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Cours/Avantage factory pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Administrateur BDD/Cours/Undo loggin/Undo loggin.md"
+                "file": "L3/Semestre 5/Programmation WebServ/Cours/Avantage factory pattern.md"
               }
             }
           },
@@ -192,10 +192,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ff4d044820ea803a",
+  "active": "0cd9223d80645cca",
   "lastOpenFiles": [
-    "L3/Semestre 5/Administrateur BDD/Cours/Redo loggin/Redo loggin.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Analyse dynamique.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013142910.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013093808.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Outils existant factory pattern.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Schema API.md",
+    "Pasted image 20231013153605.png.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Inconvenients factory pattern.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013151858.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Owner.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Dog.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Carnet.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Nikola GANDON - Owner.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Nikola GANDON - Dog.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Nikola GANDON - Carnet.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Dog.png.crdownload",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Carnet.png.crdownload",
+    "L3/Semestre 5/Programmation WebServ/Cours/Image/Owner.png.crdownload",
+    "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
+    "L3/Semestre 5/Programmation WebServ/Information/info.md",
     "L3/Semestre 5/Administrateur BDD/Cours/Undo loggin/Undo loggin.md",
+    "L3/Semestre 5/Administrateur BDD/Cours/Redo loggin/Redo loggin.md",
     "L3/Semestre 5/Administrateur BDD/Cours/Redo loggin",
     "Piece jointe",
     "L3/Semestre 5/Administrateur BDD/TD 3.md",
@@ -206,9 +226,6 @@
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.0e92901b",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.0e922934",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.0e8f9ed0",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.0e8bdd82",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.0e8bdca7",
     "L3/Semestre 5/Ergonomie/Cours-TD-TP/Cas d'usage 2 - pompe à insuline.md",
     "L3/Semestre 5/Statistique/TD/Chapitre 1/TD 1.md",
     "L3/Semestre 5/Statistique/TD/Chapitre 1/Sans titre.md",
@@ -216,30 +233,12 @@
     "L3/Semestre 5/Statistique/CM/Covariance.md",
     "L3/Semestre 5/Statistique/TD/Prequel/TD 2.md",
     "L3/Semestre 5/Ergonomie/Projet 1/Projet.md",
-    "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014134704.png",
-    "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014134005.png",
-    "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014133957.png",
-    "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014134357.png",
-    "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014134449.png",
     "L3/Semestre 5/Programmation WebServ/Projet/Serveur/readme.md",
     "L3/Semestre 5/Genie Logiciel/TD 2.md",
-    "L3/Semestre 5/Programmation WebServ/Information/info.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Liste API.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Schema API.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/aa.png",
-    "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
     "L3/Semestre 5/Programmation WebServ/Information/Les bonnes pratiques en programmation.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Analyse dynamique.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013152211.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013151858.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013142910.png",
     "L3/Semestre 5/Administrateur BDD/TD 2.md",
     "L3/Semestre 5/Programmation WebServ/Cours/Factory pattern.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Avantage factory pattern.md",
-    "L3/Semestre 5/Ergonomie/Projet 3/Information.md",
-    "L3/Semestre 5/Entreprise/Projet/Projet.md",
-    "L3/Semestre 5/Entreprise/Information.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas"
   ]
