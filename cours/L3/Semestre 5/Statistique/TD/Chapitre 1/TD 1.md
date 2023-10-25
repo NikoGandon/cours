@@ -27,6 +27,65 @@
 
 ```
 
+# Exercice 2
+1) 
+   
+   
+```dataviewjs
+const labels = ['0-10', '10-20', '20-30', '30-50', '50-100'];
+const data = [30,60,150,50,10];
+
+const chartData = {  
+    type: 'bar',
+
+    data: {
+        labels: labels,
+        datasets: [{
+            label: 'Numbers',
+            data: data,
+            backgroundColor: '#FFB1C1',
+        }]
+    }
+}
+
+window.renderChart(chartData, this.container);
+```
+
+2) La classe modale est la classe $]20;30]$
+3) 
+      
+| Montant           | $]0;10]$ | $]10;20]$ | $]20;30]$ | $]30;50]$ | $]50;100]$ |
+| ----------------- | -------- | --------- | --------- | --------- | ---------- |
+| Nb de client      | 30       | 60        | 150       | 50        | 10         |
+| Cumul croissant   | 30       | 90        | 240       | 290       | 300        |
+| Cumul decroissant | 300      | 270       | 210       | 60        | 10         |
+
+```desmos-graph
+left=0;right=110;
+bottom = 0;top = 320;
+---
+(10,30)
+(20,90)
+(30,240)
+(50,290)
+(100,300)
+
+(10,300)
+(20,270)
+(30,210)
+(50,60)
+(100,10)
+```
+
+Médiane : $M \binom{x}{y}$, $A \binom{26}{90}$, $B \binom{30}{240}$
+$\Leftrightarrow 60\times 10 = 150(x_{m}-20)$
+$\Leftrightarrow \frac{600}{150}=x_{m}-20$
+$\Leftrightarrow x_{m}=24$
+$Q_{1}=$
+$Q_{3}=$
+4) 
+
+
 # Exercice 3
 ```desmos-graph
 
@@ -55,3 +114,24 @@ $Var(Y)={ \frac{(\sum^n_{i=1}| Y_{i}-\overline{Y} |^2 )}{n} }\approx \dots$
 $\sigma_{X}=\sqrt{ \frac{(\sum^n_{i=1}| X_{i}-µ |^2 )}{n} }$
 $\sigma_{Y}=\sqrt{ \frac{(\sum^n_{i=1}| Y_{i}-µ |^2 )}{n} }$
 
+
+# Exercice 6
+
+```desmos-graph
+left = -100;right = 1100;
+bottom = 0;top = 10;
+---
+(94,1)
+(221,2)
+(446,3)
+(1050,4)
+```
+2) 
+   
+| $x_i$   | 1     | 2      | 3      | 4   |
+| ------- | ----- | ------ | ------ | --- |
+| $z_{i}$ | $9.7$ | $14.9$ | $21.1$ | $32.4$ |
+
+4) 
+   $\overline{X}=\frac{(94\times 1)+(221\times 2) + (446 \times 3) + (1050 \times 4)}{4}=\frac{3037}{2}\approx 1518.5$
+   
