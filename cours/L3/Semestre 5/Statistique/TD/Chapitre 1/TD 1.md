@@ -1,3 +1,9 @@
+---
+tags:
+  - Maths
+  - Statistiques
+---
+
 # Exercice 1
 1) 
 
@@ -104,8 +110,10 @@ bottom = 65;top = 105;
 $\overline{X} = 66,2$
 $\overline{Y} = 80,5$
 
-$Var(X)={ \frac{(\sum^n_{i=1}| X_{i}-\overline{X} |^2 )}{n} }\approx 19.18$
+$Var(X)={ \frac{(\sum^n_{i=1}| X_{i}-\overline{X} |^2 )}{n} }\approx 19.56$
 $Var(Y)={ \frac{(\sum^n_{i=1}| Y_{i}-\overline{Y} |^2 )}{n} }\approx \dots$
+
+$$Var(X)=\frac{\sum^{n}_{i=1}| X_{i} - \overline{X}|^2}{n}$$
 
 $\sigma_{X}=\sqrt{ \frac{(\sum^n_{i=1}| X_{i}-µ |^2 )}{n} }$
 $\sigma_{Y}=\sqrt{ \frac{(\sum^n_{i=1}| Y_{i}-µ |^2 )}{n} }$

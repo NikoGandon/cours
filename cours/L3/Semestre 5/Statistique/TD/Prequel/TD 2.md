@@ -1,3 +1,10 @@
+---
+tags:
+  - Maths
+  - Probabilités
+---
+
+
 # Exercice 1
 Fer Blanc : $X \leadsto \mathcal{N}(0.5,0.05)$
 Papier : $Y\leadsto\mathcal{N}(0.05,0.02)$
