@@ -1,8 +1,8 @@
 # Nom de l'entreprise
-
+XXXXXXXX
 # Secteur
 
-Vente
+Vente -> Echange et enchere
 
 # Public cible
 
@@ -16,6 +16,7 @@ Vente
 		- Enchère limité à minimum 100€
 	- Système d'échange
 	- "Contrat" d'exclusivité
+	- Système de vente ?
 # Rémunération
 
 - Frais de livraison 
@@ -29,5 +30,5 @@ Vente
 
 - Multiservices : enchère et échange
 - Peu de concurrence ?
-- 
+- ...
 
