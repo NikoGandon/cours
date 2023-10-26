@@ -130,7 +130,7 @@ bottom = 0.8; top = 2;
    On sait que $\overline{Y}=1.36$
    Donc $g(17,1.36)$
 3) Coefficient de corrélation entre $X$ et $Y$ :
-   $$\frac{cov(X,Y)}{G(X)\times G(Y)}$$
+   $$\frac{cov(X,Y)}{\sigma(X)\times \sigma(Y)}$$
 	$cov(X,Y)=(\overline{X \times Y}-\overline{X}\times \overline{Y})$
 	$var(X)=\overline{X^2}-\overline{X}^2 \approx 2.965$
 	$var(Y)=\overline{Y^2}-\overline{Y}^2 \approx 0.023$
@@ -139,12 +139,14 @@ bottom = 0.8; top = 2;
 	$\frac{0.26}{\sigma(X) \times \sigma(Y)} \approx 0.997$
 	$0.7 \leq 0.997 \leq 1$, pas besoin d'ajustement
 4) Droite de régression de $Y$ en $X$ :
+5) Droite de régression de $X$ en $Y$ :
    $a=\frac{cov(X,Y)}{var(Y)}=\frac{0.26}{2.965}=0.088$
    $b=\overline{Y}-a \times \overline{X}=1.36-0.088 \times 17 = -0.136$
-5) Droite de régression de $X$ en $Y$ :
-   $a=\frac{cov(X,Y)}{var(X)}=\frac{0.26}{0.023}=11.304$
-   $b=\overline{Y}-a \times \overline{X}=1.36 - 11.304 \times 17 = -190.808$
-2) .
+   Formule de la droite : 
+		$$y = 0.088x-0.136$$
+   Quand $x = 0$ : $y = -0.136$
+   Quand $x = 14$ : $y=1.232-0.136=1.368$
+1) .
 	1) .
 	2) .
 # Exercice 6
