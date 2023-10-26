@@ -1,3 +1,9 @@
+---
+tags:
+  - TLA
+  - Exercice
+---
+
 # Exercice 1
 Soit $L = \{0, 1\}$: 
 1. [[TD1-Ex1-a|L'ensemble de tous les mots qui finissent en 00]]

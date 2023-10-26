@@ -2,6 +2,12 @@
 quickshare-date: 26-10-2023 22:15:40
 quickshare-url: "https://noteshare.space/note/clo7mjcrv524201mwh5vc16en#313BxdFXZRHI3+OIkwUbs7tVzLY+gfUUgJw4CwZntdY"
 ---
+tags:
+  - Maths
+  - Probabilités
+---
+
+
 # Exercice 1
 Fer Blanc : $X \leadsto \mathcal{N}(0.5,0.05)$
 Papier : $Y\leadsto\mathcal{N}(0.05,0.02)$
