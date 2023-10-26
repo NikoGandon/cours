@@ -17,15 +17,11 @@
 2) La variable étudié est une variable continue
 3) .
 4) .
-5) $\overline{X}=\frac{1}{100}\times(3\times38.5+5\times39.25+\dots+1\times43.5)$
+5) $\overline{X}=\frac{1}{100}\times(3\times38.5+5\times39.25+\dots+1\times43.5)=40.955$
    La médiane est 41 ?
-   $Q_{1}=31$
-   $Q_{2}=84$
+   $Q_{1}=??$
 6) .
-
-```mermaid
-
-```
+   $var(X)=\frac{\sum^{n}_{i=1}(| X_{i}-\overline{X}|^2)}{n}=\frac{9972.12025}{100}=99.72$
 
 # Exercice 2
 1) 
@@ -113,8 +109,44 @@ $Var(Y)={ \frac{(\sum^n_{i=1}| Y_{i}-\overline{Y} |^2 )}{n} }\approx \dots$
 
 $\sigma_{X}=\sqrt{ \frac{(\sum^n_{i=1}| X_{i}-µ |^2 )}{n} }$
 $\sigma_{Y}=\sqrt{ \frac{(\sum^n_{i=1}| Y_{i}-µ |^2 )}{n} }$
+# Exercice 5
 
-
+1) 
+```desmos-graph
+left = 12; right = 20;
+bottom = 0.8; top = 2;
+---
+(13.8,1.07)
+(15,1.22)
+(16.5, 1.28)
+(17.1,1.36)
+(17.7,1.43)
+(18,1.46)
+(18.7,1.49)
+(19.2,1.57)
+```
+2) Les coordonnées du point moyen '$g$' devra être $g(\overline{X},\overline{Y})$ :
+   $\overline{X}=\frac{13.8+15+17.1+16.5+17.7+18+18.7+19.2}{8}=17$
+   On sait que $\overline{Y}=1.36$
+   Donc $g(17,1.36)$
+3) Coefficient de corrélation entre $X$ et $Y$ :
+   $$\frac{cov(X,Y)}{G(X)\times G(Y)}$$
+	$cov(X,Y)=(\overline{X \times Y}-\overline{X}\times \overline{Y})$
+	$var(X)=\overline{X^2}-\overline{X}^2 \approx 2.965$
+	$var(Y)=\overline{Y^2}-\overline{Y}^2 \approx 0.023$
+	$\sigma(Y) \approx \sqrt{ 0.023 } \approx 0.1516$
+	$\sigma(X) \approx \sqrt{ 2.965 } \approx 1.72$
+	$\frac{0.26}{\sigma(X) \times \sigma(Y)} \approx 0.997$
+	$0.7 \leq 0.997 \leq 1$, pas besoin d'ajustement
+4) Droite de régression de $Y$ en $X$ :
+   $a=\frac{cov(X,Y)}{var(Y)}=\frac{0.26}{2.965}=0.088$
+   $b=\overline{Y}-a \times \overline{X}=1.36-0.088 \times 17 = -0.136$
+5) Droite de régression de $X$ en $Y$ :
+   $a=\frac{cov(X,Y)}{var(X)}=\frac{0.26}{0.023}=11.304$
+   $b=\overline{Y}-a \times \overline{X}=1.36 - 11.304 \times 17 = -190.808$
+2) .
+	1) .
+	2) .
 # Exercice 6
 
 ```desmos-graph
