@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
+                "file": "L3/Semestre 5/Statistique/CM/Médiane et quartile.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
+                "file": "L3/Semestre 5/Statistique/CM/Médiane et quartile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
+                "file": "L3/Semestre 5/Statistique/CM/Médiane et quartile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md"
+                "file": "L3/Semestre 5/Statistique/CM/Médiane et quartile.md"
               }
             }
           },
@@ -194,8 +194,14 @@
   },
   "active": "0cd9223d80645cca",
   "lastOpenFiles": [
-    "L3/Semestre 5/Entreprise/Projet/Projet.md",
+    "L3/Semestre 5/Statistique/TD/Chapitre 1/TD 1.md",
+    "L3/Semestre 5/Statistique/CM/Médiane et quartile.md",
+    "L3/Semestre 5/Statistique/TD/Prequel/TD 2.md",
+    "L3/Semestre 5/Statistique/CM/Covariance.md",
+    "L3/Semestre 5/Statistique/TD/Chapitre 1/TD1-Ex3.md",
+    "L3/Semestre 5/Statistique/TD/Chapitre 1/Sans titre.md",
     "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
+    "L3/Semestre 5/Entreprise/Projet/Projet.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.2ecfc798",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.2ecfc6fc",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.2ecfc650",
@@ -210,12 +216,7 @@
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.2e9ad526",
     "L3/Semestre 5/Programmation WebServ/Projet/readme.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.2e94a2d9",
-    "L3/Semestre 5/Statistique/TD/Chapitre 1/TD 1.md",
-    "L3/Semestre 5/Statistique/CM/Covariance.md",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
-    "L3/Semestre 5/Statistique/TD/Chapitre 1/Sans titre.md",
-    "L3/Semestre 5/Statistique/TD/Prequel/TD 2.md",
-    "L3/Semestre 5/Statistique/TD/Chapitre 1/TD1-Ex3.md",
     "L3/Semestre 5/Programmation WebServ/Cours/Avantage factory pattern.md",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013142910.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013093808.png",
@@ -239,7 +240,6 @@
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
     "L3/Semestre 5/Ergonomie/Projet 1/Projet.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Serveur/readme.md",
-    "L3/Semestre 5/Genie Logiciel/TD 2.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas"
   ]
