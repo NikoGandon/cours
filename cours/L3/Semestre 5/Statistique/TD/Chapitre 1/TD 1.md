@@ -106,7 +106,7 @@ $\overline{Y} = 80,5$
 
 $Var(X)={ \frac{(\sum^n_{i=1}| X_{i}-\overline{X} |^2 )}{n} }\approx 19.18$
 $Var(Y)={ \frac{(\sum^n_{i=1}| Y_{i}-\overline{Y} |^2 )}{n} }\approx \dots$
-
+$covar(X)=\overline{X \times Y}- \overline{X} \times \overline{Y}$
 $\sigma_{X}=\sqrt{ \frac{(\sum^n_{i=1}| X_{i}-µ |^2 )}{n} }$
 $\sigma_{Y}=\sqrt{ \frac{(\sum^n_{i=1}| Y_{i}-µ |^2 )}{n} }$
 # Exercice 5
