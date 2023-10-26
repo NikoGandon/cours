@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c6e97292f132fd57",
+        "id": "cc466c1151450259",
         "type": "tabs",
         "children": [
           {
-            "id": "0cd9223d80645cca",
+            "id": "7fb892075b20a1d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Statistique/CM/Médiane et quartile.md",
+                "file": "L3/Semestre 5/Statistique/CM/Variance.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Statistique/CM/Médiane et quartile.md",
+                "file": "L3/Semestre 5/Statistique/CM/Variance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Statistique/CM/Médiane et quartile.md",
+                "file": "L3/Semestre 5/Statistique/CM/Variance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Statistique/CM/Médiane et quartile.md"
+                "file": "L3/Semestre 5/Statistique/CM/Variance.md"
               }
             }
           },
@@ -192,14 +192,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0cd9223d80645cca",
+  "active": "7fb892075b20a1d5",
   "lastOpenFiles": [
     "L3/Semestre 5/Statistique/TD/Chapitre 1/TD 1.md",
     "L3/Semestre 5/Statistique/CM/Médiane et quartile.md",
-    "L3/Semestre 5/Statistique/TD/Prequel/TD 2.md",
     "L3/Semestre 5/Statistique/CM/Covariance.md",
-    "L3/Semestre 5/Statistique/TD/Chapitre 1/TD1-Ex3.md",
+    "L3/Semestre 5/Statistique/CM/Variance.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Factory pattern.md",
+    "L3/Semestre 5/Automate/TD/TD 1.md",
+    "L3/Semestre 5/Statistique/CM/CM 1.md",
     "L3/Semestre 5/Statistique/TD/Chapitre 1/Sans titre.md",
+    "L3/Semestre 5/Statistique/TD/Prequel/TD 2.md",
+    "L3/Semestre 5/Statistique/TD/Chapitre 1/TD1-Ex3.md",
     "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
     "L3/Semestre 5/Entreprise/Projet/Projet.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.2ecfc798",
@@ -236,10 +240,6 @@
     "L3/Semestre 5/Programmation WebServ/Information/info.md",
     "L3/Semestre 5/Administrateur BDD/Cours/Undo loggin/Undo loggin.md",
     "L3/Semestre 5/Administrateur BDD/Cours/Redo loggin/Redo loggin.md",
-    "L3/Semestre 5/Administrateur BDD/TD 3.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
-    "L3/Semestre 5/Ergonomie/Projet 1/Projet.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Serveur/readme.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas"
   ]
