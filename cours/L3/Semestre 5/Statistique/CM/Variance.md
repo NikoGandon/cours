@@ -17,4 +17,4 @@ $$var(X)=\frac{\sum^{n}_{i=0}(X_{i}-\overline{X})}{n}$$
 > - $n$ étant le nombre d'élément
 
 # La méthode simplifiée
-$$var(x)=\overline{X^{2}}$$
+$$var(x)=\overline{X^{2}}-\overline{X}^2$$
