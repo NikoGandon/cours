@@ -1,3 +1,7 @@
+---
+quickshare-date: 03-11-2023 02:49:42
+quickshare-url: "https://noteshare.space/note/clohyjwve1846101mw1t4eqj4b#WgWv0MSGWnDIQ3u06q6N+NHKcVHMun/f3jRHygAGme0"
+---
 >[!info] Qu'est-ce git
 >Git est un système de gestion de version.
 >L'utilité est d'avoir une possibilité de revenir à une version antérieur, de suivre l'historique de développement, de faire du développement en parallèle en utilisant différentes 'branches'.
@@ -30,7 +34,7 @@
 >- ``--amend`` : Permet de modifier la description du dernier commit, si celui-ci n'a pas été push
 >  Si la description est vide, alors ce dernier commit sera annulé
 
->[!example] Exemple
+>[!example] Exemple - voir le status des fichiers, les commit et les push
 >```
 >$ git status
 >$     modified : fichier1.txt
@@ -38,6 +42,31 @@
 >$ git add .
 >$ git commit -m "Initialisatio du dossier"                  // Faute
 >$ git commit --amend -m "Initialisation du dossier"
+>$ git push
+>```
+
+>[!example] Exemple - diff
+>```
+>$ git status
+>$     modified : fichier1.txt
+>$ git diff fichier1.txt
+>$     +>Modification sur ce fichier
+>```
+
+>[!example] Exemple - voir les branches, en créer une et se remettre dans la branche main
+>```
+>$ git branch -a
+>$     * main
+>$        remote/origin/HEAD -> origin/main
+>$        remote/origin/main
+>$ git checkout -b NouvelleBranche
+>$ git branch -a
+>$     * NouvelleBranche
+>$        main
+>$        ....
+>$ git checkout main && git branch -a
+>$     * main
+>$        ....
 >```
 
 # Comment faire la description des commits
