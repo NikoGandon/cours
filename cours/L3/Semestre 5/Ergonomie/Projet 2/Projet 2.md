@@ -20,6 +20,10 @@ Nous évaluerons le site web marchant [Decathlon](Decathlon.fr).
 - Louer du matériel de sport pendant un temps court
 - Utiliser le programme de fidélité "Décat'club"
 - Recherche un matériel précis de randonné en tant qu'expert
+- Effectuer un retour de produit
+- Comparer des produits
+- Utiliser la fonction de recherche avancée
+- Effectuer une recherche dans d'autres langues
 
 # Facteur humain
 On se concentre sur l'efficacité ?
