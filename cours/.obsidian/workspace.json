@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "61acc31dca48e0de",
+        "id": "faafcab8fc6e7802",
         "type": "tabs",
         "children": [
           {
-            "id": "fd7bd2b07a2ba1e1",
+            "id": "26226917f42b4c9f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md"
+              }
             }
           },
           {
@@ -184,8 +192,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fd7bd2b07a2ba1e1",
+  "active": "26226917f42b4c9f",
   "lastOpenFiles": [
+    "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git.md",
+    "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
+    "L3/Semestre 5/Ergonomie/Cours-TD-TP/Cas d'usage 2 - pompe à insuline.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client/Plan du site.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Interface web.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/messages privés.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/groupes.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/InterCenter.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion/Gestion de la base de donnée.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot/Statut de robot.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot/Dashboard des robots.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur/Statut de superAdministrateur.md",
@@ -196,7 +216,6 @@
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client/Plan du site.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.bak",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User",
@@ -207,21 +226,10 @@
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/groupes.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API",
     "L3/Semestre 5/Programmation WebServ/Projet/readme.md",
     "L3/Programmation WebServ/Documentation/schema/API/User/SuperAdministrateur/Statut de superAdministrateur.md",
     "L3/Programmation WebServ/Documentation/schema/API/User/Robot/Statut de robot.md",
     "L3/Programmation WebServ/Documentation/schema/API/User/SuperAdministrateur/Dashboard des superAdministrateurs.md",
-    "L3/Programmation WebServ/Documentation/schema/API/User/Robot/Dashboard des robots.md",
-    "L3/Programmation WebServ/Documentation/schema/API/User/Developpeur/Statut de développeur.md",
-    "L3/Programmation WebServ/Documentation/schema/API/User/Developpeur/Dashboard des développeurs.md",
-    "L3/Programmation WebServ/Documentation/schema/Client/Plan du site.md",
-    "L3/Programmation WebServ/Documentation/schema/API/Présentation des routes.md",
-    "L3/Programmation WebServ/Documentation/schema/API/serveurs.md",
-    "L3/Programmation WebServ/Documentation/schema/API/messages privés.md",
-    "L3/Programmation WebServ/Documentation/schema/API/groupes.md",
-    "L3/Programmation WebServ/Documentation/schema/API/InterCenter.md",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013142910.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013093808.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013151858.png",
