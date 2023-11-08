@@ -25,6 +25,7 @@ Vente -> Echange et enchere
 		- .
 	- Enchère :
 		- .
+- Abonnement premium
 
 # Nos avantages
 
@@ -36,26 +37,29 @@ Vente -> Echange et enchere
 Compte de résultat obligatoire
 - Expert comptable
 
-| Intitulé                  | Année 1 | Intitulé                   | Année 1 |
-| ------------------------- | ------- | -------------------------- | ------- |
-| IMMOBILISATIONS           |         | FINANCEMENTS               |         |
-| INCORPORELLES             |         | Apport en capital          |         |
-| - Frais établissement     |         | - Capital social - porteur |         |
-| - Logiciel gestion        |         | - Capital social - associé |         |
-| - Logiciel dessin         |         |                            |         |
-| CORPORELLES               |         |                            |         |
-| -                         |         |                            |         |
-| -                         |         |                            |         |
-| -                         |         |                            |         |
-| FINANCIERES               |         |                            |         |
-| -                         |         |                            |         |
-| -                         |         |                            |         |
-| TOTAL DES IMMOBILISATIONS |         |                            |         |
-| BFR                       |         |                            |         |
-| TOTAL                     |         |                            |         |
+| Intitulé                                  | Année 1 | Intitulé                   | Année 1 |
+| ----------------------------------------- | ------- | -------------------------- | ------- |
+| IMMOBILISATIONS                           |         | FINANCEMENTS               |         |
+| Incorporelles                             |         | Apport en capital          |         |
+| - Frais d'expert comptable                |         | - Capital social - porteur |         |
+| - Frais de service AWS                    |         | - Capital social - associé |         |
+| - Publicité                               |         |                            |         |
+| - Frais de service Google (référencement) |         | - Subvention & emprunt     |         |
+| Corporelles                               |         |                            |         |
+| - Marchandise                             |         |                            |         |
+| - Loyer de stockage (pour enchère)        |         |                            |         |
+| - Matériel                                |         |                            |         |
+| Financières                               |         |                            |         |
+| - Budget pour service juridique           |         |                            |         |
+| -                                         |         |                            |         |
+| TOTAL DES IMMOBILISATIONS                 |         |                            |         |
+| BFR                                       |         |                            |         |
+| TOTAL                                     |         | TOTAL                      |         |
 
 > [!note] 
 > - Corporels -> tangible
 > - Incorporelle -> intangible
 > - Financières -> monétaire
+
+# Maquette de site web
 
