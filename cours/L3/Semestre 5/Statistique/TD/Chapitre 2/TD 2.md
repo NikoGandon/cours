@@ -52,6 +52,33 @@ $\Leftrightarrow 1 - \Pi(2.05) \leq \mathcal{N}(0,1) \leq \Pi(2.97)$
 $\Leftrightarrow 0.9905 - (1 - \Pi(2.05))-(1-0.9793)$
 $\Leftrightarrow 0.9905 - 0.0207 = 0.9698$
 
+# Exercice 2
+
+En moyenne 3% des articles produits par une machine sont défectueux.
+On doit trouver la probabilité $P$ qu'il y ait plus de 4 pièces défectueux dans un lot de 100 pièces choisis au hasard
+1) Approximation par la loi de Poisson
+	 $X \leadsto \mathcal{P}(3)$
+	 $P(X\leq 4)$
+	 $\Leftrightarrow P(X=4) + P(X=3) + P(X=2)+P(X=1)+P(X=0)$
+	 $\Leftrightarrow \frac{3^4*e^{-3}}{4!}+\frac{3^3*e^{-3}}{3!}+\frac{3^2*e^{-3}}{2!}+3*e^{-3}+e^{-3}$
+	 $\Leftrightarrow \frac{81\times e^{-3}}{24}+\frac{27 \times e^{-3}}{6}+\frac{9 \times e^{-3}}{2}+3\times e^{-3}+e^{-3}$
+	 $\Leftrightarrow 0.1680+0.0224+0.0224+0.1494+0.0498=0.8152$
+   
+2) Approximation par la loi normale
+	$X \leadsto \mathcal{N}(3, 1.7)$
+
+
+# Exercice 3
+
+Il peut y avoir max $97$ personnes, en sachant qu'en moyenne $4\%$ annule leur réservation.
+Elle décide donc d'accepter $100$ personnes.
+$X \leadsto \mathcal{B}(100, 0.96)$
+$1-\sum^{100}_{i=98}(P(X=i))$
+$\Leftrightarrow 1-(P(X=98)+P(X=99)+P(X=100))$
+On utilise la loi normale comme approximation
+$E(x)=96, \sigma=\sqrt{ v\times p \times  q }=1.95$
+$P(X \leq 97)= \Pi\left( \frac{97.5-96}{1.95} \right)= \Pi(0.76)=0.7764$
+
 # Exercice 4
 
 Soit $X$ la variable suivant une loi normale de paramètre $m$ et $\sigma$,
