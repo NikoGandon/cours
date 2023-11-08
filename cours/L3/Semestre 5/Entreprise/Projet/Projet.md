@@ -38,7 +38,7 @@ Le statut juridique de l'entreprise est SEL (Société d'Exercice Libéral) ou E
 # Comptabilité
 Compte de résultat obligatoire
 - Expert comptable
-
+## Plan de financement
 | Intitulé                                  | Année 1 | Intitulé                   | Année 1 |
 | ----------------------------------------- | ------- | -------------------------- | ------- |
 | IMMOBILISATIONS                           |         | FINANCEMENTS               |         |
