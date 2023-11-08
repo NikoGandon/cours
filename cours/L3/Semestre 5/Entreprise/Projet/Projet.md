@@ -33,6 +33,8 @@ Vente -> Echange et enchere
 - Peu de concurrence ?
 - ...
 
+# Statut juridique
+Le statut juridique de l'entreprise est SEL (Société d'Exercice Libéral) ou Entreprise Individuelle (E.I.) .
 # Comptabilité
 Compte de résultat obligatoire
 - Expert comptable
