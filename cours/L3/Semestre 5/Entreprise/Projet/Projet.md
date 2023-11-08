@@ -32,3 +32,30 @@ Vente -> Echange et enchere
 - Peu de concurrence ?
 - ...
 
+# Comptabilité
+Compte de résultat obligatoire
+- Expert comptable
+
+| Intitulé                  | Année 1 | Intitulé                   | Année 1 |
+| ------------------------- | ------- | -------------------------- | ------- |
+| IMMOBILISATIONS           |         | FINANCEMENTS               |         |
+| INCORPORELLES             |         | Apport en capital          |         |
+| - Frais établissement     |         | - Capital social - porteur |         |
+| - Logiciel gestion        |         | - Capital social - associé |         |
+| - Logiciel dessin         |         |                            |         |
+| CORPORELLES               |         |                            |         |
+| -                         |         |                            |         |
+| -                         |         |                            |         |
+| -                         |         |                            |         |
+| FINANCIERES               |         |                            |         |
+| -                         |         |                            |         |
+| -                         |         |                            |         |
+| TOTAL DES IMMOBILISATIONS |         |                            |         |
+| BFR                       |         |                            |         |
+| TOTAL                     |         |                            |         |
+
+> [!note] 
+> - Corporels -> tangible
+> - Incorporelle -> intangible
+> - Financières -> monétaire
+
