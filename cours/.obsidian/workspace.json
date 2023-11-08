@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/messages privés.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/messages privés.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/messages privés.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/messages privés.md"
+                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md"
               }
             }
           },
@@ -195,16 +195,21 @@
   "active": "26226917f42b4c9f",
   "lastOpenFiles": [
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/InterCenter.md",
+    "L3/Semestre 5/Administrateur BDD/TD 2.md",
+    "L3/Semestre 5/Administrateur BDD/TD 3.md",
+    "L3/Semestre 5/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
+    "L3/Semestre 5/Administrateur BDD/Cours/Undo loggin/Undo loggin.md",
+    "L3/Semestre 5/Administrateur BDD/Cours/Redo loggin/Redo loggin.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur/Statut de développeur.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur/Dashboard des développeurs.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/messages privés.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/groupes.md",
     "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot/Statut de robot.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot/Dashboard des robots.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur/Statut de développeur.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur/Statut de superAdministrateur.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur/Dashboard des superAdministrateurs.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur/Dashboard des développeurs.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/messages privés.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Interface web.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur",
@@ -225,10 +230,6 @@
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion/Gestion de la base de donnée.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/serveurs.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/messages privés.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/InterCenter.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/groupes.md",
-    "L3/Programmation WebServ/Documentation/schema/API/User/SuperAdministrateur/Statut de superAdministrateur.md",
-    "L3/Programmation WebServ/Documentation/schema/API/User/Robot/Statut de robot.md",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013142910.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013093808.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013151858.png",
