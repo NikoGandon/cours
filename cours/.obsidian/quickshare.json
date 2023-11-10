@@ -34,5 +34,14 @@
     "secret_token": "pJP+xxg1ebymx5RtkDYkQYXvQHq2v9DKWJ+XuA5vIL4=",
     "note_id": "clorzbydn726701mwn74ep9s2",
     "basename": "Utilisation de git -- git branch - checkout et merge"
+  },
+  "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git -- gestion des conflits.md": {
+    "shared_datetime": "2023-11-10T02:45:31.590Z",
+    "updated_datetime": null,
+    "expire_datetime": "2023-12-10T02:45:31.965Z",
+    "view_url": "https://noteshare.space/note/clos0mnk6739801mw28c9hhr9#KpAPlYrN5qhjAdAvgla15o+Edg0AehOofNU7aZbr9OY",
+    "secret_token": "Un1SAAZXLjXfVw95tXusE3k9tcv8yKpL15PrnpnhCRM=",
+    "note_id": "clos0mnk6739801mw28c9hhr9",
+    "basename": "Utilisation de git -- gestion des conflits"
   }
 }
