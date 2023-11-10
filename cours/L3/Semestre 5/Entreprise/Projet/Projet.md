@@ -39,24 +39,26 @@ Le statut juridique de l'entreprise est SEL (Société d'Exercice Libéral) ou E
 Compte de résultat obligatoire
 - Expert comptable
 ## Plan de financement
-| Intitulé                                  | Année 1 | Intitulé                   | Année 1 |
-| ----------------------------------------- | ------- | -------------------------- | ------- |
-| IMMOBILISATIONS                           |         | FINANCEMENTS               |         |
-| Incorporelles                             |         | Apport en capital          |         |
-| - Frais d'expert comptable                |         | - Capital social - porteur |         |
-| - Frais de service AWS                    |         | - Capital social - associé |         |
-| - Publicité                               |         |                            |         |
-| - Frais de service Google (référencement) |         | - Subvention & emprunt     |         |
-| Corporelles                               |         |                            |         |
-| - Marchandise                             |         |                            |         |
-| - Loyer de stockage (pour enchère)        |         |                            |         |
-| - Matériel                                |         |                            |         |
-| Financières                               |         |                            |         |
-| - Budget pour service juridique           |         |                            |         |
-| -                                         |         |                            |         |
-| TOTAL DES IMMOBILISATIONS                 |         |                            |         |
-| BFR                                       |         |                            |         |
-| TOTAL                                     |         | TOTAL                      |         |
+| Intitulé                                  | Année 1 | Intitulé                   | Année 1 |     |
+| ----------------------------------------- | ------- | -------------------------- | ------- | --- |
+| IMMOBILISATIONS                           |         | FINANCEMENTS               |         |     |
+| Incorporelles                             |         | Apport en capital          |         |     |
+| - Frais d'expert comptable                |         | - Capital social - porteur |         |     |
+| - Frais de service AWS                    |         | - Capital social - associé |         |     |
+| - Publicité                               |         |                            |         |     |
+| - Frais de service Google (référencement) |         | - Subvention & emprunt     |         |     |
+| Corporelles                               |         |                            |         |     |
+| - Marchandise                             |         |                            |         |     |
+| - Loyer de stockage (pour enchère)        |         |                            |         |     |
+| - Matériel                                |         |                            |         |     |
+| Financières                               |         |                            |         |     |
+| - Budget pour service juridique           |         |                            |         |     |
+| - Assurance locative                      |         |                            |         |     |
+| - Assurance professionnel                 |         |                            |         |     |
+| - Mutuelle entreprise                     |         |                            |         |     |
+| TOTAL DES IMMOBILISATIONS                 |         |                            |         |     |
+| BFR                                       |         |                            |         |     |
+| TOTAL                                     |         | TOTAL                      |         |     |
 
 > [!note] 
 > - Corporels -> tangible
