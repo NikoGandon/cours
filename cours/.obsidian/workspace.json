@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Entreprise/Projet/Projet.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7ecd0cb911beb4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L3/Semestre 5/Administrateur BDD/TD 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Entreprise/Projet/Projet.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Entreprise/Projet/Projet.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Entreprise/Projet/Projet.md"
+                "file": "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md"
               }
             }
           },
@@ -192,10 +204,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "26226917f42b4c9f",
+  "active": "d37de4fcfba17101",
   "lastOpenFiles": [
-    "L3/Semestre 5/Automate/Cours/Construction expression reguliere.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Outils existant factory pattern.md",
+    "Sans titre.md",
+    "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
+    "L3/Semestre 5/Programmation WebServ/Autre/Utilisation avancé de git  -- git add.md",
+    "L3/Semestre 5/Administrateur BDD/TD 4.md",
+    "L3/Semestre 5/Entreprise/Information.md",
+    "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git.md",
+    "L3/Semestre 5/Entreprise/Projet/Projet.md",
+    "L3/Semestre 5/Administrateur BDD/TD 3.md",
+    "L3/Semestre 5/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client/Plan du site.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion/Gestion de la base de donnée.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Information/info.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
+    "app.zenuml.com.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Schema API.md",
     "L3/Semestre 5/Statistique/TD/Chapitre 2/TD 2.md",
     "L3/Semestre 5/Statistique/TD/Chapitre 2",
     "L3/Semestre 5/Programmation WebServ/Cours/Schema API.md",
@@ -214,13 +240,18 @@
     "L3/Semestre 5/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
     "L3/Semestre 5/Administrateur BDD/Cours/Undo loggin/Undo loggin.md",
     "L3/Semestre 5/Administrateur BDD/Cours/Redo loggin/Redo loggin.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur/Statut de développeur.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur/Dashboard des développeurs.md",
+    "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git.md",
+    "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
+    "L3/Semestre 5/Ergonomie/Cours-TD-TP/Cas d'usage 2 - pompe à insuline.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Interface web.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/messages privés.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/groupes.md",
-    "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/InterCenter.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot/Statut de robot.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot/Dashboard des robots.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Utilisateur",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur",
