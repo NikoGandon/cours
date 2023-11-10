@@ -1,6 +1,10 @@
+---
+quickshare-date: 10-11-2023 02:15:15
+quickshare-url: "https://noteshare.space/note/clorxek7e717601mwc1uifls1#Px3nEkYqQ4UnDXt22gkOlFBAvfGsxb1fXO+SbmuApZg"
+---
 >[!info] 
 >Il est important de bien répertorier ses modifications dans des commits expliquant bien les modifications apportées
->Cependant, il peut avoir plusieurs modifications dans un fichier, et ceux-ci ne sont pas forcément lié
+>Cependant, il peut avoir plusieurs modifications dans un fichier, et celles-ci ne sont pas forcément liées
 
 > [!example] 
 > Imaginons que nous ajoutons dans un fichier une fonction ``addition()`` et que - sans commit - nous modifions une autre fonction ``envoyerResultat()`` dans ce même fichier pour une meilleure performance.
@@ -23,20 +27,20 @@ Mais Git nous permet de séparer les modifications apportées, par exemple en li
 
 > [!example] 
 > ```
-> \>$ git status
-> \>$     modified : main.cpp
-> \>$ git add -p main.cpp
-> \>$ + template< typename T > addition(T& a, T& b){
-> \>$ + return a + b;
-> \>$ + }
-> \> (1/2) Stage this hunk [y, n, q, a, d, j, J, g, /, e, ?]?
-> \> y
-> \>$ + //Performance
-> \> (2/2) Stage this hunk [y, n, q, a, d, j, J, g, /, e, ?]?
-> \> n
-> \>$ git commit -m "feat: ajout d'une fonction pour additionner"
-> \>$ git add main.cpp
-> \>$ git commit -m "perf: optimisation d'envoyerResultat()"
+> >$ git status
+> >$     modified : main.cpp
+> >$ git add -p main.cpp
+> >$ + template< typename T > addition(T& a, T& b){
+> >$ + return a + b;
+> >$ + }
+> > (1/2) Stage this hunk [y, n, q, a, d, j, J, g, /, e, ?]?
+> > y
+> >$ + //Performance
+> > (2/2) Stage this hunk [y, n, q, a, d, j, J, g, /, e, ?]?
+> > n
+> >$ git commit -m "feat: ajout d'une fonction pour additionner"
+> >$ git add main.cpp
+> >$ git commit -m "perf: optimisation d'envoyerResultat()"
 > ```
 
 >[!note] 
