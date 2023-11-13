@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "faafcab8fc6e7802",
+        "id": "ed7c4dabbca5dea8",
         "type": "tabs",
         "children": [
           {
-            "id": "26226917f42b4c9f",
+            "id": "6cd3851e75dd9706",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git -- gestion des conflits.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04b0a081bbe43282",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client/Plan du site.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b30c83ecbed082e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L3/Semestre 5/Administrateur BDD/TD 4.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git -- gestion des conflits.md",
+                "file": "L3/Semestre 5/Administrateur BDD/TD 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git -- gestion des conflits.md",
+                "file": "L3/Semestre 5/Administrateur BDD/TD 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git -- gestion des conflits.md"
+                "file": "L3/Semestre 5/Administrateur BDD/TD 4.md"
               }
             }
           },
@@ -192,44 +217,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "26226917f42b4c9f",
+  "active": "b30c83ecbed082e6",
   "lastOpenFiles": [
-    "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git.md",
-    "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git -- gestion des conflits.md",
+    "L3/Semestre 5/Genie Logiciel/TD du 10 novembre.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client/Plan du site.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion/Gestion de la base de donnée.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD_1.png",
+    "L3/Semestre 5/Genie Logiciel/TD 2.md",
+    "L3/Semestre 5/Genie Logiciel/Information.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/messages privés.md",
+    "L3/Semestre 5/Administrateur BDD/TD 2.md",
     "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git -- git branch - checkout et merge.md",
+    "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git -- gestion des conflits.md",
+    "L3/Semestre 5/Programmation WebServ/Information/Modalité d'exam.md",
+    "Sans titre.md",
     "L3/Semestre 5/Programmation WebServ/Autre/Utilisation avancé de git  -- git add.md",
-    "L3/Semestre 5/Entreprise/Projet/Projet.md",
     "L3/Semestre 5/Administrateur BDD/TD 4.md",
-    "L3/Semestre 5/Automate/Cours/Construction expression reguliere.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Outils existant factory pattern.md",
+    "L3/Semestre 5/Entreprise/Information.md",
+    "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git.md",
+    "L3/Semestre 5/Entreprise/Projet/Projet.md",
+    "L3/Semestre 5/Administrateur BDD/TD 3.md",
+    "L3/Semestre 5/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Information/info.md",
+    "app.zenuml.com.md",
+    "L3/Semestre 5/Programmation WebServ/Cours/Schema API.md",
     "L3/Semestre 5/Statistique/TD/Chapitre 2/TD 2.md",
     "L3/Semestre 5/Statistique/TD/Chapitre 2",
-    "L3/Semestre 5/Programmation WebServ/Cours/Schema API.md",
-    "L3/Semestre 5/Programmation WebServ/Information/Les bonnes pratiques en programmation.md",
-    "L3/Semestre 5/Programmation WebServ/Information/Informations sur le projet.md",
-    "L3/Semestre 5/Programmation WebServ/Information/info.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Factory pattern Schema.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Inconvenients factory pattern.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Analyse dynamique.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Avantage factory pattern.md",
-    "L3/Semestre 5/Programmation WebServ/Cours/Factory pattern.md",
-    "L3/Semestre 5/Administrateur BDD/TD 3.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/InterCenter.md",
-    "L3/Semestre 5/Administrateur BDD/TD 2.md",
-    "L3/Semestre 5/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
-    "L3/Semestre 5/Administrateur BDD/Cours/Undo loggin/Undo loggin.md",
-    "L3/Semestre 5/Administrateur BDD/Cours/Redo loggin/Redo loggin.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur/Statut de développeur.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Utilisateur",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.bak",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013142910.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013093808.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013151858.png",
@@ -239,7 +264,6 @@
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Nikola GANDON - Owner.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Nikola GANDON - Dog.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Nikola GANDON - Carnet.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013153605.png",
     "Sans titre.canvas",
     "Sans titre 1.canvas"
   ]
