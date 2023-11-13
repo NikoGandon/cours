@@ -48,18 +48,19 @@ Soit **T2** : READ(B,s); s = s * 2; WRITE(B,s); READ(A,s); s = s + 3; WRITE(A,s)
 1) .
 	1) $T_{3}\to T_{2}\to T_{1}$
 	2) Pas de cycle donc conflit sérialisable
-	   Equivalent : $\dots$ 
-1) .
-	1) .
-	2) .
+	   Equivalent : $T_{3}\to T_{2} \to T_{1}$ 
 2) .
-	1) .
+	1) $T_{1}\to T_{2}\to T_{3}$
 	2) .
 3) .
-	1) .
+	1) $T_{3}\to T_{1}\to T_{2}\to T_{3}$
 	2) .
 4) .
-	1) .
+	1) $T_{1}\to T_{2}\to T_{1}$
+	2) .
+5) .
+	1) $T_{3}\to T_{1}$
+	   $T_{4}\to T_{2}$
 	2) .
 
 # Exercice 3
