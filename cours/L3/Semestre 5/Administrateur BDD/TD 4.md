@@ -46,6 +46,10 @@ Soit **T2** : READ(B,s); s = s * 2; WRITE(B,s); READ(A,s); s = s + 3; WRITE(A,s)
 	Donc, $2 \times C\binom{3}{6}=2 \times \frac{n!}{k!(n-k)!}= 2 \times 20 = 40$
 # Exercice 2
 1) .
+	1) $T_{3}\to T_{2}\to T_{1}$
+	2) Pas de cycle donc conflit sérialisable
+	   Equivalent : $\dots$ 
+1) .
 	1) .
 	2) .
 2) .
@@ -55,9 +59,6 @@ Soit **T2** : READ(B,s); s = s * 2; WRITE(B,s); READ(A,s); s = s + 3; WRITE(A,s)
 	1) .
 	2) .
 4) .
-	1) .
-	2) .
-5) .
 	1) .
 	2) .
 
