@@ -20,6 +20,7 @@
 	$b = \overline{X} - a \times \overline{Y}=149.7+25.02 \times 1.860=196$
 	$f(x)=ax+b=-25.02x+196$
 	$f(2.4)=-25.02 \times 2.4 + 196=135.952$
+
 # Exercice 2
 
 1) Soit une variable $X$ suivant la loi normale telle que $X \leadsto \mathcal{N}(22; 0.025)$
