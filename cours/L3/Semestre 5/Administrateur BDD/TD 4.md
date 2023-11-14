@@ -54,13 +54,13 @@ Soit **T2** : READ(B,s); s = s * 2; WRITE(B,s); READ(A,s); s = s + 3; WRITE(A,s)
 	2) .
 3) .
 	1) $T_{3}\to T_{1}\to T_{2}\to T_{3}$
-	2) .
+	2) Il y a un cycle
 4) .
 	1) $T_{1}\to T_{2}\to T_{1}$
-	2) .
+	2) Il y a un cycle
 5) .
 	1) $T_{3}\to T_{1}$
 	   $T_{4}\to T_{2}$
-	2) .
+	2) Ils n'ont aucun lien
 
 # Exercice 3
