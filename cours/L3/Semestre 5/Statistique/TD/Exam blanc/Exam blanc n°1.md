@@ -46,4 +46,4 @@ Soit $X$ suit approximativement la loi de Poisson $\mathcal{P}(4)$
 	On peut utiliser $Y \leadsto \mathcal{P}(12)$
 
 2) En utilisant l'approximation de la loi de normale - car $\lambda=12\geq 10$ :
-	...
+	$Y \leadsto \mathcal(N(12, \sqrt{ 12 }))$
