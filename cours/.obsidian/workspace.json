@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Cours-TD-TP/TP du 15 novembre 2023.md",
+                "file": "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage classique.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Cours-TD-TP/TP du 15 novembre 2023.md",
+                "file": "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage classique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Cours-TD-TP/TP du 15 novembre 2023.md",
+                "file": "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage classique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Ergonomie/Cours-TD-TP/TP du 15 novembre 2023.md"
+                "file": "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage classique.md"
               }
             }
           },
@@ -194,6 +194,19 @@
   },
   "active": "e992cad0c8f37aa5",
   "lastOpenFiles": [
+    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage normalisée.md",
+    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage structurel.md",
+    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Cycle de vie standard.md",
+    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage.md",
+    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage classique.md",
+    "L3/Semestre 5/Genie Logiciel/TD 1.md",
+    "L3/Semestre 5/Genie Logiciel/TD du 10 novembre.md",
+    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Synthèse cours 2.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client/Plan du site.md",
+    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2",
+    "L3/Semestre 5/Genie Logiciel/Synthèse",
+    "L3/Semestre 5/Administrateur BDD/TP 1.md",
     "L3/Semestre 5/Entreprise/Projet/Projet.md",
     "L3/Semestre 5/Ergonomie/Cours-TD-TP/TP du 15 novembre 2023.md",
     "L3/Semestre 5/Statistique/TD/Chapitre 2/TD 2.md",
@@ -210,18 +223,7 @@
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Récuperation de données.md",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Série statistique.md",
     "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Tableau statistique et représentation graphique.md",
-    "L3/Semestre 5/Statistique/CM/Médiane et quartile.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client/Plan du site.md",
-    "L3/Semestre 5/Administrateur BDD/TD 4.md",
-    "L3/Semestre 5/Genie Logiciel/TD du 10 novembre.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion/Gestion de la base de donnée.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD_1.png",
-    "L3/Semestre 5/Genie Logiciel/TD 2.md",
-    "L3/Semestre 5/Genie Logiciel/Information.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/messages privés.md",
     "L3/Semestre 5/Statistique/TD/Chapitre 2",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion",
@@ -229,8 +231,6 @@
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.bak",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013142910.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013093808.png",
     "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013151858.png",
