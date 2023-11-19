@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "750e3b749e4cfc55",
+        "id": "7fb8b28d63607140",
         "type": "tabs",
         "children": [
           {
-            "id": "e992cad0c8f37aa5",
+            "id": "a448ffc76782d204",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage classique.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage classique.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage classique.md",
+                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage classique.md"
+                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md"
               }
             }
           },
@@ -171,8 +171,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,54 +191,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e992cad0c8f37aa5",
+  "active": "bb5fd846e45ed00a",
   "lastOpenFiles": [
-    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage normalisée.md",
-    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage structurel.md",
-    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Cycle de vie standard.md",
-    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage.md",
-    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage classique.md",
-    "L3/Semestre 5/Genie Logiciel/TD 1.md",
-    "L3/Semestre 5/Genie Logiciel/TD du 10 novembre.md",
-    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Synthèse cours 2.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client/Plan du site.md",
-    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2",
-    "L3/Semestre 5/Genie Logiciel/Synthèse",
-    "L3/Semestre 5/Administrateur BDD/TP 1.md",
-    "L3/Semestre 5/Entreprise/Projet/Projet.md",
-    "L3/Semestre 5/Ergonomie/Cours-TD-TP/TP du 15 novembre 2023.md",
-    "L3/Semestre 5/Statistique/TD/Chapitre 2/TD 2.md",
-    "L3/Semestre 5/Statistique/TD/Exam blanc/Exam blanc n°1.md",
-    "L3/Semestre 5/Statistique/TD/Chapitre 1/TD 1.md",
-    "L3/Semestre 5/Statistique/TD/Chapitre 1/Sans titre.md",
-    "L3/Semestre 5/Statistique/TD/Chapitre 1/TD1-Ex3.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Définition statistique descriptive.md",
-    "L3/Semestre 5/Statistique/CM/CM 1.md",
-    "L3/Semestre 5/Statistique/CM/Covariance.md",
-    "L3/Semestre 5/Statistique/TD/Exam blanc",
-    "L3/Semestre 5/Statistique/CM/Variance.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Les variables étudiées.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Récuperation de données.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Série statistique.md",
-    "L3/Semestre 5/Statistique/CM/Statistiques descriptives - rappels/Statistique descriptive.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD_1.png",
-    "L3/Semestre 5/Statistique/TD/Chapitre 2",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Utilisateur",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013142910.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013093808.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Pasted image 20231013151858.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Owner.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Dog.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Carnet.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Nikola GANDON - Owner.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Nikola GANDON - Dog.png",
-    "L3/Semestre 5/Programmation WebServ/Cours/Image/Nikola GANDON - Carnet.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/pretty-format/package.json",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/URLSearchParams.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/URLSearchParams-impl.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/utils.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/url-state-machine.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/infra.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/urlencoded.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/URL-impl.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/URL.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/public-api.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/webidl-conversions/LICENSE.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/webidl-conversions/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/w3c-xmlserializer/LICENSE.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/w3c-xmlserializer/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/typed-array-byte-length/CHANGELOG.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/typed-array-byte-length/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/test-exclude/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/test-exclude/CHANGELOG.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/terminal-link/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/strip-final-newline/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/strip-ansi/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/string_decoder/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/string-natural-compare/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/stop-iteration-iterator/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/stop-iteration-iterator/CHANGELOG.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/raf/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/punycode/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/lilconfig/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/kleur/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/http-proxy-agent/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/http-parser-js/LICENSE.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/http-parser-js/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/html-encoding-sniffer/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/gzip-size/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/get-symbol-description/CHANGELOG.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/public/logo512.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/public/logo192.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/serve-index/public/icons/page_word.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/serve-index/public/icons/page_world.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/serve-index/public/icons/page_white_zip.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/serve-index/public/icons/page_white_wrench.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/serve-index/public/icons/page_white_world.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/serve-index/public/icons/page_white_visualstudio.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/serve-index/public/icons/page_white_word.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/serve-index/public/icons/page_white_width.png",
     "Sans titre.canvas",
     "Sans titre 1.canvas"
   ]
