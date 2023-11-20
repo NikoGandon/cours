@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
+                "file": "L3/Semestre 5/Administrateur BDD/TP 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
+                "file": "L3/Semestre 5/Administrateur BDD/TP 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
+                "file": "L3/Semestre 5/Administrateur BDD/TP 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md"
+                "file": "L3/Semestre 5/Administrateur BDD/TP 2.md"
               }
             }
           },
@@ -191,8 +191,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bb5fd846e45ed00a",
+  "active": "a448ffc76782d204",
   "lastOpenFiles": [
+    "L3/Semestre 5/Administrateur BDD/TP 1.md",
+    "L3/Semestre 5/Administrateur BDD/TP 2.md",
+    "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/pretty-format/package.json",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/URLSearchParams.js",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/URLSearchParams-impl.js",
@@ -203,7 +207,6 @@
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/URL-impl.js",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/URL.js",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib/public-api.js",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/workbox-build/node_modules/whatwg-url/lib",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/webidl-conversions/LICENSE.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/webidl-conversions/README.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/w3c-xmlserializer/LICENSE.md",
@@ -226,9 +229,6 @@
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/http-proxy-agent/README.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/http-parser-js/LICENSE.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/http-parser-js/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/html-encoding-sniffer/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/gzip-size/readme.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/get-symbol-description/CHANGELOG.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/public/logo512.png",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/public/logo192.png",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/serve-index/public/icons/page_word.png",
