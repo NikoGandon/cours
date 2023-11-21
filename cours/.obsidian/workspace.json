@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "51a06ffb36885c8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L3/Semestre 5/Automate/Cours/Lemme d'itération.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dbcf8651921443eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L3/Semestre 5/Automate/Cours/Demonstration du lemme d'itération.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "96cd2d680b0dab71",
             "type": "leaf",
             "state": {
@@ -68,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,9 +218,9 @@
   },
   "active": "21bb94ccbc601551",
   "lastOpenFiles": [
+    "L3/Semestre 5/Statistique/TD/Exam blanc/Exam blanc n°1.md",
     "L3/Semestre 5/Entreprise/Projet/Projet.md",
     "L3/Semestre 5/Statistique/TD/Chapitre 2/TD 2.md",
-    "L3/Semestre 5/Statistique/TD/Exam blanc/Exam blanc n°1.md",
     "L3/Semestre 5/Automate/Cours/Demonstration du lemme d'itération.md",
     "L3/Semestre 5/Automate/Cours/Lemme d'itération.md",
     "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git.md",
