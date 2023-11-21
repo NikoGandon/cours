@@ -116,7 +116,28 @@ Pour $x = 31$:
 
 # Exercice 6
 
-1) $0.1539$
-2) $0.0262$
-3) On cherche un $Y$ de sorte que sur un échantillon de taille $n$ prit au hasard, la probabilité que parmi eux moins de $0.01\%$ votent pour le candidat $B$:
+1) Soit $X$ suit une loi binomiale
+   On cherche $P(X \geq 13)$ :
+   $X \leadsto \mathcal{B}(25,0.4)$
+   La loi de Poisson ne peut pas être utilisée pour l'approximation : $25 \times 0.4 = 10 \geq 5$
+   On peut utiliser la loi normale pour l'approximation.
+   $P(X\geq 13)=P(X\geq 12.5)$
+   $P(X\geq 12.5)=1-P(X\leq 12.5)$
+	   $= 1-P(  \frac{x-10}{\sqrt{ 6 }}\leq \frac{2.5}{\sqrt{ 6 }})$
+	Soit $Z = \frac{x-10}{\sqrt{ 6 }}$
+	Donc $1-P(Z<1.02)$ 
+		$1-0.8461$
+		$0.1539$
    
+2) Soit $X \leadsto \mathcal{B}(100,0.4)$
+   $P(X>50)$
+   $\Leftrightarrow P(X \geq 51)$
+   $= P(X\geq 50.5)$
+   $=1-P(X \leq 50.5)$
+   $=1-P(\frac{x-40}{\sqrt{ 24 }}\leq \frac{50.5-40}{\sqrt{ 24 }})$
+   $=1- \Pi(\frac{10.5}{\sqrt{ 24 }}) = 1 - \Pi(2.14)$
+   $=1-0.9538$
+   $=0.0162$
+   
+3) $P(X\geq \frac{n}{2}+1)=P(X^k \geq \frac{n+1}{2})$
+   $$
