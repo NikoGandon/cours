@@ -114,3 +114,9 @@ Pour $x = 25$ :
 Pour $x = 31$:
 	$Z_{2}=\frac{31-µ}{\sigma}$
 
+# Exercice 6
+
+1) $0.1539$
+2) $0.0262$
+3) On cherche un $Y$ de sorte que sur un échantillon de taille $n$ prit au hasard, la probabilité que parmi eux moins de $0.01\%$ votent pour le candidat $B$:
+   
