@@ -95,6 +95,13 @@ Lien [figma](https://www.figma.com/file/QjBUzCsI04Uw56bJAJ1Lxy/Projet-Entreprise
 
 # Évaluer l'offre et la demande
 
+## Concurrent
+
+On a Leboncoin, EBay
+On a aussi, en concurrent indirect, les sites marchands de base 
+
+Leboncoin et EBay ont mauvaise réputation sur la sécurité.
+
 ## Analyse de l'offre
 
 Ce sont nos clients qui crée l'offre - dépendante de leur consommation personnelle (vêtement, ...)
