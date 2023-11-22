@@ -72,3 +72,24 @@ Compte de résultat obligatoire
 Lien [figma](https://www.figma.com/file/QjBUzCsI04Uw56bJAJ1Lxy/Projet-Entreprise?type=design&node-id=1%3A2&mode=design&t=bukZrGuvOCB8GpwQ-1)
 
 
+# Matrice SWOT
+
+## Force et faiblesse
+
+| Force                 | Faiblesse                        | Menace                   | Opportunité                 |
+| --------------------- | -------------------------------- | ------------------------ | --------------------------- |
+| Connaissance en BDD   | Budget limite                    | Gros concurrent (Vinted) | Surconsommation             |
+| Sécurité, fiabilité   | Logistique complexe (dépendance) | Prix livraison           | Troque d'objets superflus   |
+| But écologique        | Manque expérience                | Crise économique         | Marché enchère peu exploité |
+| Fonctionnalité large  | Concurrent qui innove            | Prix du carburant        |                             |
+| Faible cout en techno |                                  |                          |                             |
+
+# Matrice PESTEL
+
+| Politique      | Economique      | Sociocult          | Techno   | Ecolo             | Legalite            |
+| -------------- | --------------- | ------------------ | -------- | ----------------- | ------------------- |
+| Prix carburant | Prix carburant  | L'appauvrissement  | WinDev ? | Réutilisat° objet | Droit du commerce   |
+|                | Prix matos info | Mode et tendance ? |          | Dépense carburant | Client litige       |
+|                |                 |                    |          |                   | Contrat avec client |
+|                |                 |                    |          |                   | Différente loi pays |
+
