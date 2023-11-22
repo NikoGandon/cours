@@ -36,7 +36,7 @@ Vente -> Echange et enchere
 - ...
 
 # Statut juridique
-Le statut juridique de l'entreprise est SEL (Société d'Exercice Libéral) ou Entreprise Individuelle (E.I.) .
+Le statut juridique de l'entreprise est SARL.
 # Comptabilité
 Compte de résultat obligatoire
 - Expert comptable
