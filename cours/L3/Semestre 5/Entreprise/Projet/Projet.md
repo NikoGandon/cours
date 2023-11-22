@@ -118,3 +118,10 @@ La demande de l'enchère est supérieur à l'offre
 # Étude de marché
 
 ## Mode de distribution
+
+On délègue la tâche de distribution à une entreprise spécialisée dans le transport.
+
+# Statut juridique
+
+Le statut juridique de THub et SARL (Société A Responsabilité Limité)
+
