@@ -8,7 +8,6 @@ Vente -> Echange et enchere
 
 # Public cible
 
-- Professionnel - start-up / début de projet
 - Particulier - classe moyenne / SMICARD (site d'échange/enchere)
 # Idée
 
@@ -33,7 +32,6 @@ Vente -> Echange et enchere
 
 - Multiservices : enchère et échange
 - Peu de concurrence ?
-- ...
 
 # Statut juridique
 Le statut juridique de l'entreprise est SARL.
