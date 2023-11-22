@@ -69,6 +69,7 @@ Compte de résultat obligatoire
 
 Lien [figma](https://www.figma.com/file/QjBUzCsI04Uw56bJAJ1Lxy/Projet-Entreprise?type=design&node-id=1%3A2&mode=design&t=bukZrGuvOCB8GpwQ-1)
 
+_______
 
 # Matrice SWOT
 
@@ -122,4 +123,21 @@ On délègue la tâche de distribution à une entreprise spécialisée dans le t
 # Statut juridique
 
 Le statut juridique de THub et SARL (Société A Responsabilité Limité)
+Nous sommes 5, on se partage les parts de l'entreprise, nous exerçons une activité libérale, pas besoin d'un grand investissement de départ.
 
+# Besoin personnels
+
+Logistique : sous traitance
+On va s'occuper au début (non à terme) sur la structure informatique de l'entreprise
+
+# Investissement nécessaire
+
+- Ordinateur (1 ou 2)
+- Cout des serveurs
+- Logistique
+
+# Charge sociale
+
+- Cotisation foncière des entreprises
+- Contribution à la formation pro continue
+- T.V.A.
