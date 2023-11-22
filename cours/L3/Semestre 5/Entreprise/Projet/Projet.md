@@ -93,3 +93,21 @@ Lien [figma](https://www.figma.com/file/QjBUzCsI04Uw56bJAJ1Lxy/Projet-Entreprise
 |                |                 |                    |          |                   | Contrat avec client |
 |                |                 |                    |          |                   | Différente loi pays |
 
+# Évaluer l'offre et la demande
+
+## Analyse de l'offre
+
+Ce sont nos clients qui crée l'offre - dépendante de leur consommation personnelle (vêtement, ...)
+L'offre est causé par la surconsommation et les biens plus utilisés
+Ce qui est la mode en ce moment est l'écologie, les gens ont intérêt d'échanger leur affaires : c'est également économique.
+
+## Analyse de la demande
+
+La demande est symétrique à l'offre (pour les mêmes raisons que l'offre)
+Cependant pour l'enchère donne accès à des objets d'une certaines valeurs/raretés.
+La demande de l'enchère est supérieur à l'offre
+
+
+# Étude de marché
+
+## Mode de distribution
