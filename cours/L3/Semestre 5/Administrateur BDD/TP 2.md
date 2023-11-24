@@ -16,3 +16,20 @@
 
 # Exercice 2
 
+All done
+
+# Exercice 3
+
+1. .
+2. .
+3. .
+4. .
+5. .
+6. .
+7. .
+8. .
+
+# Exercice 4
+
+
+
