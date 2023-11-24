@@ -23,12 +23,8 @@
             "id": "df06993c7694b5df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L3/Semestre 5/Genie Logiciel/TD du 24 novembre.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -106,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Genie Logiciel/TD du 24 novembre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Genie Logiciel/TD du 24 novembre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "L3/Semestre 5/Genie Logiciel/TD du 24 novembre.md"
-              }
+              "state": {}
             }
           },
           {
@@ -206,6 +198,7 @@
   },
   "active": "df06993c7694b5df",
   "lastOpenFiles": [
+    "L3/Semestre 5/Genie Logiciel/TD du 24 novembre.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot/Statut de robot.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot/Dashboard des robots.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur/Dashboard des superAdministrateurs.md",
@@ -247,7 +240,6 @@
     "L3/Semestre 5/Programmation WebServ/Projet/Tests/readme.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/README.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/readme.md",
-    "L3/Semestre 5/Genie Logiciel/TD du 24 novembre.md",
     "L3/Semestre 5/Programmation WebServ/Projet/README.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/function-bind/README.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/body-parser/HISTORY.md",
