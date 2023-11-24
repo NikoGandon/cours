@@ -20,4 +20,7 @@ Real = 120 j.h.
 Étude technique : 10% de 120 : 12
 test et MEO : 40% de 120 : 48
 
-Charge du projet : 222 / 300 = 74%
+Pilotage de projet : 270 / 300 = 30 j.h.
+
+$\text{durée}_{\text{estimé mois}}=\sqrt{ \text{Charge}_{mois.homme} }$
+$=\sqrt{ 17.64 } \approx 4.20 \text{ mois}$

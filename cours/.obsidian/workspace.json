@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab730614f9cb45a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client/Plan du site.md",
+                "file": "L3/Semestre 5/Administrateur BDD/TP 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,52 +206,52 @@
   },
   "active": "df06993c7694b5df",
   "lastOpenFiles": [
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/function-bind/test/index.js",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/function-bind/test",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/get-intrinsic/test/GetIntrinsic.js",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/get-intrinsic/test",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/gopd/test/index.js",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/gopd/test",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/passport/package.json",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/express/package.json",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/dotenv/package.json",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client/Plan du site.md",
-    "L3/Semestre 5/Genie Logiciel/TD du 24 novembre.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Route",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Model",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/function-bind/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/body-parser/HISTORY.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/define-data-property/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/encodeurl/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/fresh/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/parseurl/HISTORY.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/merge-descriptors/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/etag/README.md",
-    "L3/Semestre 5/Administrateur BDD/TP 2.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/BDD.png",
-    "L3/Semestre 5/Programmation WebServ/Information/Informations sur le projet.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/readme.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Tests/readme.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/readme.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur/Statut de superAdministrateur.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur/Dashboard des superAdministrateurs.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot/Statut de robot.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot/Dashboard des robots.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur/Statut de développeur.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur/Dashboard des superAdministrateurs.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur/Statut de superAdministrateur.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur/Dashboard des développeurs.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur/Statut de développeur.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/groupes.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Interface web.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/messages privés.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/InterCenter.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/wiki/utilisateur/documentationUtilisateur.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/wiki/technique/documentationTechnique.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client/Plan du site.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion/Gestion de la base de donnée.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb.bak",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/schema_BDD.mwb",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/BDD.svg",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Service_User.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Service_Serveur.png",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Service_MessagePrive.png",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Service_Groupe.png",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Présentation des routes.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/wiki/utilisateur",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/wiki/technique",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API_SCHEMA_Service_User.png",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API_SCHEMA_Service_Serveur.png",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API_SCHEMA_Service_MP.png",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API_SCHEMA_Service_Groupe.png",
+    "L3/Semestre 5/Administrateur BDD/TP 2.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Tests/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/readme.md",
+    "L3/Semestre 5/Genie Logiciel/TD du 24 novembre.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/function-bind/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/body-parser/HISTORY.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/BDD.png",
     "Sans titre.canvas",
     "Sans titre 1.canvas"
   ]
