@@ -10,14 +10,14 @@
 | Total C.D.V.s    |                            | 270        |
 
 
-Avant-Projet = 25% charge étude détaillé => 15jh
+Avant-Projet = 25% charge étude détaillé => 15 j.h.
 
-étude détaillé : 25% jh -> 4 * 15jh = 60jh
-Real = 120jh
+étude détaillé : 25% j.h. -> 4 * 15jh = 60jh
+Real = 120 j.h.
 
-60jh = 20% total = 300jh
-etude préalable = 10% de 300 : 30
-etude technique : 10% de 120 : 12
+60 j.h. = 20% total = 300 j.h.
+Étude préalable = 10% de 300 : 30
+Étude technique : 10% de 120 : 12
 test et MEO : 40% de 120 : 48
 
 Charge du projet : 222 / 300 = 74%
