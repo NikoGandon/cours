@@ -20,14 +20,14 @@ All done
 
 # Exercice 3
 
-1. .
+1. ``u01/app/oracle/oradata/db01/example01.dbf``
 2. .
-3. .
-4. .
-5. .
-6. .
+3. Cette requête indique le nombre de block et de byte que comprends un segment
+4. Il duplique 5 fois la table ``COPY_EMP`` dans cette même table
+5. 
+6. Une erreur est produite : ``unable to extend table...``
 7. .
-8. .
+8. Le segment est complétement vidé avec ``TRUNCATE``
 
 # Exercice 4
 
