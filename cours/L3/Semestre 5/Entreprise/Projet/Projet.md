@@ -110,10 +110,11 @@ Chez TradeHub, nous croyons en l'énorme potentiel des enchères en ligne pour l
 
 ## Concurrent
 
-On a Leboncoin, EBay
+On a Leboncoin, EBay, Vinted
 On a aussi, en concurrent indirect, les sites marchands de base 
 
 Leboncoin et EBay ont mauvaise réputation sur la sécurité.
+Vinted a une image de vente de vêtement
 
 ## Analyse de l'offre
 
