@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3ec569618c1a329d",
+            "id": "164e7ed7713f8d73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Administrateur BDD/TP 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8b25356999f9eb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L3/Semestre 5/Statistique/TD/Exam blanc/Exam blanc N°2.md",
+                "file": "L3/Semestre 5/Ergonomie/Cours-TD-TP/Cours du 12 decembre.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Statistique/TD/Exam blanc/Exam blanc N°2.md",
+                "file": "L3/Semestre 5/Ergonomie/Cours-TD-TP/Cours du 12 decembre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Statistique/TD/Exam blanc/Exam blanc N°2.md",
+                "file": "L3/Semestre 5/Ergonomie/Cours-TD-TP/Cours du 12 decembre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Statistique/TD/Exam blanc/Exam blanc N°2.md"
+                "file": "L3/Semestre 5/Ergonomie/Cours-TD-TP/Cours du 12 decembre.md"
               }
             }
           },
@@ -204,54 +191,54 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b8b25356999f9eb0",
+  "active": "164e7ed7713f8d73",
   "lastOpenFiles": [
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Route/Groupe/Groupe.js",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Route/Serveur/Serveur.js",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Route/User/User.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Logic/Groupe/Groupe.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Logic/Groupe",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Logic",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Route/User/OptionUtilisateur/updateUser.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Route/User/OptionUtilisateur/deleteUser.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Route/User/OptionUtilisateur/createUser.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Route/User/OptionUtilisateur",
     "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Route/Administrateur/admin.js",
     "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Route/Administrateur",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Model/Message/Message.model.js",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Model/Message",
-    "L3/Semestre 5/Entreprise/Projet/Projet.md",
     "L3/Semestre 5/Statistique/TD/Exam blanc/Exam blanc N°2.md",
+    "L3/Semestre 5/Ergonomie/Cours-TD-TP/Cours du 12 decembre.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/gauge/themes.js",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/signal-exit/signals.js",
+    "L3/Semestre 5/Automate/Cours/Forme normale de Chomsky.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/lodash/release.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/lodash/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/object-inspect/CHANGELOG.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/mysql2/lib/auth_plugins/caching_sha2_password.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/mime/CHANGELOG.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/node-fetch/LICENSE.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/express/node_modules/raw-body/SECURITY.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/named-placeholders/node_modules/lru-cache/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/rimraf/CHANGELOG.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/range-parser/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/src/assets/react.svg",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/public/vite.svg",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/README.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/readme.md",
+    "L3/Semestre 5/Programmation WebServ/Projet/Tests/readme.md",
     "L3/Semestre 5/Statistique/TD/Chapitre 3/TD 3.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Model/Lien/CodeServeur.model.js",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Model/Lien/MessagePrivee.model.js",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Model/Lien/SalonServeur.model.js",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Model/Lien/MessageSalon.model.js",
-    "L3/Semestre 5/Statistique/TD/Chapitre 3/Sans titre.md",
     "L3/Semestre 5/Administrateur BDD/TP 4.md",
-    "L3/Semestre 5/Programmation WebServ/Autre/Utilisation de git.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur/Statut de superAdministrateur.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/SuperAdministrateur/Dashboard des superAdministrateurs.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot/Statut de robot.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Robot/Dashboard des robots.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur/Statut de développeur.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Developpeur/Dashboard des développeurs.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/User/Interface web.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/serveurs.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/messages privés.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/InterCenter.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Serveur/groupes.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/wiki/utilisateur/documentationUtilisateur.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/wiki/technique/documentationTechnique.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/gestion/Gestion de la base de donnée.md",
+    "L3/Semestre 5/Administrateur BDD/TD 4.md",
+    "L3/Semestre 5/Administrateur BDD/TD 3.md",
+    "L3/Semestre 5/Administrateur BDD/TD 2.md",
+    "Excalidraw/Drawing 2023-12-07 12.19.14.excalidraw.md",
+    "Excalidraw/Drawing 2023-12-07 11.56.49.excalidraw.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Service_Groupe.png",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/Client/Plan du site.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/BDD.svg",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Service_User.png",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Service_Serveur.png",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Service_MessagePrive.png",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Présentation des routes.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Diagramme UML Serveur.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API_SCHEMA_Service_User.png",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API_SCHEMA_Service_Serveur.png",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API_SCHEMA_Service_MP.png",
-    "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API_SCHEMA_Service_Groupe.png",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/src/assets/react.svg",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/readme.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas"
   ]
