@@ -65,11 +65,21 @@ Soit $X \leadsto \mathcal{N}(m, \sigma)$ :
 	   $\Leftrightarrow \left( \frac{0.015}{\frac{0.15}{\sqrt{ n }}} \right)=2.575 \Leftrightarrow \frac{0.013 \times \sqrt{ n }}{0.15}=2.575$
 	   $\Leftrightarrow 0.015 \times \sqrt{ n }=0.15 \times 2.575$
 	   $\sqrt{ n }= \frac{0.15 \times 2.575}{0.015}=25.75 \Leftrightarrow n = 25.75^2 = 663$ ou $664$
-2. .
-	1. .
-	2. .
+2. A faire
+	1. $\overline{x} = 24.73 \text{ et } \sigma = 0.14$
+	2. On a calculé $m$ et $\sigma$ :
+	   Pour l'estimateur du paramètre $m=\overline{x}$ :
+	   Soit $\mathcal{N}(24.73, 0.14)$:
+	   
 	3. .
 	4. .
 	5. .
 # Exercice 3
 
+1. $$\overline{x}=\sum_{i=0}^{6}\left( \frac{n_{i} \times x_{i}}{\sum (n_{i})} \right)$$
+   $\overline{x}=\frac{0 \times 14 + 1 \times 18 + 2 \times 11 + 3 \times 4 + 4 \times 2 + 5 \times 1 + 0}{50}$
+   $\Leftrightarrow \overline{x} = 1.3$
+   Soit $V(X) = 1.41$
+2. Soit $X \leadsto \mathcal{P}$ :
+   Je ne sais pas
+   
