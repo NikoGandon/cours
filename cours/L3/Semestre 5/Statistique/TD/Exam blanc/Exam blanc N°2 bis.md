@@ -58,7 +58,7 @@ Soit $X \leadsto \mathcal{N}(m, \sigma)$ :
 	   $\Leftrightarrow \frac{a}{0.0335}=2 \Leftrightarrow a = 2 \times 0.0335 = 0.067$
 	   $[24.80-0.067; 24.80 + 0.067]$
 	   $= [24.733; 24.867]$
-	   	   
+
 	3. On détermine la taille que devrait avoir l'échantillon pour que l'intervalle de confiance de $m$ au seuil de $99\%$ ait une amplitude de $0.03$ :
 	   $2\Pi\left( \frac{0.015}{\frac{0.15}{\sqrt{ n }}} \right) - 1 = 0.99$
 	   $\Leftrightarrow \Pi\left( \frac{0.015}{\frac{0.15}{\sqrt{ n }}} \right)=\frac{1.99}{2}=0.995$
@@ -67,24 +67,50 @@ Soit $X \leadsto \mathcal{N}(m, \sigma)$ :
 	   $\sqrt{ n }= \frac{0.15 \times 2.575}{0.015}=25.75 \Leftrightarrow n = 25.75^2 = 663$ ou $664$
 2. A faire
 	1. $\overline{x} = 24.73 \text{ et } \sigma = 0.14$
-	2. On a calculé $m$ et $\sigma$ :
-	   Pour l'estimateur du paramètre $m=\overline{x}$ :
-	   Soit $\mathcal{N}(24.73, 0.14)$:
+	2. Estimateur de la moyenne : $\overline{x}=\frac{1}{n} \sum x_{i}$
+	   Estimateur de l'écart type : $s= \sqrt{ \frac{\sum(x_{i}-\overline{x})^2}{n-1} }$
 	   
-	3. .
-	4. .
-	5. .
+	3. Loi de Student pour la moyenne et la loi de $\chi ^ 2$ pour $\sigma$ 
+	4. 
+		1. Pour la moyenne : 
+		   $\mathcal{S}\left( \overline{x}; \frac{s}{\sqrt{ 10 }} \right)$
+		   $\Leftrightarrow \mathcal{S}\left( 24.73; \frac{0.14}{\sqrt{ 10 }} \right)$
+		   $\Leftrightarrow \mathcal{S}(24.73; 0.44)$
+		   $P(µ-x \leq µ \leq µ + x) = 0.95$
+		   $\Leftrightarrow P_{1}=\frac{1-0.95}{2}$
+		   $\Leftrightarrow P_{1} = \frac{0.05}{2}=0.025$
+		   D'après le tableau, $p = 0.02$ et $n = n - 1 = 9$
+		   On recherche pour $n = 9$ et $p = 0.02$
+		   $\alpha=2.821$
+		   $[µ-\alpha; µ + \alpha]$
+		2. Pour l'écart type :
+		   On se réfère à la loi de $\chi^2$
+		   Soit $P = 95\%$ :
+		   Soit $Q = 100-95\% = 5\%$
+		   $\alpha_{1}=\frac{0.05}{2}=0.025$
+		   $\alpha=0.95+0.025=0.975$
+		   $U_{1}=19 \text{ et } U_{2}=2.7$
+		   $s=\sqrt{ \frac{\left( \sum(x_{i}-\overline{x})^2 \right)}{n-1} }$
+		   On peut calculer avec : $$(n-1)\left( \frac{s^2}{\sigma^2} \right)$$
+		   $\sigma_{1}=\sqrt{ \frac{0.2025}{19} } = 0.103$
+		   $\sigma_{2}=\sqrt{ \frac{0.2025}{2.7} }=0.274$  
+	5. Soit $\mathcal{S}(24.73; 0.044)$
+	   $P(µ-x \leq µ \leq µ + x)$
+	   $P_{1}=\frac{1-0.05}{2} \approx 0.5$
+	   $\alpha=0.883$
+	   $[µ-\alpha; µ + \alpha]$
 # Exercice 3
 
 1. $$\overline{x}=\sum_{i=0}^{6}\left( \frac{n_{i} \times x_{i}}{\sum (n_{i})} \right)$$
    $\overline{x}=\frac{0 \times 14 + 1 \times 18 + 2 \times 11 + 3 \times 4 + 4 \times 2 + 5 \times 1 + 0}{50}$
    $\Leftrightarrow \overline{x} = 1.3$
    On sait que $V(X) = 1.41$
-2. On sait que le degré de liberté est $n-1$, $n = 7$, or nous connaissons la variance donc le degré de liberté est moindre : $n-1-1 = 5$
-   On sait que nous travaillons avec une loi de poisson dont $\lambda = \overline{x} = 1.3$
+2. On sait que le degré de liberté est $n-1$, $n = 7$, cependant, nous devons calculer $\lambda$ 
+   $\lambda = \overline{x} = 1.3$
+   Nous venons de calculer $\lambda$, nous devons enlever 2 degrés de liberté et non plus 1.
    On cherche $\lambda > \sigma$
    On cherche au risque de $5\%$ : donc au seuil de $95\%$ :
-   Donc $\lambda \leq \sigma$, selon la loi de Khi 2 : 
+   Donc $\lambda \leq \sigma$, selon la loi de $\chi^{2}$ : 
    $P(U_{k}\geq U_{\alpha}) = \alpha$
    $P(U_{5}\geq U_{\alpha}) = \alpha$
    Sur le tableau, avec $k=5 \text{ et } \alpha = 0.95$, on trouve $U_{\alpha} = 1.15$
