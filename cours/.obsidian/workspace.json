@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "L3/Semestre 5/Ergonomie/Cours-TD-TP/Loi ergonomique.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00b0dba9bdcf1255",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "L3/Semestre 5/Statistique/TD/Exam blanc/Exam blanc N°2 bis.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "b352e4c33f9d648e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L3/Semestre 5/Statistique/TD/Chapitre 3/TD 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,10 +216,25 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "164e7ed7713f8d73",
+  "active": "00b0dba9bdcf1255",
   "lastOpenFiles": [
-    "L3/Semestre 5/Statistique/TD/Exam blanc/Exam blanc N°2.md",
+    "Sans titre.md",
+    "L3/Semestre 5/Ergonomie/Cours-TD-TP/Loi ergonomique.md",
     "L3/Semestre 5/Statistique/TD/Exam blanc/Exam blanc N°2 bis.md",
+    "L3/Semestre 5/Statistique/TD/Chapitre 3/TD 3.md",
+    "L3/Semestre 5/Administrateur BDD/TD 3.md",
+    "L3/Semestre 5/Administrateur BDD/TD 2.md",
+    "L3/Semestre 5/Administrateur BDD/revision/TD 2.md",
+    "L3/Semestre 5/Administrateur BDD/Dessin/TD-2-Exercice-2-a.excalidraw.md",
+    "L3/Semestre 5/Administrateur BDD/Dessin/TD-2-Exercice-1-c.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-25 08.57.38.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-19 13.43.37.excalidraw.md",
+    "Excalidraw/Drawing 2023-12-07 11.56.49.excalidraw.md",
+    "Excalidraw/Drawing 2023-12-07 12.19.14.excalidraw.md",
+    "L3/Semestre 5/Administrateur BDD/revision/TD 1.md",
+    "L3/Semestre 5/Administrateur BDD/TD 1.md",
+    "L3/Semestre 5/Administrateur BDD/revision",
+    "L3/Semestre 5/Statistique/TD/Exam blanc/Exam blanc N°2.md",
     "L3/Semestre 5/Entreprise/Projet/Projet.md",
     "L3/Semestre 5/Entreprise/Information.md",
     "L3/Semestre 5/Genie Logiciel/TD du 15 decembre.md",
@@ -213,24 +253,9 @@
     "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Model/Lien/BlockListUser.model.js",
     "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Model/Lien/BlockListUser.js",
     "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/Model/Lien/FriendUser.js",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/src/logic/Utilisateur/friend.js",
     "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/toposort-class/benchmark/README.md",
-    "L3/Semestre 5/Automate/Cours/Forme normale de Chomsky.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/lodash/release.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/lodash/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/object-inspect/CHANGELOG.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/mysql2/lib/auth_plugins/caching_sha2_password.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/mime/CHANGELOG.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/node-fetch/LICENSE.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/express/node_modules/raw-body/SECURITY.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/named-placeholders/node_modules/lru-cache/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/rimraf/CHANGELOG.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/app-express/node_modules/range-parser/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ServeurSide/readme.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/src/assets/react.svg",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/public/vite.svg",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/readme.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Service_Groupe.png",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/BDD.svg",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Service_User.png",
