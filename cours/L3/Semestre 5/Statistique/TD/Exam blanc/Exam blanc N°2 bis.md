@@ -61,7 +61,7 @@ Soit $X \leadsto \mathcal{N}(m, \sigma)$ :
 	   	   
 	3. On détermine la taille que devrait avoir l'échantillon pour que l'intervalle de confiance de $m$ au seuil de $99\%$ ait une amplitude de $0.03$ :
 	   $2\Pi\left( \frac{0.015}{\frac{0.15}{\sqrt{ n }}} \right) - 1 = 0.99$
-	   $\Leftrightarrow \Pi\left( \frac{0.015}{\frac{0.15}{n}} \right)=\frac{1.99}{2}=0.995$
+	   $\Leftrightarrow \Pi\left( \frac{0.015}{\frac{0.15}{\sqrt{ n }}} \right)=\frac{1.99}{2}=0.995$
 	   $\Leftrightarrow \left( \frac{0.015}{\frac{0.15}{\sqrt{ n }}} \right)=2.575 \Leftrightarrow \frac{0.013 \times \sqrt{ n }}{0.15}=2.575$
 	   $\Leftrightarrow 0.015 \times \sqrt{ n }=0.15 \times 2.575$
 	   $\sqrt{ n }= \frac{0.15 \times 2.575}{0.015}=25.75 \Leftrightarrow n = 25.75^2 = 663$ ou $664$
@@ -79,7 +79,19 @@ Soit $X \leadsto \mathcal{N}(m, \sigma)$ :
 1. $$\overline{x}=\sum_{i=0}^{6}\left( \frac{n_{i} \times x_{i}}{\sum (n_{i})} \right)$$
    $\overline{x}=\frac{0 \times 14 + 1 \times 18 + 2 \times 11 + 3 \times 4 + 4 \times 2 + 5 \times 1 + 0}{50}$
    $\Leftrightarrow \overline{x} = 1.3$
-   Soit $V(X) = 1.41$
-2. Soit $X \leadsto \mathcal{P}$ :
-   Je ne sais pas
+   On sait que $V(X) = 1.41$
+2. On sait que le degré de liberté est $n-1$, $n = 7$, or nous connaissons la variance donc le degré de liberté est moindre : $n-1-1 = 5$
+   On sait que nous travaillons avec une loi de poisson dont $\lambda = \overline{x} = 1.3$
+   On cherche $\lambda > \sigma$
+   On cherche au risque de $5\%$ : donc au seuil de $95\%$ :
+   Donc $\lambda \leq \sigma$, selon la loi de Khi 2 : 
+   $P(U_{k}\geq U_{\alpha}) = \alpha$
+   $P(U_{5}\geq U_{\alpha}) = \alpha$
+   Sur le tableau, avec $k=5 \text{ et } \alpha = 0.95$, on trouve $U_{\alpha} = 1.15$
+   On sait que la formule est $(n-1)\left( \frac{s^2}{\sigma ^ 2} \right)$
+   $\Leftrightarrow 1.15 = 5 \times \frac{s^2}{\sigma ^ 2}$
+   $\Leftrightarrow 1.15 \times 5 = \frac{s^2}{\sigma ^ 2}$
+   $\Leftrightarrow \frac{1.15}{5} \times \sigma ^ 2 = s^2$
+   $\Leftrightarrow \sigma^2=\frac{5}{1.15}\times s^2$
+   $\Leftrightarrow \sigma = \sqrt{ \frac{5}{1.15} \times s^2 }$
    
