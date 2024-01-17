@@ -2,7 +2,7 @@
 - Zone geo
 	-  Ville
 		- Grande ville (banlieue inclus)
-		- noir
+		- Petite ville 
 	- Campagne
 - Horaire
 - cat. socio pro ?
@@ -12,10 +12,7 @@ Cibles :
 - ///////////////////////////////////// / centre -> periphe
 - Ptite ville /  //////////////////////// / periph -> centre
 
-
-
-
-
+Ceux qui veulent faire des economies et écologique
 
 
 
