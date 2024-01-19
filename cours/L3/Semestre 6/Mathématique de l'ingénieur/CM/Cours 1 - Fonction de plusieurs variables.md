@@ -32,10 +32,6 @@ $$\Leftrightarrow \left \{
 z = 16 - 3x^2 - 3y^2 \\
 z \geq 0
 \end{array}
-\right.$$$$\Leftrightarrow \left \{
-\begin{array}{rcl}
-z + 3x^2 + 3y^2 = 16 \\
-z \geq 0
-\end{array}
 \right.$$
+_______
 
