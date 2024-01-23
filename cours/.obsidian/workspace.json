@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d64a288394ddc844",
+        "id": "6f7c697e5742941d",
         "type": "tabs",
         "children": [
           {
-            "id": "42e5e42f113fa66d",
+            "id": "d5db84419f12082a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 5/Automate/TD/TD 5.md",
+                "file": "L3/Semestre 6/Complexité et graphe/TD du 23 janvier.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 5/Automate/TD/TD 5.md",
+                "file": "L3/Semestre 6/Complexité et graphe/TD du 23 janvier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 5/Automate/TD/TD 5.md",
+                "file": "L3/Semestre 6/Complexité et graphe/TD du 23 janvier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 5/Automate/TD/TD 5.md"
+                "file": "L3/Semestre 6/Complexité et graphe/TD du 23 janvier.md"
               }
             }
           },
@@ -189,14 +189,19 @@
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "42e5e42f113fa66d",
+  "active": "d5db84419f12082a",
   "lastOpenFiles": [
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD 1 - Fonction de plusieurs variables.md",
+    "L3/Semestre 6/Complexité et graphe/TD du 23 janvier.md",
+    "L3/Semestre 6/XML/TD du 22 janvier.md",
+    "L3/Semestre 6/XML/TD.md",
+    "Excalidraw/Drawing 2024-01-22 16.34.47.excalidraw.md",
+    "L3/Semestre 6/XML/Cours du 15 janvier.md",
+    "L3/Semestre 5/Automate/TD/TD 6.md",
     "L3/Semestre 5/Automate/TD/TD 5.md",
+    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD 1 - Fonction de plusieurs variables.md",
     "L3/Semestre 6/Mathématique de l'ingénieur/CM/Cours 1 - Fonction de plusieurs variables.md",
     "L3/Semestre 6/Mathématique de l'ingénieur/CM/Dérivée partielle.md",
     "L3/Semestre 6/Mathématique de l'ingénieur/TD",
@@ -204,7 +209,6 @@
     "L3/Semestre 6/Complexité et graphe/Cours du 16 janvier.md",
     "L3/Semestre 6/Mathématique de l'ingénieur",
     "L3/Semestre 6/Complexité et graphe/Cours du 9 janvier.md",
-    "L3/Semestre 6/XML/Cours du 15 janvier.md",
     "L3/Semestre 6/Mémoire/Information.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Presentation_Projet_web_Serveur.pptx",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/src/codium_77201342-339c-475e-921b-0f80561e1526_App.test.jsx",
@@ -228,11 +232,6 @@
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/jest-runner/node_modules/ansi-styles/readme.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/@sinclair/typebox/readme.md",
     "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/yargs/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/@types/yargs-parser/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/@types/yargs/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/@types/stack-utils/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/@types/istanbul-reports/README.md",
-    "L3/Semestre 5/Programmation WebServ/Projet/ClientSide/app-react/node_modules/@types/istanbul-lib-report/README.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/BDD/BDD.svg",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Service_User.png",
     "L3/Semestre 5/Programmation WebServ/Projet/Documentation/schema/API/Service_Serveur.png",
