@@ -1,16 +1,18 @@
-1. 25 champs et 4 types
+1. Done
+2. 19 tables et 4 types
+3. Done
 ___
 
 1. On voit la somme qu'ont rapporté au total les ventes.
 2. Done
 3. On voit la somme qu'ont rapporté au total les ventes dans chaque départements
-4. ``Select ...``
-5. Comme la 4) mais répartis dans les différentes régions du monde.
-   1. ..
+4. ``SELECT SUM(*), DISTINCT departementName FROM Sales, Department INNER JOIN ?``
+5. .
+   1. Comme la 4) mais répartis dans les différentes régions du monde
    2. Le département technologie sauf dans East 
 6. Done
 7. Done
-8. 
+8. Done
 
 ____
 1. Done
@@ -22,12 +24,13 @@ ____
 ___
 1. Done
 2. Longitude et latitude
-3. ?
-4. ?
-5. ?
-6. ?
-7. ?
-8. ?
+3. Done
+4. On peut voir les états américains qui ont effectué le plus de vente
+5. Done 
+6. On obtient une visualisation des endroits effectuant le plus de vente plus précis : on peut voir avec des points + gros les endroits avec le plus de vente
+7. .
+	1. Comme le 6), mais avec en plus des couleurs
+	2. rouge & petit -> déficit, bleu & grand -> profit
 
 ___
 1. Done
@@ -36,20 +39,28 @@ ___
 4. Done 
 5. ?
 6. Done
-7. .
-8. .
+7. Done
+8. Done
+____
+
+1. Done
+2. Done
+3. Done
+4. Done
+5. Done
+6. Done
 
 ___
 1. Done
 2. Done
 3. Done
-4. JSP
+4. Il peut y avoir des doublons ou des manques, par exemple il n'y a pas l'état d'Alaska et Hawaii
 5. On affiche deux tableaux : 
 	1. Tableau des ventes par états
 	2. Tableau de la population par états en 2010
-6. ``SELECT SUM([Sales]) / SUM([Census population (2010)])*1000 FROM table1 INNER JOIN table2 GROUP BY State``
+6. ``SELECT (SUM([Sales]) / SUM([Census population (2010)])*1000) FROM STATES-UTF8 INNER JOIN (SELECT * FROM SALES-UTF8 GROUP BY 'State') ON WHERE ?`` ``
 7. Done
-8. ?
+8. Done
 
 ___
 
@@ -59,5 +70,5 @@ ___
 4. Cluster1 et Cluster2, 
 5. Done
 6. Done
-7. ?
-8. ?
+7. Done
+8. Done
