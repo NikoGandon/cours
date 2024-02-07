@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "42994542b9d5576a",
+        "id": "55fa84818df54518",
         "type": "tabs",
         "children": [
           {
-            "id": "b4ef7d52ab4ce17d",
+            "id": "5a4c43710907a249",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 32 janvier.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1f9be4ee2e6f2f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L3/Semestre 6/Info decisionnelle/TP 1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 6/Info decisionnelle/TP 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 6/Info decisionnelle/TP 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "L3/Semestre 6/Info decisionnelle/TP 1.md"
-              }
+              "state": {}
             }
           },
           {
@@ -205,8 +184,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a1f9be4ee2e6f2f7",
+  "active": "5a4c43710907a249",
   "lastOpenFiles": [
+    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 7 février.md",
+    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 32 janvier.md",
+    "L3/Semestre 6/Info decisionnelle/TP 1.md",
+    "Sans titre.md",
     "L3/Semestre 5/Programmation WebServ/Projet/sonar_cred",
     "L3/Semestre 5/Programmation WebServ/Projet/sonar-project.properties",
     "L3/Semestre 5/Programmation WebServ/Projet/readme.md",
@@ -246,13 +229,9 @@
     "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014134449.png",
     "L3/Semestre 5/Ergonomie/Cours-TD-TP/Loi ergonomique.md",
     "L3/Semestre 5/Ergonomie/Cours-TD-TP/Cours du 12 decembre.md",
-    "L3/Semestre 5/Ergonomie/Cours-TD-TP/Cas d'usage 2 - pompe à insuline.md",
     "L3/Semestre 5/Ergonomie/Projet 2",
     "L3/Semestre 5/Ergonomie/Projet 3",
     "L3/Semestre 5/Ergonomie/Image",
-    "L3/Semestre 5/Ergonomie/Projet 1",
-    "L2/Reseau Entreprise/TD/NAT.md",
-    "L2/Reseau Entreprise/TP/Compte rendu TP 7 Réseau d'entreprise.md",
     "Sans titre.canvas",
     "Sans titre 1.canvas"
   ]
