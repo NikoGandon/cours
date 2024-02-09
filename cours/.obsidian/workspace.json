@@ -11,8 +11,12 @@
             "id": "5a4c43710907a249",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "L3/Semestre 6/Patron Conception/TD du 7 février.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "L3/Semestre 6/Patron Conception/TD du 7 février.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "L3/Semestre 6/Patron Conception/TD du 7 février.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "L3/Semestre 6/Patron Conception/TD du 7 février.md"
+              }
             }
           },
           {
@@ -186,6 +194,7 @@
   },
   "active": "5a4c43710907a249",
   "lastOpenFiles": [
+    "L3/Semestre 6/Patron Conception/TD du 7 février.md",
     "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 7 février.md",
     "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 32 janvier.md",
     "L3/Semestre 6/Info decisionnelle/TP 1.md",
@@ -228,7 +237,6 @@
     "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014134357.png",
     "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014134449.png",
     "L3/Semestre 5/Ergonomie/Cours-TD-TP/Loi ergonomique.md",
-    "L3/Semestre 5/Ergonomie/Cours-TD-TP/Cours du 12 decembre.md",
     "L3/Semestre 5/Ergonomie/Projet 2",
     "L3/Semestre 5/Ergonomie/Projet 3",
     "L3/Semestre 5/Ergonomie/Image",
