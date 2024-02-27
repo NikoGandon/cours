@@ -37,7 +37,8 @@ $$log(n) * \sum^{\log(n)}_{k=1} {2k}$$
 # Exercice 4
 
 1. ![[Exercice 5 td 27 fevrier.excalidraw]]
-2. 
+2. Nous rentrons le mot "abab", donc nous aurons ABAB (autant en majuscule)
+3. Avec ``(a|b)*``, 
 # Exercice 5
 
 1. On peut le savoir en regardant à partir du 3ème bit de la droite et si le premier bit est à 0
