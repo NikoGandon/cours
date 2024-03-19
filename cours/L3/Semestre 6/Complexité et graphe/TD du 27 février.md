@@ -6,11 +6,11 @@
 E(n) :
 	x = 0
 	for (i = 1, i <= n, i = i * 2)
-		for (j = 1, j <= 1, j++)
+		for (j = 1, j <= i, j++)
 			x++
 ```
 
-$$log(n) * \sum^{\log(n)}_{k=1} {2k}$$
+$$log_{2}(n) * \sum^{\log_{2}(n)}_{k=1} {2^k}$$
 # Exercice 3
 
 1. En une heure, nous traitons $N$ opérations un problème $\mathcal{O}(n)$, nous pouvons traiter $100x$ plus d'opération en 1 heure avec un ordinateur 100x plus puissant, pareil pour $1000000x$ 
@@ -42,4 +42,7 @@ $$log(n) * \sum^{\log(n)}_{k=1} {2k}$$
 # Exercice 5
 
 1. On peut le savoir en regardant à partir du 3ème bit de la droite et si le premier bit est à 0
-2. 
+
+
+$$\mathcal{O}(n^j) \Leftrightarrow \sqrt[j]{ N }$$
+$$\mathcal{O}(j^n) \Leftrightarrow \log_{j}{N}$$
