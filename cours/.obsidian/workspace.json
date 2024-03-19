@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "55fa84818df54518",
+        "id": "e4f5ddb052d83bb6",
         "type": "tabs",
         "children": [
           {
-            "id": "b56f0204372a6538",
+            "id": "d2026c2bfedfabfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "203526507dc2a609",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L3/Semestre 6/Complexité et graphe/TD du 27 février.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "312ed731f8fdcc4d",
+            "id": "f60787779c8cee49",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "L3/Semestre 6/Complexité et graphe/Exercice 5 td 27 fevrier.excalidraw.md"
+                "file": "L3/Semestre 6/Patron Conception/Drawing 2024-03-18 10.13.40.excalidraw.md"
               }
             }
           }
@@ -116,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 6/Complexité et graphe/TD du 27 février.md",
+                "file": "L3/Semestre 6/Patron Conception/Drawing 2024-03-18 10.13.40.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 6/Complexité et graphe/TD du 27 février.md",
+                "file": "L3/Semestre 6/Patron Conception/Drawing 2024-03-18 10.13.40.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 6/Complexité et graphe/TD du 27 février.md"
+                "file": "L3/Semestre 6/Patron Conception/Drawing 2024-03-18 10.13.40.excalidraw.md"
               }
             }
           },
@@ -215,20 +203,31 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "203526507dc2a609",
+  "active": "f60787779c8cee49",
   "lastOpenFiles": [
-    "L3/Semestre 6/Complexité et graphe/Exercice 5 td 27 fevrier.excalidraw.md",
+    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 32 janvier.md",
+    "L3/Semestre 6/Patron Conception/Drawing 2024-03-18 10.13.40.excalidraw.md",
+    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 14 février.md",
+    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 13 mars.md",
+    "L3/Semestre 6/Patron Conception/TD design pattern Factory.md",
+    "Excalidraw/Drawing 2024-03-13 14.52.08.excalidraw.md",
+    "L3/Semestre 6/Mathématique de l'ingénieur/TD/Exercice 5.md",
+    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 7 février.md",
+    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD 1 - Fonction de plusieurs variables.md",
     "L3/Semestre 6/Complexité et graphe/TD du 27 février.md",
+    "L3/Semestre 6/Complexité et graphe/Exercice 5 td 27 fevrier.excalidraw.md",
+    "Sans titre.md",
+    "L3/Semestre 6/Complexité et graphe/TD du 23 janvier.md",
+    "L3/Semestre 6/Complexité et graphe/Cours du 16 janvier.md",
+    "L3/Semestre 6/Complexité et graphe/Cours du 9 janvier.md",
+    "L3/Semestre 6/XML/TP 3.md",
     "L3/Semestre 6/Complexité et graphe/TD du 20 février.md",
     "L3/Semestre 6/Info decisionnelle/TP 3.md",
     "L3/Semestre 6/Patron Conception/TD du 7 février.md",
     "L3/Semestre 6/Info decisionnelle/TP 2.md",
     "L3/Semestre 6/Patron Conception/TD du 24 janvier.md",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 14 février.md",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 32 janvier.md",
     "Plus/NoSQL.md",
     "Plus",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 7 février.md",
     "L3/Semestre 6/Info decisionnelle/TP 1.md",
     "L3/Semestre 5/Programmation WebServ/Projet/sonar_cred",
     "L3/Semestre 5/Programmation WebServ/Projet/sonar-project.properties",
@@ -236,20 +235,9 @@
     "L3/Semestre 5/Programmation WebServ/Projet/Presentation_Projet_web_Serveur.pptx",
     "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Synthèse cours 2.md",
     "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage normalisée.md",
-    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage.md",
-    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage structurel.md",
-    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Découpage classique.md",
-    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2/Cycle de vie standard.md",
     "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2",
-    "L3/Semestre 5/Genie Logiciel/TD du 24 novembre.md",
-    "L3/Semestre 5/Genie Logiciel/TD du 15 decembre.md",
-    "L3/Semestre 5/Genie Logiciel/TD 2.md",
     "L3/Semestre 5/Genie Logiciel/Synthèse",
-    "L3/Semestre 5/Genie Logiciel/TD 1.md",
-    "L3/Semestre 5/Genie Logiciel/TD du 10 novembre.md",
-    "L3/Semestre 5/Genie Logiciel/Information.md",
     "L3/Semestre 5/Genie Logiciel",
-    "L3/Semestre 5/Ergonomie/Projet 2/Projet 2.md",
     "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927155329.png",
     "L3/Semestre 5/Ergonomie/Image/Zou - Erreur page achat billet.mp4",
     "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927155200.png",
