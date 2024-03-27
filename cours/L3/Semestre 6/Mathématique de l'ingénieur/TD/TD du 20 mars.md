@@ -7,14 +7,15 @@ $f(x,y)= -2x^2-xy-2y^2+12x+4y$
    Nous dérivons $f$ : 
    $X = \frac{\delta f}{\delta x} = -4x-y+12$ 
    $Y = \frac{\delta f}{\delta y} = -4y-x+4$
-   $$\overrightarrow{\text{grad}} f =
-   \left( 
+$$
+   \overrightarrow{\text{grad}} f =
+   \left(
    \begin{matrix}
         
         \frac{\delta f}{\delta x} \\
         \frac{\delta f}{\delta y}
       
-\end{matrix}
+    \end{matrix}
 \right)
 $$
 $$\overrightarrow{\text{grad}}f=0 \Leftrightarrow
@@ -59,7 +60,7 @@ $$y=
 }{
 \left\|
 \begin{matrix}
-4 & 12 \\
+4 & 1 \\
 1 & 4
 \end{matrix}
 \right\|
