@@ -4,18 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "e4f5ddb052d83bb6",
+        "id": "24004f5ce0953d01",
         "type": "tabs",
         "children": [
           {
-            "id": "d2026c2bfedfabfa",
+            "id": "1056d404da7f0c4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 20 mars.md",
+                "file": "L3/Semestre 6/Complexité et graphe/TD du 27 mars.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "cd6a25a8b88eb50a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-03-27 15.01.13.excalidraw.md"
               }
             }
           }
@@ -77,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d83e63fbef5aec18",
@@ -93,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 20 mars.md",
+                "file": "L3/Semestre 6/Complexité et graphe/TD du 27 mars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 20 mars.md",
+                "file": "L3/Semestre 6/Complexité et graphe/TD du 27 mars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 20 mars.md"
+                "file": "L3/Semestre 6/Complexité et graphe/TD du 27 mars.md"
               }
             }
           },
@@ -192,12 +203,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d2026c2bfedfabfa",
+  "active": "1056d404da7f0c4b",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-03-27 15.01.13.excalidraw.md",
+    "L3/Semestre 6/Complexité et graphe/TD du 27 mars.md",
+    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 20 mars.md",
+    "L3/Semestre 6/XML/TP 3.md",
+    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 32 janvier.md",
+    "Excalidraw/Drawing 2024-03-20 13.46.52.excalidraw.md",
     "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 13 mars.md",
     "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 14 février.md",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 20 mars.md",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 32 janvier.md",
     "L3/Semestre 6/Complexité et graphe/TD du 27 février.md",
     "L3/Semestre 6/Complexité et graphe/TD du 23 janvier.md",
     "L3/Semestre 6/Patron Conception/Drawing 2024-03-18 10.13.40.excalidraw.md",
@@ -211,18 +226,14 @@
     "Sans titre.md",
     "L3/Semestre 6/Complexité et graphe/Cours du 16 janvier.md",
     "L3/Semestre 6/Complexité et graphe/Cours du 9 janvier.md",
-    "L3/Semestre 6/XML/TP 3.md",
     "L3/Semestre 6/Complexité et graphe/TD du 20 février.md",
     "L3/Semestre 6/Info decisionnelle/TP 3.md",
     "L3/Semestre 6/Patron Conception/TD du 7 février.md",
     "L3/Semestre 6/Info decisionnelle/TP 2.md",
     "L3/Semestre 6/Patron Conception/TD du 24 janvier.md",
-    "Plus/NoSQL.md",
     "Plus",
-    "L3/Semestre 6/Info decisionnelle/TP 1.md",
     "L3/Semestre 5/Programmation WebServ/Projet/sonar_cred",
     "L3/Semestre 5/Programmation WebServ/Projet/sonar-project.properties",
-    "L3/Semestre 5/Programmation WebServ/Projet/readme.md",
     "L3/Semestre 5/Programmation WebServ/Projet/Presentation_Projet_web_Serveur.pptx",
     "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2",
     "L3/Semestre 5/Genie Logiciel/Synthèse",
