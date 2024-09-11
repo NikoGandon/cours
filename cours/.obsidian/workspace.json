@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5766e11b0e6c9272",
+        "id": "7a706c14aadef373",
         "type": "tabs",
         "children": [
           {
-            "id": "39f245a9694ee5bc",
+            "id": "d8db085c5113f391",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 12 avril.md",
+                "file": "M1/Semestre 7/Description de lang/CM du 11 septembre.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 12 avril.md",
+                "file": "M1/Semestre 7/Description de lang/CM du 11 septembre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 12 avril.md",
+                "file": "M1/Semestre 7/Description de lang/CM du 11 septembre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 12 avril.md"
+                "file": "M1/Semestre 7/Description de lang/CM du 11 septembre.md"
               }
             }
           },
@@ -158,22 +158,23 @@
             }
           },
           {
-            "id": "da0f1ea2913fc347",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
-            }
-          },
-          {
             "id": "dc3b5e05ec55248c",
             "type": "leaf",
             "state": {
               "type": "QUICKSHARE_SIDE_VIEW",
               "state": {}
             }
+          },
+          {
+            "id": "24b42c1740e9f712",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -193,43 +194,47 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "39f245a9694ee5bc",
+  "active": "d8db085c5113f391",
   "lastOpenFiles": [
-    "L3/Semestre 6/Complexité et graphe/TD du 9 avril.md",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 12 avril.md",
-    "Excalidraw/ComplexiteGraphe_TD_9avril_exo1-1.excalidraw.md",
-    "Excalidraw/Drawing 2024-04-09 13.23.09.excalidraw.md",
-    "Excalidraw/Drawing 2024-04-02 15.31.02.excalidraw.md",
-    "L3/Semestre 6/Complexité et graphe/TD du 2 avril.md",
-    "L3/Semestre 6/XML/TP 3.md",
-    "L3/Semestre 6/XML/TP 2.md",
-    "Excalidraw/Drawing 2024-03-27 15.01.13.excalidraw.md",
-    "L3/Semestre 6/Complexité et graphe/TD du 27 mars.md",
-    "Plus/NoSQL.md",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 20 mars.md",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 32 janvier.md",
-    "Excalidraw/Drawing 2024-03-20 13.46.52.excalidraw.md",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 13 mars.md",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 14 février.md",
-    "L3/Semestre 6/Complexité et graphe/TD du 27 février.md",
-    "L3/Semestre 6/Complexité et graphe/TD du 23 janvier.md",
-    "L3/Semestre 6/Patron Conception/Drawing 2024-03-18 10.13.40.excalidraw.md",
-    "L3/Semestre 6/Complexité et graphe/Cours du 19 mars.md",
-    "L3/Semestre 6/Patron Conception/TD design pattern Factory.md",
-    "Excalidraw/Drawing 2024-03-13 14.52.08.excalidraw.md",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/Exercice 5.md",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD du 7 février.md",
-    "L3/Semestre 6/Mathématique de l'ingénieur/TD/TD 1 - Fonction de plusieurs variables.md",
-    "L3/Semestre 6/Complexité et graphe/Exercice 5 td 27 fevrier.excalidraw.md",
-    "Plus",
-    "L3/Semestre 5/Programmation WebServ/Projet/sonar_cred",
-    "L3/Semestre 5/Programmation WebServ/Projet/sonar-project.properties",
-    "L3/Semestre 5/Programmation WebServ/Projet/Presentation_Projet_web_Serveur.pptx",
-    "L3/Semestre 5/Genie Logiciel/Synthèse/Cours 2",
-    "L3/Semestre 5/Genie Logiciel/Synthèse",
-    "L3/Semestre 5/Genie Logiciel",
+    "M1/Semestre 7/Modelisation & algo/Parcours en profondeur.md",
+    "M1/Semestre 7/Description de lang/CM du 11 septembre.md",
+    "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
+    "L3/Semestre 5/Automate/Cours/Dessin/Drawing 2023-09-19 08.42.21.excalidraw.md",
+    "L3/Semestre 5/Automate/Cours/Automate non régulier.md",
+    "L3/Semestre 5/Automate/Cours/Construction expression.md",
+    "L3/Semestre 5/Automate/Cours/Construction expression reguliere.md",
+    "L3/Semestre 5/Automate/Cours/Demonstration du lemme d'itération.md",
+    "L3/Semestre 5/Automate/TD/Dessin/TD1/TD1-Ex1-e.md",
+    "L3/Semestre 5/Automate/TD/Dessin/TD1/TD1-Ex1-a.md",
+    "L3/Semestre 5/Automate/TD/TD 2.md",
+    "L3/Semestre 5/Automate/TD/TD 3.md",
+    "L3/Semestre 5/Automate/TD/TD 4.md",
+    "L3/Semestre 5/Automate/TD/TD 6.md",
+    "L3/Semestre 5/Automate/TD/TD 5.md",
+    "L3/Semestre 5/Automate/Cours/Automate fini non-deterministe vide.md",
+    "L3/Semestre 5/Automate/Cours/Application du lemme d'itération.md",
+    "M1/Semestre 7/Modelisation & algo/TD 1.md",
+    "M1/Semestre 7/Modelisation & algo/Vecteur de degré.md",
+    "M1/Semestre 7/IA/TD 1.md",
+    "Sans titre.canvas",
+    "M1/Semestre 7/Modelisation & algo/Parcours en largeur.md",
+    "M1/Semestre 7/Modelisation & algo/information.md",
+    "M1/Semestre 7/Modelisation & algo/CM du 3 septembre/Sans titre.md",
+    "M1/Semestre 7/Prog parallèle/Cours du 10 septembre.md",
+    "M1/Semestre 7/Prog parallèle/Cours du 3 septembre.md",
+    "M1/Semestre 7/Test & Val/Introduction.md",
+    "M1/Semestre 7/Anglais/Information du cours.md",
+    "M1/Semestre 7/Anglais",
+    "M1/Semestre 7/Modelisation & algo/CM du 3 septembre",
+    "M1/Semestre 7/IA/CM 3 septembre",
+    "M1/Semestre 7/Description de lang",
+    "M1/Semestre 7/Dev multiplateforme",
+    "M1/Semestre 7/Prog parallèle",
+    "M1/Semestre 7/Modelisation & algo",
+    "M1/Semestre 7/Test & Val",
+    "M1/Semestre 7/IA",
+    "M1/Semestre 7",
     "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927155329.png",
-    "L3/Semestre 5/Ergonomie/Image/Zou - Erreur page achat billet.mp4",
     "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927155200.png",
     "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927154531.png",
     "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927154524.png",
@@ -238,10 +243,6 @@
     "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927152603.png",
     "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014134704.png",
     "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014134357.png",
-    "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014134449.png",
-    "L3/Semestre 5/Ergonomie/Projet 2",
-    "L3/Semestre 5/Ergonomie/Projet 3",
-    "Sans titre.canvas",
     "Sans titre 1.canvas"
   ]
 }

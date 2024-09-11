@@ -1,0 +1,1 @@
+vecteur contenant les degrés des sommets de $G$ triés par ordre dércroissant

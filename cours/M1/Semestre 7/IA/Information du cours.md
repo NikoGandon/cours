@@ -1,0 +1,11 @@
+- Note de participation (gros coef)
+- Note CC & CT (CC : controle + TP)
+- Cours de M1 :
+	- IA
+	- Programmation par contrainte
+	- M.L.
+	- Notion d'agent intelligent
+	- Intro à l'apprentissage automatique & la fouille de donnée
+	- Résolution par recherche de solution dans un espace d'état
+	- Résolution en présence d'adversité
+	- Représentation de connaissance & résolution
