@@ -24,7 +24,6 @@ $$\forall n \geq n_{0},~~ f(n) \leq c \times g(n)$$
 On cherche un algo de $\mathcal{O}(n)$ calculant les composantes connexes d'un graphe non orienté:
 On récupère l'algo du parcours en largeur et on ajoute un ensemble des composants connexes 
 
-
 $\forall v \in V$, faire
 	l'état $[v] <- \text{"non atteint"}$
 	*$c <- \{\}$* (ensemble composant connexe)
