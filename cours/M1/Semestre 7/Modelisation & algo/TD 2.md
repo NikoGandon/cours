@@ -23,8 +23,21 @@
    Ainsi, $n - m + f < 5 - 10 + 7 = 2$.
    Donc le $K_5$ ne respecte pas Euler ($n - m + f = 2$), et ici $n-m+f<2$
 4. ![[Drawing 2024-09-18 09.35.56.excalidraw||1000px]]
+   Le tore est une surface de genre $1$ 
+   >[!info] 
+   >Une surface de genre est le nombre d'anse (trou) d'une surface de l'objet étudié.
+      
+5. Soit $K_{n}$ le graphe complet à $n$ sommets. Il y a $n$ sommets et $\frac{n \times (n-1)}{2}$ arêtes.
+   Donner une borne sur son nombre $f$ de face 
+   $$f \leq \frac{n \times (n-1)}{3}$$
+   Donc $$n-m+f \leq n- \frac{n \times (n-1)}{2} + \frac{n \times (n-1)}{3}$$
+   $$\leq \frac{6n}{6}- \frac{3n \times (n-1)}{6} + \frac{2n \times (n-1)}{6}$$
+   $$\leq \frac{6n-3n^2+3n+2n^2-2n}{6}$$
+   $$\leq \frac{n \times (7-n)}{6}$$
+   D'après la formule généraliste d'Euler : $n-m+f=2-2g$
+   Donc $2-2g \leq \frac{n(7-n)}{6} \Leftrightarrow g > \frac{n \times (n-7)}{6}$
    
-5. .
+   
 
 
 # Exercice 2
