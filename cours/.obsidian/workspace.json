@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7a706c14aadef373",
+        "id": "2fcef00308b37682",
         "type": "tabs",
         "children": [
           {
-            "id": "8bf024585c9463f3",
+            "id": "baf93024b84c3f79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "M1/Semestre 7/Modelisation & algo/TD 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "301d007474eb2af4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "M1/Semestre 7/Modelisation & algo/TD 2.md",
+                "file": "M1/Semestre 7/IA/TD 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "M1/Semestre 7/Modelisation & algo/TD 2.md",
+                "file": "M1/Semestre 7/IA/TD 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "M1/Semestre 7/Modelisation & algo/TD 2.md",
+                "file": "M1/Semestre 7/IA/TD 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "M1/Semestre 7/Modelisation & algo/TD 2.md"
+                "file": "M1/Semestre 7/IA/TD 2.md"
               }
             }
           },
@@ -187,12 +174,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,10 +192,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "301d007474eb2af4",
+  "active": "baf93024b84c3f79",
   "lastOpenFiles": [
-    "Surface de genre.md",
+    "M1/Semestre 7/Description de lang/CM du 18 septembre.md",
+    "M1/Semestre 7/IA/TD 2.md",
+    "M1/Semestre 7/Description de lang/CM du 4 septembre.md",
     "M1/Semestre 7/Modelisation & algo/TD 2.md",
+    "Surface de genre.md",
     "Sans titre.canvas",
     "M1/Semestre 7/Modelisation & algo/Vecteur de degré.md",
     "M1/Semestre 7/Modelisation & algo/Drawing 2024-09-18 09.36.48.excalidraw.md",
@@ -231,9 +220,7 @@
     "M1/Semestre 7/Modelisation & algo/TD 1.md",
     "M1/Semestre 7/IA/Information du cours.md",
     "M1/Semestre 7/Description de lang/CM du 11 septembre.md",
-    "M1/Semestre 7/Description de lang/CM du 4 septembre.md",
     "M1/Semestre 7/Test & Val/Introduction.md",
-    "M1/Semestre 7/Modelisation & algo/Parcours en profondeur.md",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
     "M1/Semestre 7/Anglais",
     "M1/Semestre 7/Modelisation & algo/CM du 3 septembre",
