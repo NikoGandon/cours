@@ -109,6 +109,22 @@ C --> P
 P --> B
 ```
 
+# Exercice 3
+
+1. 1 flèche = 1 booléen
+   Espace d'état : $[a,b,c,d,e,f]$ avec $a,b,c,d,e,f \in \{0,1\}$
+   État initial : $[0,0,0,1,0,1]$
+   État final : $[1,1,1,1,1,1]$
+   $h(n) = 6 - somme(etat) / 2$
+   Nombre de O adjacents, si paire compter $1$ pour le bloc
+   
+   Simplification 1 -- $\frac{\text{Nombre de flèche vers le bas}}{2}$
+   - 2
+   - ~~adjacent~~ 
+   Simplification 2 -- $\text{Nombre de blocs vers le bas}$
+   - ~~2~~
+   - adjacent
+
 # Exercice 4
 
 Soit la fonction $f(n)=(2-w)g(n)+wh(n)$
@@ -120,9 +136,9 @@ Soit la fonction $f(n)=(2-w)g(n)+wh(n)$
 | $W = 0$ | cout uniforme | $2 \times g(n)$ |
 # Exercice 5
 
-|      Algorithme      | Fonction      |
-| :------------------- | ------------- |
-|  Recherche largeur   | $f(n) = g(n)$ |
-| Recherche profondeur | $f(n)=$       |
-|      Gloutonne       |               |
-|          A*          |               |
+|      Algorithme      | Fonction               |
+| :------------------- | ---------------------- |
+|  Recherche largeur   | $f(n) = g(n)$          |
+| Recherche profondeur | $f(n)= -g(n)$          |
+|      Gloutonne       | $f(n) = 2 \times h(n)$ |
+|          A*          | $f(n) = g(n) + h(n)$   |
