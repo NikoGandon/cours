@@ -119,12 +119,18 @@ P --> B
    Nombre de O adjacents, si paire compter $1$ pour le bloc
    
    Simplification 1 -- $\frac{\text{Nombre de flèche vers le bas}}{2}$
-   - 2
-   - ~~adjacent~~ 
+	   - 2
+	   - ~~adjacent~~ 
    Simplification 2 -- $\text{Nombre de blocs vers le bas}$
-   - ~~2~~
-   - adjacent
-
+	   - ~~2~~
+	   - adjacent
+2. . 
+	1. Heuristique 1 : flèche mal orientée
+		4 flèches mal orientées
+		
+	2. Heuristique 2 : paire mal orientée
+3. L'action consiste à retourner deux flèches adjacentes
+4. 
 # Exercice 4
 
 Soit la fonction $f(n)=(2-w)g(n)+wh(n)$
