@@ -85,3 +85,28 @@ Soit $T = \{a,b,c\}$
 	2. $S(-1)$ par $(S(3) \land S(3)) \land S(5) \implies S(6) \land S(5) \Leftrightarrow S(6-5) = S(-1)$ 
 # Exercice 8
 
+Un robot se déplace soit 6 pas devant soit 4 pas en arrière, soit $x \in \mathbb{Z}$ sa position, initialement à $0$.
+
+1. 
+
+|         inférence         | action               |
+| :-----------------------: | :------------------- |
+| $\frac{}{\text{pos}(0)}$  | axiome de départ     |
+| $\frac{pos(x)}{pos(x+6)}$ | mouvement en avant   |
+| $\frac{pos(x)}{pos(x-4)}$ | mouvement en arrière |
+2. 
+      $pos(0) \to \frac{pos(0)}{pos(6)} \text{ avancer}\to \frac{pos(6)}{pos(12)} \text{ avancer} \to \frac{pos(12)}{pos(8)} \text{ reculer}\to \frac{pos(8)}{pos(4)} \text{ reculer}$
+3. Soit $\text{pos}$ auquel on peut donner ce principe d'induction : 
+   - __base__ : $pos(0)$
+   - __induction__ : si $\text{pos}(x)$ où $x \in \mathbb{Z}$ est vrai, alors $\text{pos}(x+6)$ et $\text{pos}(x-4)$ sont vrais
+4. Pour prouver ce principe de parité, nous pouvons poser une hypothèse se basant sur la récurrence : 
+   __Initialisation__ : Soit $x \in \mathbb{Z}$, $0 \overset{*}{\implies} x$, alors $x$ est pair
+	1. Le robot avance
+	   $0 \overset{*}{\implies} x \implies x+6$
+	   par hypothèse, $x=2 \times k \implies x+6 = 2 \times k + 2 \times 3 = 2 (k + 3) \implies x + 6 \text{ est pair}$
+	2. Le rebot recule
+	   $0 \overset{*}{\implies} x \implies x -$ 
+	   par hypothèse, $x=2 \times k \implies x-4 = 2 \times k - 2 \times 2 = 2 (k - 2) \implies x - 4 \text{ est pair}$
+5. Si $\text{pos}(x)$ est vrai, alors :
+	- $\text{pos}(x+2)$ est vrai, car nous pouvons faire $\text{pos}(6-4)$ (avancer et reculer)
+	- $\text{pos}(x-2)$ est vrai car nous pouvons faire $\text{pos}(-4-4+6)$ (reculer, reculer et avancer)
