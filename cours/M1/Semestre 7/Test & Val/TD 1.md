@@ -52,3 +52,34 @@
 | Équilatéral | $(4,4,4)$  | impossible  |          impossible           |
 
 
+# Exercice 4
+
+| nombre de PJ | Taille totale PJ | Résultat |
+| :----------: | :--------------: | :------: |
+|      0       |        0         |    OK    |
+|      1       |        20        |    OK    |
+|      1       |        21        |    KO    |
+|      10      |        20        |    OK    |
+|      10      |        0         |    OK    |
+|      11      |        0         |    KO    |
+|      10      |        21        |    KO    |
+|      11      |        20        |    KO    |
+
+# Exercice 5
+
+Soit un fichier de $100$ champs de 3 colonnes : nom de l'étudiants (20 caractères), son sexe (1 caractère) et ses notes dans 5 matières (entier $[0;20]$)
+
+Le programme doit calculer la moyenne de chaque étudiants, la moyenne G. par sexe et par matière, et calculer le nombre d'étudiants qui ont réussi ($\text{moyenne} > 10$).
+
+1. passage d'un fichier vide
+2. passage d'un fichier à $1, ~ 2, ~ 99, ~ 100 \text{ et } 101$ champs
+3. Étudiants dont le nom est à $0, ~19, ~ 20 \text{ et } ~ 21$ caractères
+4. Étudiants dont le nom est composé d'un ou plus caractères non alphabétique
+5. Avec aucune note
+6. avec $4, ~ 5 \text{ et } 6$ notes
+7. Avec un code sexe vide
+8. Avec un code sexe avec 2 caractères
+9. Avec un code sexe invalide ($\notin [M, F]$)
+10. Avoir une note $> 20$ ou $< 0$
+11. Avoir une note $\notin \mathbb{N}$
+

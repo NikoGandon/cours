@@ -148,3 +148,7 @@ Soit la fonction $f(n)=(2-w)g(n)+wh(n)$
 | Recherche profondeur | $f(n)= -g(n)$          |
 |      Gloutonne       | $f(n) = 2 \times h(n)$ |
 |          A*          | $f(n) = g(n) + h(n)$   |
+
+# Exercice 6
+
+1. L'heuristique pour ce problème est 
