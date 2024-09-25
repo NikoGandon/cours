@@ -13,21 +13,39 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "M1/Semestre 7/Test & Val/TD 2.md",
+                "file": "M1/Semestre 7/Prog parallèle/TP 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "317b612d4bb6654c",
+            "id": "a27be63c805e0835",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "M1/Semestre 7/Test & Val/TD 1.md",
-                "mode": "source",
-                "source": false
+                "file": "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.1.md"
+              }
+            }
+          },
+          {
+            "id": "0552d840b2bb6f9c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.md"
+              }
+            }
+          },
+          {
+            "id": "a5cf20fec65c2b8e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.1.md"
               }
             }
           }
@@ -105,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "M1/Semestre 7/Test & Val/TD 2.md",
+                "file": "M1/Semestre 7/Prog parallèle/TP 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "M1/Semestre 7/Test & Val/TD 2.md",
+                "file": "M1/Semestre 7/Prog parallèle/TP 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "M1/Semestre 7/Test & Val/TD 2.md"
+                "file": "M1/Semestre 7/Prog parallèle/TP 1.md"
               }
             }
           }
@@ -208,9 +226,21 @@
   },
   "active": "baf93024b84c3f79",
   "lastOpenFiles": [
-    "Sans titre",
+    "M1/Semestre 7/Modelisation & algo/TD 2.md",
+    "M1/Semestre 7/Prog parallèle/TP 1.md",
+    "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.1.md",
+    "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.md",
+    "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.1.md",
+    "M1/Semestre 7/Modelisation & algo/information.md",
+    "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 1.3.md",
     "M1/Semestre 7/Test & Val/TD 1.md",
     "M1/Semestre 7/Test & Val/TD 2.md",
+    "L3/Automate/TD/Dessin/TD1/TD1-Ex2-a.md",
+    "L3/Automate/TD/Dessin/TD1",
+    "L3/Automate/TD/Dessin",
+    "L3/Automate/TD",
+    "L3/Automate",
+    "Sans titre",
     "M1/Semestre 7/Description de lang/TD 1.md",
     "M1/Semestre 7/IA/TD 2.md",
     "M1/Semestre 7/IA/TD 1.md",
@@ -220,32 +250,20 @@
     "M1/Semestre 7/Description de lang/Drawing 2024-09-20 11.36.08.excalidraw.md",
     "M1/Semestre 7/Description de lang/CM du 18 septembre.md",
     "M1/Semestre 7/Description de lang/CM du 4 septembre.md",
-    "M1/Semestre 7/Modelisation & algo/TD 2.md",
     "Surface de genre.md",
     "Sans titre.canvas",
     "M1/Semestre 7/Modelisation & algo/Vecteur de degré.md",
-    "M1/Semestre 7/Modelisation & algo/Drawing 2024-09-18 09.36.48.excalidraw.md",
     "M1/Semestre 7/Modelisation & algo/Drawing 2024-09-18 09.35.56.excalidraw.md",
     "Excalidraw/Drawing 2024-09-12 11.57.34.excalidraw.md",
     "M1/Semestre 7/Modelisation & algo/Drawing 2024-09-18 08.04.24.excalidraw.md",
     "M1/Semestre 7/Modelisation & algo/Drawing 2024-09-18 08.51.19.excalidraw.md",
     "M1/Semestre 7/Prog parallèle/TD 1.md",
     "M1/Semestre 7/Test & Val/CM 16 septembre.md",
-    "L2/Conception de base de donnée/Cours du 23 mars.md",
-    "M1/Semestre 7/Description de lang/Démontrer relation deterministe.md",
-    "Excalidraw/Drawing 2024-09-12 11.05.41.excalidraw.md",
-    "M1/Semestre 7/IA/IA.md",
-    "M1/Semestre 7/IA/arbre.excalidraw.md",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
     "M1/Semestre 7/Anglais",
     "M1/Semestre 7/Modelisation & algo/CM du 3 septembre",
     "M1/Semestre 7/IA/CM 3 septembre",
     "M1/Semestre 7/Description de lang",
-    "M1/Semestre 7/Dev multiplateforme",
-    "M1/Semestre 7/Prog parallèle",
-    "M1/Semestre 7/Modelisation & algo",
-    "M1/Semestre 7/Test & Val",
-    "M1/Semestre 7/IA",
     "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927155329.png",
     "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927155200.png",
     "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927154531.png",

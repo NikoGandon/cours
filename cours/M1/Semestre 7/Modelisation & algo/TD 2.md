@@ -71,3 +71,17 @@
 		Soit $x$ l'un de ces sommets, $G \setminus x$ a $n-1$ sommet <u>et</u> il est planaire donc par hypothèse d'induction, $G \setminus x$ admet une 5-coloration.
 		Puisque $d(x) \leq 5$ il est possible de trouver une ?coloration? n'utilisant qu'au plus 4 couleurs dans son voisinage. 
 		On peut donc colorer $x$ et donc $G$.
+
+```
+si G n'est pas connexe alors :
+	Pour chaque composante de connexe C de G:
+		5-col(C)
+
+Sinon :
+	Si n >= 2 alors
+		- Soit x au sommet de degré au plus 5
+		5-col(G \ x)
+		- Au besoin, on s'arrange pour n'utiliser que 4 couleurs de son voisinage
+	Sinon :
+		On colore l'unique sommet sommet avec une couleur quelconque
+```
