@@ -155,8 +155,57 @@ int normVector(double *v, int n)
 
 # Exercice 3
 5. Initialisation de `MPI`, `MPI_Comm_rank`, `MPI_Comm_size`, initialisation du tableau `E`, 
-6. `MPI_Scatter`, `MPI_Bcast` et `MPI_Gather`
+6. `MPI_Scatterv`, `MPI_Bcast` et `MPI_Gatherv`
 7. 
 ```cpp
+#include <mpi.h>
+#include <stdio.h>
+#include <stdlib.h>
 
+using namespace std;
+
+void generation(int n, int *tab, int graine)
+{
+  srand(time(NULL) + graine);
+  srand(2*graine+10);
+  
+  for (int i = 0; i < n; i++)
+  {
+    bool test = true;
+    
+    while (test)
+    {
+      test = false;
+      tab[i] = rand() % 50;
+
+      for (int j = 0; j < i; j++)
+        if (tab[i] == tab[j])
+          test = true;
+    }
+  }
+}
+
+int main(int argc, char **argv)
+{
+  int pid, nprocs;
+
+  MPI_Init(&argc, &argv);
+  MPI_Comm_rank(MPI_COMM_WORLD, &pid);
+  MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
+  MPI_Request request;
+  MPI_Status status;
+
+  int n = atoi(argv[1]);
+  int root = atoi(argv[2]);
+  
+  int *tab_global = new int[n];
+  int *tab_local;
+
+  if (pid == root)
+    generation(n, tab_global, pid);
+
+  MPI_Finalize();
+
+  return 0;
+}
 ```

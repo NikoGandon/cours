@@ -4,48 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2fcef00308b37682",
+        "id": "42ae7957e0077d45",
         "type": "tabs",
         "children": [
           {
-            "id": "baf93024b84c3f79",
+            "id": "b8d1648c3591d0f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "M1/Semestre 7/Prog parallèle/TP 1.md",
+                "file": "M1/Semestre 7/Dev multiplateforme/Sans titre.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "a27be63c805e0835",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.1.md"
-              }
-            }
-          },
-          {
-            "id": "0552d840b2bb6f9c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.md"
-              }
-            }
-          },
-          {
-            "id": "a5cf20fec65c2b8e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.1.md"
               }
             }
           }
@@ -123,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "M1/Semestre 7/Prog parallèle/TP 1.md",
+                "file": "M1/Semestre 7/Dev multiplateforme/Sans titre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "M1/Semestre 7/Prog parallèle/TP 1.md",
+                "file": "M1/Semestre 7/Dev multiplateforme/Sans titre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "M1/Semestre 7/Prog parallèle/TP 1.md"
+                "file": "M1/Semestre 7/Dev multiplateforme/Sans titre.md"
               }
             }
           }
@@ -224,13 +194,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "baf93024b84c3f79",
+  "active": "b8d1648c3591d0f8",
   "lastOpenFiles": [
-    "M1/Semestre 7/Modelisation & algo/TD 2.md",
-    "M1/Semestre 7/Prog parallèle/TP 1.md",
+    "M1/Semestre 7/Dev multiplateforme/Sans titre.md",
     "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.1.md",
     "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.md",
     "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.1.md",
+    "M1/Semestre 7/Modelisation & algo/TD 2.md",
+    "M1/Semestre 7/Prog parallèle/TP 1.md",
     "M1/Semestre 7/Modelisation & algo/information.md",
     "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 1.3.md",
     "M1/Semestre 7/Test & Val/TD 1.md",
@@ -258,7 +229,6 @@
     "M1/Semestre 7/Modelisation & algo/Drawing 2024-09-18 08.04.24.excalidraw.md",
     "M1/Semestre 7/Modelisation & algo/Drawing 2024-09-18 08.51.19.excalidraw.md",
     "M1/Semestre 7/Prog parallèle/TD 1.md",
-    "M1/Semestre 7/Test & Val/CM 16 septembre.md",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
     "M1/Semestre 7/Anglais",
     "M1/Semestre 7/Modelisation & algo/CM du 3 septembre",
