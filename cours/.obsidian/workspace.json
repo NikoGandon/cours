@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "M1/Semestre 7/Description de lang/TD 2.md",
+                "file": "M1/Semestre 7/IA/TD 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "M1/Semestre 7/Description de lang/TD 2.md",
+                "file": "M1/Semestre 7/IA/TD 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "M1/Semestre 7/Description de lang/TD 2.md",
+                "file": "M1/Semestre 7/IA/TD 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "M1/Semestre 7/Description de lang/TD 2.md"
+                "file": "M1/Semestre 7/IA/TD 3.md"
               }
             }
           }
@@ -196,8 +196,10 @@
   },
   "active": "695baecaa81baad2",
   "lastOpenFiles": [
-    "M1/Semestre 7/Dev multiplateforme/Sans titre.md",
+    "M1/Semestre 7/IA/TD 2.md",
+    "M1/Semestre 7/IA/TD 3.md",
     "M1/Semestre 7/Description de lang/TD 2.md",
+    "M1/Semestre 7/Dev multiplateforme/Sans titre.md",
     "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.1.md",
     "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.md",
     "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.1.md",
@@ -214,7 +216,6 @@
     "L3/Automate",
     "Sans titre",
     "M1/Semestre 7/Description de lang/TD 1.md",
-    "M1/Semestre 7/IA/TD 2.md",
     "M1/Semestre 7/IA/TD 1.md",
     "M1/Semestre 7/Introduction recherche/Cm du 23 septembre.md",
     "M1/Semestre 7/Introduction recherche",
@@ -228,7 +229,6 @@
     "Excalidraw/Drawing 2024-09-12 11.57.34.excalidraw.md",
     "M1/Semestre 7/Modelisation & algo/Drawing 2024-09-18 08.04.24.excalidraw.md",
     "M1/Semestre 7/Modelisation & algo/Drawing 2024-09-18 08.51.19.excalidraw.md",
-    "M1/Semestre 7/Prog parallèle/TD 1.md",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
     "M1/Semestre 7/Anglais",
     "M1/Semestre 7/Modelisation & algo/CM du 3 septembre",
