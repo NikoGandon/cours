@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "21090807ae11a8d3",
+        "id": "b8c52c4db708920a",
         "type": "tabs",
         "children": [
           {
-            "id": "695baecaa81baad2",
+            "id": "6f53e81712a46b31",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,10 +194,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "695baecaa81baad2",
+  "active": "6f53e81712a46b31",
   "lastOpenFiles": [
-    "M1/Semestre 7/IA/TD 2.md",
     "M1/Semestre 7/IA/TD 3.md",
+    "M1/Semestre 7/IA/TD 2.md",
     "M1/Semestre 7/Description de lang/TD 2.md",
     "M1/Semestre 7/Dev multiplateforme/Sans titre.md",
     "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.1.md",

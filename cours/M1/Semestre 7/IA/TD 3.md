@@ -1,3 +1,4 @@
+
 # Exercice 1
 
 1. 
@@ -27,7 +28,7 @@ def escalade (etat):
 	1. __État__ : il y a $N$ reines sur un échiquier $N \times N$, chaque reine est dans une colonne différentes, un état peut être représenté par un tableau $[r_{1}, r_{2}, \dots, r_{n}]$, $r_{i}$ est la ligne où la reine est placé dans la colonne $i$. 
 	2. __Voisinage__ : Le voisinage d'un état est l'ensemble des états en déplaçant une reine sur une ligne de sa colonne  
 	3. __Taille du voisinage__ : Chaque reine peut se déplacer dans $N-1$ autres lignes de sa colonne, la taille du voisinage est donc $N \times (N - 1)$
-	4. __Taille de l'espace de recherche__ : L'espace de recherche contient $N^{N}$ états possibles, car chaque reine peut être placée dans $N$ positions dans chaque colonne.
+	4. __Taille de l'espace de recherche__ : L'espace de recherche contient $N!$ états possibles
 2. On peut regarder le nombre de paire de reines en conflit
 ```
 valeur(etat) = -(Nombre de paire de reines en conflit)
@@ -40,30 +41,31 @@ valeur(etat) = -(Nombre de paire de reines en conflit)
 def tousVoisins(etat) : 
 	voisins = []
 	N = len(etat)
-	for col in range(N) :
-		for lign in range(N) :
-			if (etat[col] != ligne):
-				voisin = etat.copy()
-				voisin[col] = ligne
-				voisins.append(voisin)
+	for col in range(N - 1) :
+		for lign in range(i + 1, N) :
+			voisin = etat.copy()
+			voisin[col], voisin[lign] = voisin[lign], voisin[col]
+			voisins.append(voisin)
 	return voisins
 
 
 def valeur(etat) :
 	N = len(etat)
 	conflits = 0
-	for i in range(N):
-		for j in range(N):
+	for i in range(N - 1):
+		for j in range(i + 1,N - 1):
 			if(etat[i] == etat[j]):
 				conflits += 1
-			if (abs(etat[i] - etat[j]) == abs(i * j)):
+			if(etat[i] - i == etat[j] - j):
+				conflits += 1
+			if (etat[i] + i == etat[j] + j):
 				conflits += 1
 	return conflits
 ```
 
 # Exercice 3
 
-Soit le tableau suivant : 
+Soit le tableau suivant comparant la recherche informé et la recherche locale pour le problème des $n$-reines avec $A^*$ et la recherche par escalade avec les résultats obtenus :
 
 |   Algo   |           $n = 8$            |             $n = 16$             |             $n = 32$             |
 | :------: | :--------------------------: | :------------------------------: | :------------------------------: |
