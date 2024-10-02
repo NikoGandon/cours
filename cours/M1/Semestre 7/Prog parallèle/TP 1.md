@@ -162,17 +162,14 @@ int normVector(double *v, int n)
 #include <stdio.h>
 #include <stdlib.h>
 
-using namespace std;
-
 void generation(int n, int *tab, int graine)
 {
   srand(time(NULL) + graine);
-  srand(2*graine+10);
   
   for (int i = 0; i < n; i++)
   {
     bool test = true;
-    
+
     while (test)
     {
       test = false;
@@ -188,24 +185,83 @@ void generation(int n, int *tab, int graine)
 int main(int argc, char **argv)
 {
   int pid, nprocs;
-
   MPI_Init(&argc, &argv);
   MPI_Comm_rank(MPI_COMM_WORLD, &pid);
   MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
-  MPI_Request request;
-  MPI_Status status;
 
   int n = atoi(argv[1]);
   int root = atoi(argv[2]);
-  
+
   int *tab_global = new int[n];
   int *tab_local;
 
+  int local_n = n / nprocs;
+
   if (pid == root)
+  {
     generation(n, tab_global, pid);
+  }
+  
+  MPI_Bcast(tab_global, n, MPI_INT, root, MPI_COMM_WORLD);
+
+  tab_local = new int[local_n];
+
+  MPI_Scatter(tab_global, local_n, MPI_INT, tab_local, local_n, MPI_INT, root, MPI_COMM_WORLD);
+  
+  int *posLocal = new int[local_n];
+
+  for (int i = 0; i < local_n; i++)
+  {
+    int p = 1;
+    
+    for (int j = 0; j < n; j++)
+    {
+      int globalVal = tab_global[j];
+
+      if (globalVal < tab_local[i])
+      {
+        p++;
+      }
+    }
+    posLocal[i] = p;
+  }
+
+  int *posGlobal = NULL;
+
+  if (pid == root)
+  {
+    posGlobal = new int[n];
+  }  
+
+  MPI_Gather(posLocal, local_n, MPI_INT, posGlobal, local_n, MPI_INT, root, MPI_COMM_WORLD);
+
+  if (pid == root)
+  {
+    int *sortedTab = new int[n];
+
+    for (int i = 0; i < n; i++)
+    {
+      sortedTab[posGlobal[i] - 1] = tab_global[i];
+    }
+    printf("Array: ");
+
+    for (int i = 0; i < n; i++)
+    {
+      printf("%d ", sortedTab[i]);
+    }
+    printf("\n");
+
+    delete[] sortedTab;
+    delete[] posGlobal;
+  }
+
+  delete[] tab_local;
+  delete[] tab_global;
+  delete[] posLocal;
 
   MPI_Finalize();
 
   return 0;
 }
 ```
+
