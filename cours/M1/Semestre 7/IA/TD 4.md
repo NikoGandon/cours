@@ -76,4 +76,22 @@ flowchart TB
 1d2 --> 0f1
 ```
 2. Chacun son tour
-3. .
+3. Voir photo
+
+
+# Exercice 4
+
+```python
+def valeur_max_ab(etat, a, b):
+	return {etat, XXX}
+
+def valeur_min_ab(etat, a, b):
+	return
+
+def rech_ab(etat):
+	# On utilise valeur_max_ab ?
+	return
+
+def demarrer(): 
+```
+
