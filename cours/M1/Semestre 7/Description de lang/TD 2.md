@@ -295,8 +295,14 @@ F1 --> 5
 
 2. Soit le texte $(((1+2) * (3 * 4)) + 5)$
    $(((1+2)*(3*4)) + 5) \to (1+2)* ~~~~ 3 * 4 ~~~~ +5$
-	   
-```mermaid
-flowchart TB
-S
-```
+   $E \to E_{1}+T$
+   $\{E.poids=1, E.\exp = E_{1}.\exp \land '+' \land T.\exp\}$
+$E\to E_{1}-T$
+$\{ E.poids = 1, \text{ si } T.poids=1 \text{ alors } E_{1}.\exp \land '-' \land '(' \land T.\exp ')'$
+$\text{sinon } E.\exp = E_{1}.\exp \land '-' \land T.\exp \}$
+
+$E\to T \{ E.poids = T.poids ; E.\exp = T.\exp \}$
+$T \to T_{1} \times F \{ T.poids = 2,$
+$T.\exp = \text{ si } T_{1}.poids=1 \text{ alors } '(' \land T_{1}.\exp \land ')' \text{ sinon } T_{1}.\exp f \text{ FIN DU si }$ 
+$\land '*'$
+$\land \text{ si } F.poids = 1 \text{ alors } '(' \land F.\exp \land ')' \text{ sinon } F.\exp \text{ FIN DU si}$

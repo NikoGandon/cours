@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "M1/Semestre 7/Test & Val/TD 2.md",
+                "file": "M1/Semestre 7/Description de lang/TD 3.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ea4c4fddcb30ecd3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "M1/Semestre 7/Test & Val/Drawing 2024-10-04 09.32.00.excalidraw.md"
               }
             }
           }
@@ -103,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "M1/Semestre 7/Test & Val/TD 2.md",
+                "file": "M1/Semestre 7/Description de lang/TD 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "M1/Semestre 7/Test & Val/TD 2.md",
+                "file": "M1/Semestre 7/Description de lang/TD 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "M1/Semestre 7/Test & Val/TD 2.md"
+                "file": "M1/Semestre 7/Description de lang/TD 3.md"
               }
             }
           }
@@ -207,7 +197,9 @@
   "active": "197049ec442fcb49",
   "lastOpenFiles": [
     "M1/Semestre 7/Test & Val/Drawing 2024-10-04 09.32.00.excalidraw.md",
+    "M1/Semestre 7/Description de lang/TD 3.md",
     "M1/Semestre 7/Test & Val/TD 2.md",
+    "M1/Semestre 7/Description de lang/TD 2.md",
     "M1/Semestre 7/IA/TD 4.md",
     "M1/Semestre 7/IA/TD 3.md",
     "M1/Semestre 7/Prog parallèle/TP 2.md",
@@ -215,7 +207,6 @@
     "M1/Semestre 7/Prog parallèle/Cours du 10 septembre.md",
     "M1/Semestre 7/Prog parallèle/TP 1.md",
     "M1/Semestre 7/IA/TD 2.md",
-    "M1/Semestre 7/Description de lang/TD 2.md",
     "M1/Semestre 7/Dev multiplateforme/Sans titre.md",
     "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.1.md",
     "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.md",
@@ -237,7 +228,6 @@
     "M1/Semestre 7/Description de lang/Drawing 2024-09-20 11.36.08.excalidraw.md",
     "M1/Semestre 7/Description de lang/CM du 18 septembre.md",
     "M1/Semestre 7/Description de lang/CM du 4 septembre.md",
-    "Surface de genre.md",
     "Sans titre.canvas",
     "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
     "M1/Semestre 7/Anglais",
