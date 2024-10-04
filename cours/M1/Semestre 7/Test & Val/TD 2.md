@@ -92,7 +92,13 @@ Pour un programme $P$
 
 1. Soit $G$ représentant $P$ : ![[Drawing 2024-10-04 09.32.00.excalidraw]]
 2. Les chemins de contrôle de $G$ sont les suivants :
-	- .
-	- .
-	- .
-3. 
+	- $EI_{1}C_{1}S$
+	- $EI_{1}C_{1}I_{2}C_{2}S$
+	- $EI_{1}C_{1}I_{2}C_{2}I_{3}C_{3}I_{4}C_{4}I_{5}S$
+3. On peut définir l'expression par `E((I[1-6])(C[1-6]))+S`.
+4. Soit $DT_{1} = \{b = 1, c = 2, x = 2\}$: $EI_{1}C_{1}I_{2}C_{2}I_{3}C_{3}S$.
+5. Soit les $DT_{2} = \{ b = 1, c = 2, x = 0 \}$ et $DT_{3} = \{ b = 5, c = 2, x = 0 \}$ sont des chemins menant aux instructions d'écriture
+6. Soit $E$ le chemin de contrôle non exécutable par $G$
+
+# Exercice 4
+   
