@@ -98,7 +98,7 @@ Pour un programme $P$
 3. On peut définir l'expression par `E((I[1-6])(C[1-6]))+S`.
 4. Soit $DT_{1} = \{b = 1, c = 2, x = 2\}$: $EI_{1}C_{1}I_{2}C_{2}I_{3}C_{3}S$.
 5. Soit les $DT_{2} = \{ b = 1, c = 2, x = 0 \}$ et $DT_{3} = \{ b = 5, c = 2, x = 0 \}$ sont des chemins menant aux instructions d'écriture
-6. Soit $E$ le chemin de contrôle non exécutable par $G$
+6. Soit $EI_{1}C_{1}I_{2}C_{2}I_{3}C_{3}I_{4}C_{4}I_{6}S$ le chemin de contrôle non exécutable par $G$
 
 # Exercice 4
    
