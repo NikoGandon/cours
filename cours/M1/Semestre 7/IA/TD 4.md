@@ -78,6 +78,21 @@ flowchart TB
 2. Chacun son tour
 3. Voir photo
 
+# Exercice 3
+
+```python
+def valeur_max(etat):
+	return
+
+def valeur_min(etat):
+	return
+
+def decision_min_max(etat):
+	return 
+
+def demarre():
+	return
+```
 
 # Exercice 4
 
