@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "M1/Semestre 7/IA/CM 7 octobre.md",
+                "file": "M1/Semestre 7/Introduction recherche/IA/CM 7 octobre.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "M1/Semestre 7/IA/CM 7 octobre.md",
+                "file": "M1/Semestre 7/Introduction recherche/IA/CM 7 octobre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "M1/Semestre 7/IA/CM 7 octobre.md",
+                "file": "M1/Semestre 7/Introduction recherche/IA/CM 7 octobre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "M1/Semestre 7/IA/CM 7 octobre.md"
+                "file": "M1/Semestre 7/Introduction recherche/IA/CM 7 octobre.md"
               }
             }
           }
@@ -194,9 +194,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4825a61a2f4e0174",
+  "active": "bb5fd846e45ed00a",
   "lastOpenFiles": [
+    "M1/Semestre 7/Introduction recherche/IA",
     "M1/Semestre 7/IA/CM 7 octobre.md",
+    "M1/Semestre 7/Introduction recherche/IA/CM 7 octobre.md",
     "M1/Semestre 7/IA/CM 3 septembre/Qu'est-ce qu'un agent intelligent.md",
     "M1/Semestre 7/IA/CM 3 septembre/PEAS.md",
     "M1/Semestre 7/IA/arbre.excalidraw.md",
@@ -220,8 +222,6 @@
     "M1/Semestre 7/Prog parallèle/TP 2.md",
     "M1/Semestre 7/Prog parallèle/Cours du 3 septembre.md",
     "M1/Semestre 7/Prog parallèle/Cours du 10 septembre.md",
-    "M1/Semestre 7/Prog parallèle/TP 1.md",
-    "M1/Semestre 7/Dev multiplateforme/Sans titre.md",
     "L3/Automate/TD/Dessin/TD1",
     "L3/Automate/TD/Dessin",
     "L3/Automate/TD",
