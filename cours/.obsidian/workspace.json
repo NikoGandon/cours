@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "df75f95b068bc4f8",
+        "id": "0fbc6e3c4de2b347",
         "type": "tabs",
         "children": [
           {
-            "id": "4825a61a2f4e0174",
+            "id": "a3b02ddfda9b7690",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,8 +194,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4825a61a2f4e0174",
+  "active": "a3b02ddfda9b7690",
   "lastOpenFiles": [
+    "M1/Semestre 7/Modelisation & algo/TD3 - Exercice 2.2.md",
+    "M1/Semestre 7/Modelisation & algo/TD3 - Exercice 4.2.md",
+    "M1/Semestre 7/Modelisation & algo/TD 3 - exercice 4.5.md",
     "M1/Semestre 7/Modelisation & algo/TD 3.md",
     "M1/Semestre 7/Modelisation & algo/TD 2.md",
     "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.1.md",
@@ -221,9 +224,6 @@
     "M1/Semestre 7/Modelisation & algo/Drawing 2024-09-18 09.35.56.excalidraw.md",
     "M1/Semestre 7/Description de lang/TD 3.md",
     "M1/Semestre 7/Test & Val/Drawing 2024-10-04 09.32.00.excalidraw.md",
-    "M1/Semestre 7/Test & Val/TD 2.md",
-    "M1/Semestre 7/Description de lang/TD 2.md",
-    "M1/Semestre 7/Prog parallèle/TP 2.md",
     "L3/Automate/TD/Dessin/TD1",
     "L3/Automate/TD/Dessin",
     "L3/Automate/TD",

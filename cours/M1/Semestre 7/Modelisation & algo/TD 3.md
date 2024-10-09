@@ -4,6 +4,7 @@
    On peut mettre toutes les arêtes connus du cycle hamiltonien sur un poids de $1$ et les arêtes non connus (deux points proche $(u,v)$) sur des poids lourds comme $+\infty$.
    Nous pouvons ensuite appliquer $\text{TSP-magique}$.
 2. $G_{1}$ admet une solution au cycle hamiltonien si et seulement si par le graphe $G_1$ et la fonction de distance $d$ ainsi contrainte, la procédure $\text{TSP-magique}$ retourne un cycle dont le poids est $n$.
+   ![[TD3 - Exercice 2.2]]
 3. On peut trouver comme complexité en temps exponentiel
 
 # Exercice 3
@@ -44,4 +45,15 @@ n \\
 >	 - Chemin eulérien : chemin parcourant chaque arêtes une fois.
 >	- Cycle eulérien : cycle parcourant toutes les arêtes une fois et reviens au point de départ
 
-2. 
+![[TD3 - Exercice 2.2]]
+2. Soit $\mathcal{T}$ un arbre couvrant de poids $min$, on double chaque arêtes de $\mathcal{T}$. Alors $\mathcal{T}$ contient un cycle eulérien car chaque sommet a maintenant un degré pour 
+   ![[TD3 - Exercice 4.2]]
+   $v_{4}, v_{1}, v_{2}, v_{3}, v_{2}, v_{1}, v_{4}, v_{6}, v_{7}, v_{8}, v_{7}, v_{12}, v_{7}, v_{13}, v_{14}, v_{7}, v_{6}, v_{4}, v_{5}, v_{6}, v_{15}, \dots$
+   Bien sûr, $\text{poids}(\mathcal{C}_{E}) = \text{poids}(\mathcal{T}) \times 2$
+   A partir de $\mathcal{C}_{E}$, on peut construire un cycle hamiltonien dont le poids est au plus $2 \times z^*$.
+   Pour cela, on ne consulte que la première occurrence de chaque sommet dans $\mathcal{C}_{E}$
+   
+   A cause de l'inégalité triangulaire, le poids de ce nouveau cycle est moindre que $\text{poids}(\mathcal{C}_{E})$, or $\text{poids}(\mathcal{C}_{E})=2 \times \text{poids}(\mathcal{T}) \leq 2 \times z^*$
+3. ?
+4. ?
+5. 
