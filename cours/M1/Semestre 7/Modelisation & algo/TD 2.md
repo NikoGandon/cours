@@ -1,4 +1,4 @@
-# Exercice 1
+a# Exercice 1
 
 1.  ![[Drawing 2024-09-18 08.04.24.excalidraw]]
    Le $K_9$ contient $\frac{9 \times 8}{2} = 36$ arêtes.
