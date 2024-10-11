@@ -1,34 +1,34 @@
 # Exercice 1
 
-On a un type ``Bool`` ainsi que des opérateurs ``si-alors-sinon``, soit l'opérateur $eg : Ens \times Elt \to Bool$ où $Ens$ est l'ensemble et $Elt$ les éléments de l'ensemble
+On a un type ``Bool`` ainsi que des opérateurs ``si-alors-sinon``, soit l'opérateur $\text{eg} : \text{Ens} \times \text{Elt} \to \text{Bool}$ où $\text{Ens}$ est l'ensemble et $\text{Elt}$ les éléments de l'ensemble
 On écrira les axiomes pour définir les symboles suivants :
 *Constructeur* :
-	$vide :\to Ens$
-	$ajout :\to Ens \times Elt \to Ens$
+- $\text{vide} :\to \text{Ens}$
+- $\text{ajout} :\to \text{Ens} \times \text{Elt} \to \text{Ens}$
 *Opération* :
-	$app :\to Elt \times Ens \to Bool$
-	$supp :\to Elt \times Ens \to Ens$
-	$inter :\to Ens \times Ens \to Ens$
-	$diff :\to Ens \times Ens \to Ens$
+- $\text{app} :\to \text{Elt} \times \text{Ens} \to \text{Bool}$
+- $\text{supp} :\to \text{Elt} \times \text{Ens} \to \text{Ens}$
+- $\text{inter} :\to \text{Ens} \times \text{Ens} \to \text{Ens}$
+- $\text{diff} :\to \text{Ens} \times \text{Ens} \to \text{Ens}$
 Où app signifie appartient, supp signifie supprime, inter est l’intersection et diff la différence. La suppression d’un élément inexistant laisse l’ensemble inchangé.
 
 __Ensemble vide__ : $\text{vide}:\to \text{Ens}$
 __Ajout d'un élément dans un ensemble__ : 
-	$\text{ajout}:\to \text{Ens} \times \text{Elt} \to \text{Ens}$
-	$\text{ajout}(\text{ajout}(m,e),e) = \text{ajout}(m,e)$
-	$\text{ajout}(\text{ajout}(m,e_{1}),e_{2})=\text{ajout}(\text{ajout}(m,e_{2}),e_{1})$
+- $\text{ajout}:\to \text{Ens} \times \text{Elt} \to \text{Ens}$
+- $\text{ajout}(\text{ajout}(m,e),e) = \text{ajout}(m,e)$
+- $\text{ajout}(\text{ajout}(m,e_{1}),e_{2})=\text{ajout}(\text{ajout}(m,e_{2}),e_{1})$
 
 __Appartient__ : implicite dans les axiomes de constructeurs
 __Supprime__ :
-	$\text{supp}(e, \text{vide}) = \text{vide}$
-	$\text{supp}(e, \text{ajout}(m, e')) = \text{si } eg(e,e') \text{ alors } m \text{ sinon } \text{ajout}(\text{supp}(e,m),e')$
+- $\text{supp}(e, \text{vide}) = \text{vide}$
+- $\text{supp}(e, \text{ajout}(m, e')) = \text{si } eg(e,e') \text{ alors } m \text{ sinon } \text{ajout}(\text{supp}(e,m),e')$
 __Intersection__ :
-	$\text{inter}(\text{vide}, m) = \text{vide}$
-	$\text{inter}(\text{ajout}(m, e), m') = \text{si } \text{app}(e,m') \text{ alors } \text{ajout}(\text{inter}(m,m'),e) \text{ sinon } \text{inter}(m,m')$
+- $\text{inter}(\text{vide}, m) = \text{vide}$
+- $\text{inter}(\text{ajout}(m, e), m') = \text{si } \text{app}(e,m') \text{ alors } \text{ajout}(\text{inter}(m,m'),e) \text{ sinon } \text{inter}(m,m')$
 __Différence__ : 
-	$\text{diff}(\text{vide}, m) = \text{vide}$
-	$\text{diff}(m,\text{vide}) = m$
-	$\text{diff}(\text{ajout}(m,e),m') = \text{si } \text{app}(e,m') \text{ alors } \text{diff}(m,m') \text{ sinon } \text{ajout}(\text{diff}(m,m'))$
+- $\text{diff}(\text{vide}, m) = \text{vide}$
+- $\text{diff}(m,\text{vide}) = m$
+- $\text{diff}(\text{ajout}(m,e),m') = \text{si } \text{app}(e,m') \text{ alors } \text{diff}(m,m') \text{ sinon } \text{ajout}(\text{diff}(m,m'))$
 
 
 # Exercice 2
