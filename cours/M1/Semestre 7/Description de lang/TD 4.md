@@ -69,4 +69,5 @@ $\ ^{(2)}=_{E}x*(i(x)*i(i(x))) \ ^{(2)}=_{E}x*e \ ^{(1)}=_{E}x$
 Soit le système de réécriture suivant :
 $$R=\{0+x \to x, f(x+y)\to f(y)$$
 1. $R$ est terminant par l'ordre $>_{\text{lpo}}$
+
 2. $R$ est confluant
