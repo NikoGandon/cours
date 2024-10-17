@@ -39,8 +39,8 @@ Pour faire la fonction $\text{ASK}$, on utilise le chaînage avant ou arrière:
    $\left\{ \underset{\text{pâte}}{t_{1}} : \big[ \underset{\text{recette de pâte}}{v_{11}, \dots, v_{1m}]}, \dots, \underset{\text{1 autre recette de pâte}}{[v_{\sigma_{1}}, \dots, v_{\sigma p}]} \big] \right\}$
 
 3. On peut proposer ce qui suit
-
-```python
+	1. .
+	   ```python
 # Chainage avant
 def ASK(B, a):
 	iteration = True
@@ -53,8 +53,7 @@ def ASK(B, a):
 				TELL(B, regle)
 				iteration = True
 ```
-
-4. 
+	2. .
 ```python
 # Chainage arrière
 def ASK(B, a):
@@ -66,5 +65,23 @@ def ASK(B, a):
 		return True
 ```
 
+4. 
+   ```python
+   def ASK(B, a):
+	   if a in B return True
+	   if a in B.regles
+		   X = B.regle.a ?????
+		   for x in X:
+			   return ??
+		   ?????
+```
 5. 
+```python
+def TELL(B,a)
+```
 
+# Exercice 3
+
+1. $I\to B$, $R\to B$, $S \to I \land G$, $M\to S$
+   $\underset{1}{\underline{A}} \land (\underline{B} \lor A) \land (A \lor \underline{\lnot B})$
+   
