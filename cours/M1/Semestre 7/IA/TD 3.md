@@ -1,21 +1,25 @@
 
 # Exercice 1
 
-1. 
-2. Fonction de voisinage?
-3. .
-4. Soit
+1. On cherche un nœud qui maximise sa fitness. Pour cela, on se déplace dans l’espace de recherche de nœud en nœud.
+2. Pour la recherche locale, il faut : 
+	- Une fonction d’évaluation/objectif ou mesure de fitness (pr avoir le score de chaque état) 
+	- Une fonction de voisinage (pr générer les voisins)
+3. Un nœud doit contenir les informations pr obtenir sa fitness et son voisinage
+2. Soit
 ```python
 def escalade (etat):
-	while True :
-		voisins = tousVoisins(etat)
-		meilleurVoisin = etat
-		for voisin in voisins:
-			if valeur(voisin) > valeur(meilleurVoisin) :
-				meilleurVoisin = voisin
-		if (meilleurVoisin = etat) :
-			return etat
-		etat = meilleurVoisin
+	valeur_max = valeur(etat_init)
+	etat_courant = etat_init 
+	ancien_max = None 
+	while ancien_max != valeur_max :
+		ancien_max = valeur_max
+		voisins = tousVoisins(etat_courant)
+		for vois in voisins :
+			if (valeur(vois) > valeur_max) : 
+				valeur_max = valeur(vois) 
+				etat_courant = vois 
+	return etat_courant
 ```
 5. La recherche par escalade peut avoir plusieurs limitations : 
    - __Cul de sac__ : Si voisins sont moins bons, blocage
@@ -71,14 +75,15 @@ Soit le tableau suivant comparant la recherche informé et la recherche locale p
 | :------: | :--------------------------: | :------------------------------: | :------------------------------: |
 |  $A^*$   | temps élevé, succès $100\%$  | temps plus élevé, succès $100\%$ | temps très élevé, succès $100\%$ |
 | Escalade | temps faible, succès $100\%$ |   temps faible, succès $85\%$    |   temps faible, succès $60\%$    |
-1. .
-2. .
-3. .
-4. .
+1. Pour utilise $A^*$ il nous faut une heuristique et aussi trouver une fonction de coût
+2. $A^*$ serait exhaustif sur l'espace de recherche
+3. La localité change. En augmentant la taille de $n$, on réduit les chances de tomber sur l'optimum global
+4. Vu la taille, il faudrait lancer une recherche locale, quitte à la lancer plusieurs fois
 
 # Exercice 4
 
-1. .
-2. .
+1. On part de plusieurs endroits, donc plus de chance de tomber sur le maximum local
+2. $k=1$ on a une recherche par escalade classique
+   $k=\infty$ est sans intérêt, car on n'aurait aucun gain de temps par rapport à une recherche informée. 
 3. .
-4. .
+4. On ne peut pas garantir de trouver le max global.
