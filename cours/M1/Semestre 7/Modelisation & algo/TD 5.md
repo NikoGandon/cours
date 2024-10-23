@@ -86,6 +86,17 @@ $$\int \frac{1}{x}=\ln(x)$$
 $$\int^{n}_{1} \frac{1}{x}\leq \sum^{n}_{i=1} \frac{1}{i} \leq \int^{n+1}_{2} \frac{1}{x-1}$$
 # Exercice 2
 
-1. Le temps d'exécution au pire des cas de l'algorithme est $\mathcal{O}$
-   $\overset{n}{\underset{i=1}{\sum}}i= \frac{n(n-1)}{2}$
-2. Le temps d'exécution est XXX.
+1. Le temps d'exécution au pire des cas de l'algorithme est $\mathcal{O}(n^2)$:
+   $n+(n-1)+(n-2)+\dots+2+1=\mathcal{O}(n^2)$
+2. Soit $X$ la variable aléatoire qui représente le temps d'exécution total de l'algorithme:
+   On écrit $X=\overset{1}{\underset{k=n}{\sum}}X_{k}$ où $X_k$ est la variable aléatoire qui, étant donné un ensemble $A$ de taille $k$, prend la valeur de $k$.
+   Si l'événement $x$ choisi aléatoirement est le maximum de $A$, et sinon $X_k$ prend la valeur $1$
+   Informellement, $X_k$ représente le temps d'exécution de l'algorithme si on exclu le coût de l'appel récursif soit $\mathcal{O}(k)$, soit $\mathcal{O}(1)$
+   $$
+   \begin{align}
+E(X_{k})=\overset{+\infty}{\underset{j=-\infty}{\sum}} j \times p(K_{k}=j) \\
+=1 \times p(X_{k}=1+k) \times p(X_{k}=k)=1\times \frac{k-1}{k}+k \times \frac{1}{k} \\
+ = \frac{k \cancel{-1} \cancel{+1}}{k}=1
+  \end{align}
+$$
+$$E(X)=\sum^{1}_{k=n}E(X_{k})=\sum^{n}_{k=1}\mathcal{O}(1)=n\times \mathcal{O}(1)=\mathcal{O}(n)$$
