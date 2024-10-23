@@ -1,6 +1,4 @@
 ---
-tags: 
-excalidraw-plugin: 
 share_link: https://share.note.sx/uqm3l8d1#jKDqz99X9QEs4z2kAd/pbN4ODmWvlQb0MXsL8qKKZeg
 share_updated: 2024-10-23T12:46:08+02:00
 ---
