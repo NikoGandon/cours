@@ -53,11 +53,39 @@ E(X_{j})=\frac{p}{1-p}\times \sum^{+\infty}_{k=1}k \times (1-p)^k \\
 \end{align}
 $$
 Donc
-$$E(X)=\sum^{n-1}_{j=0}E(X_{j})=\sum^{n-1}_{j=0} \frac{n}{n-j}=n \sum^{n-1}_{j = 0} \frac{1}{n-j}$$
+$$E(X)=\sum^{n-1}_{j=0}E(X_{j})=\sum^{n-1}_{j=0} \frac{n}{n-j}=n \sum^{n-1}_{j = 0} \frac{1}{n-j}= n \sum^{n-1}_{i=1} \frac{1}{i} \approx n \times \ln(n)$$
 
 Pour la culture :
 $H(n)=\overset{n}{\underset{i=1}{\sum}} \frac{1}{i}$ est le n-ième nombre de la série harmonique.
 
+$$\sum^{n}_{i=1} ~ \int^{n}_{i=1} \frac{1}{i}\, di =\frac{1}{1}+ \frac{1}{2}+ \frac{1}{3} + \dots$$
+
+```dataviewjs
+const labels = ['0-1', '1-2', '2-3', '3-4', '4-5', '5-6'];
+const data = [0, 100, 50, 33, 25, 20];
+
+const chartData = {  
+    type: 'bar',
+
+    data: {
+        labels: labels,
+        datasets: [{
+            label: 'Numbers',
+            data: data,
+            backgroundColor: '#FFB1C1',
+        }]
+    }
+}
+
+window.renderChart(chartData, this.container);
+```
+
+
+
+$$\int \frac{1}{x}=\ln(x)$$
+$$\int^{n}_{1} \frac{1}{x}\leq \sum^{n}_{i=1} \frac{1}{i} \leq \int^{n+1}_{2} \frac{1}{x-1}$$
 # Exercice 2
 
-
+1. Le temps d'exécution au pire des cas de l'algorithme est $\mathcal{O}$
+   $\overset{n}{\underset{i=1}{\sum}}i= \frac{n(n-1)}{2}$
+2. Le temps d'exécution est XXX.
