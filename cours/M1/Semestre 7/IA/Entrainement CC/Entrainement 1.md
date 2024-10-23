@@ -1,3 +1,9 @@
+---
+tags: 
+excalidraw-plugin: 
+share_link: https://share.note.sx/uqm3l8d1#jKDqz99X9QEs4z2kAd/pbN4ODmWvlQb0MXsL8qKKZeg
+share_updated: 2024-10-23T12:46:08+02:00
+---
 # Exercice 1 : PEAS
 
 __Performance__ :
@@ -55,4 +61,4 @@ __Sensor__ :
 
 # Exercice 3 : Recherche locale
 
-1. C'est une recherche locale car il s'agit d'un état et pas de voisin, on a une fonction d'évaluation 
+1. C'est une recherche locale car l'exploration est limitée, \[Non terminé\]
