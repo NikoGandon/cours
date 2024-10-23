@@ -14,7 +14,9 @@
               "type": "excalidraw",
               "state": {
                 "file": "M1/Semestre 7/IA/Revision controle 1/1.1.md"
-              }
+              },
+              "icon": "excalidraw-icon",
+              "title": "1.1"
             }
           },
           {
@@ -28,7 +30,7 @@
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sans titre"
+              "title": "PEAS"
             }
           },
           {
@@ -219,7 +221,9 @@
               "type": "outline",
               "state": {
                 "file": "M1/Semestre 7/IA/CM 3 septembre/PEAS.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Plan de PEAS"
             }
           }
         ],
