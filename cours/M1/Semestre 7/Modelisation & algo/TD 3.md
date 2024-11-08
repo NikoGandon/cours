@@ -1,3 +1,7 @@
+---
+quickshare-date: 07-11-2024 17:41:26
+quickshare-url: "https://noteshare.space/note/cm37jbt381352001mwy4nx225q#L2PMC6Ng46BVveuhQpnejcs+JVWWFhT/7VxMnGvsJDc"
+---
 # Exercice 2
 
 1. Soit $G_{1}=(V_{1}, E_{1})$ un graphe, $\text{TSP-magique}(G=(V,E))$ une procédure calculant une solution optimale au problème du voyageur de commerce. On cherche à utiliser $\text{TSP-magique}$ pour un cycle hamiltonien.
