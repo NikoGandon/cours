@@ -46,14 +46,17 @@ Théorème : $\overset{+\infty}{\underset{k=1}{\sum}}k\times(1-p)^k=\frac{1-p}{p
 >[!info] 
 >Ce théorème peut être dans l'examen
 
-Ainsi, $$
+Ainsi, 
+$$
 \begin{align}
 E(X_{j})=\frac{p}{1-p}\times \sum^{+\infty}_{k=1}k \times (1-p)^k \\
 =\frac{p}{p}\times \frac{1-p}{p^2}\times \frac{1}{p}=\frac{n}{n-j}
 \end{align}
 $$
 Donc
+
 $$E(X)=\sum^{n-1}_{j=0}E(X_{j})=\sum^{n-1}_{j=0} \frac{n}{n-j}=n \sum^{n-1}_{j = 0} \frac{1}{n-j}= n \sum^{n-1}_{i=1} \frac{1}{i} \approx n \times \ln(n)$$
+
 
 Pour la culture :
 $H(n)=\overset{n}{\underset{i=1}{\sum}} \frac{1}{i}$ est le n-ième nombre de la série harmonique.

@@ -1,50 +1,24 @@
 {
   "main": {
-    "id": "3f603853a43faa3a",
+    "id": "5d08201a6de1e0e9",
     "type": "split",
     "children": [
       {
-        "id": "8a0e0d8acf50aeb6",
+        "id": "bf56b4bd86e6e04f",
         "type": "tabs",
         "children": [
           {
-            "id": "940948c185b169ac",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "M1/Semestre 7/IA/Revision controle 1/1.1.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "1.1"
-            }
-          },
-          {
-            "id": "678de166cf3f03ec",
+            "id": "74694093d74c180f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "M1/Semestre 7/IA/CM 3 septembre/PEAS.md",
-                "mode": "source",
+                "file": "M1/Semestre 7/Modelisation & algo/TD 5.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PEAS"
-            }
-          },
-          {
-            "id": "751335daf5165c09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "M1/Semestre 7/IA/TD 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TD 3"
+              "title": "TD 5"
             }
           }
         ]
@@ -53,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a462920806770f32",
+    "id": "477475a53d233406",
     "type": "split",
     "children": [
       {
-        "id": "f35234cf9bd5c397",
+        "id": "063f333294edcff7",
         "type": "tabs",
         "children": [
           {
-            "id": "bb5fd846e45ed00a",
+            "id": "c83c1c44184ba0cf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -73,13 +47,13 @@
             }
           },
           {
-            "id": "8eed9e40b405f0e2",
+            "id": "e7a602fbbcb5b806",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -90,17 +64,7 @@
             }
           },
           {
-            "id": "69adafba62b38b5b",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Le module complémentaire n'est plus actif."
-            }
-          },
-          {
-            "id": "8b42f6dce5733589",
+            "id": "0eaa5e941cfa1fb6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -113,23 +77,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5110321044922
+    "width": 300
   },
   "right": {
-    "id": "d83e63fbef5aec18",
+    "id": "5bafbddca8fedd5e",
     "type": "split",
     "children": [
       {
-        "id": "71f162289b36c154",
+        "id": "38222b072567c0c8",
         "type": "tabs",
         "children": [
           {
-            "id": "1433139b2e9947aa",
+            "id": "e3eff2e6e8e878ca",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "M1/Semestre 7/IA/CM 3 septembre/PEAS.md",
+                "file": "M1/Semestre 7/Description de lang/TD 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour TD 5"
+              "title": "Rétrolien pour TD 3"
             }
           },
           {
-            "id": "2f72240f6d7a4eca",
+            "id": "4344b8c3b5839159",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "M1/Semestre 7/IA/CM 3 septembre/PEAS.md",
+                "file": "M1/Semestre 7/Description de lang/TD 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de TD 5"
+              "title": "Liens sortants de TD 3"
             }
           },
           {
-            "id": "bf5a1fa9a7053ce6",
+            "id": "ed6aeddec133df4d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -170,7 +134,7 @@
             }
           },
           {
-            "id": "4aded52cab0771c1",
+            "id": "4e7ec806129cf9c7",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -184,17 +148,19 @@
             }
           },
           {
-            "id": "7db323cfd142f096",
+            "id": "4d06df9f337f3bbc",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "type": "outline",
+              "state": {
+                "file": "M1/Semestre 7/Description de lang/TD 3.md"
+              },
+              "icon": "lucide-list",
+              "title": "Plan de TD 3"
             }
           },
           {
-            "id": "dc3b5e05ec55248c",
+            "id": "4906c0dc10f2679c",
             "type": "leaf",
             "state": {
               "type": "QUICKSHARE_SIDE_VIEW",
@@ -202,42 +168,20 @@
               "icon": "cloud",
               "title": "QuickShare"
             }
-          },
-          {
-            "id": "e953dc0662cedb0d",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
-          },
-          {
-            "id": "700c13dbd2106f15",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "M1/Semestre 7/IA/CM 3 septembre/PEAS.md"
-              },
-              "icon": "lucide-list",
-              "title": "Plan de PEAS"
-            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:Créer une nouvelle toile": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
@@ -246,66 +190,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "678de166cf3f03ec",
+  "active": "74694093d74c180f",
   "lastOpenFiles": [
-    "M1/Semestre 7/IA/TD 2.md",
-    "M1/Semestre 7/IA/TD 3.md",
-    "M1/Semestre 7/IA/TD 1.md",
-    "M1/Semestre 7/IA/Revision controle 1/1.2.md",
-    "M1/Semestre 7/IA/Revision controle 1/1.1.md",
-    "M1/Semestre 7/IA/Revision controle 1",
-    "M1/Semestre 7/IA/TD 5.md",
     "M1/Semestre 7/Modelisation & algo/TD 4.md",
-    "M1/Semestre 7/IA/TD 4.md",
-    "M1/Semestre 7/Modelisation & algo/TD 3.md",
-    "M1/Semestre 7/Description de lang/TD 4.md",
-    "M1/Semestre 7/Modelisation & algo/TD3 - Exercice 2.2.md",
-    "M1/Semestre 7/Modelisation & algo/TD3 - Exercice 4.2.md",
-    "M1/Semestre 7/Modelisation & algo/TD 3 - exercice 4.5.md",
-    "M1/Semestre 7/Modelisation & algo/TD 2.md",
-    "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.1.md",
-    "M1/Semestre 7/Introduction recherche/IA/CM 7 octobre.md",
-    "M1/Semestre 7/Introduction recherche/GAMoC/CM 7 octobre.md",
-    "M1/Semestre 7/Introduction recherche/GAMoC/Cm du 23 septembre.md",
-=======
-  "active": "01b3191546e6acb9",
-  "lastOpenFiles": [
-    "TD 3.pdf",
-    "M1/Semestre 7/Modelisation & algo/TD 4.md",
-    "M1/Semestre 7/Modelisation & algo/TD 5.md",
     "M1/Semestre 7/Modelisation & algo/TD 3.md",
     "M1/Semestre 7/Modelisation & algo/TD 2.md",
     "M1/Semestre 7/Modelisation & algo/TD 1.md",
-    "M1/Semestre 7/Modelisation & algo/TD 3 - exercice 4.5.md",
     "M1/Semestre 7/Test & Val/TD 2.md",
-    "M1/Semestre 7/Introduction recherche/GAMoC",
-    "M1/Semestre 7/Introduction recherche/IA",
-    "M1/Semestre 7/IA/CM 7 octobre.md",
-    "M1/Semestre 7/IA/CM 3 septembre/Qu'est-ce qu'un agent intelligent.md",
-    "M1/Semestre 7/IA/CM 3 septembre/PEAS.md",
-    "M1/Semestre 7/IA/arbre.excalidraw.md",
-    "M1/Semestre 7/Modelisation & algo/Vecteur de degré.md",
-    "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.2.md",
-    "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 2.1.md",
-    "M1/Semestre 7/Modelisation & algo/TD 2 - Exercice 1.3.md",
-    "L3/Automate/TD/Dessin/TD1",
-    "L3/Automate/TD/Dessin",
-    "L3/Automate/TD",
-    "L3/Automate",
-    "Sans titre",
-    "M1/Semestre 7/Introduction recherche",
-    "Sans titre.canvas",
-    "L3/Semestre 5/Automate/Cours/Dessin/Pasted image 20231010085908.png",
-    "M1/Semestre 7/Anglais",
-    "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927155329.png",
-    "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927155200.png",
-    "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927154531.png",
-    "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927154524.png",
-    "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927154045.png",
-    "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927152944.png",
-    "L3/Semestre 5/Ergonomie/Image/Pasted image 20230927152603.png",
-    "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014134704.png",
-    "L3/Semestre 5/Ergonomie/Projet 1/Pasted image 20231014134357.png",
-    "Sans titre 1.canvas"
+    "M1/Semestre 7/Test & Val/TD 1.md",
+    "M1/Semestre 7/Description de lang/TD 2.md",
+    "M1/Semestre 7/Description de lang/TD 3.md"
   ]
 }
