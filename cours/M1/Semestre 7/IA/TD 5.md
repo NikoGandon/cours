@@ -85,3 +85,37 @@ def TELL(B,a)
 1. $I\to B$, $R\to B$, $S \to I \land G$, $M\to S$
    $\underset{1}{\underline{A}} \land (\underline{B} \lor A) \land (A \lor \underline{\lnot B})$
    
+>[!error] Exercice non corrigé
+
+
+# Exercice 4
+
+```mermaid
+flowchart
+batterie --> radio
+batterie --> allumage
+allumage --> démarrage
+démarrage --> moves
+démarrage --> gaz
+```
+1. $B\to \text{batterie}$
+   $R \to \text{radio}$
+   $A \to \text{allumage}$
+   $D \to \text{démarrage}$
+   $M\to \text{moves}$
+   $G\to \text{gaz}$
+2. 
+
+|  B  |  R  | $B\to R$ | $R\to B$ |
+| :-: | :-: | :------: | :------- |
+|  0  |  0  |    1     | 1        |
+|  0  |  1  |    1     | 0        |
+|  1  |  0  |    0     | 1        |
+|  1  |  1  |    1     | 1        |
+
+3. $R \to B$ I $->$ B S $->$ I S $->$ G M $->$ S
+   $\lnot$ S $\lnot$ R $\lor$ B $\lnot$ I $\lor$ B $\lnot$ S $\lor$ I $\lnot$ S $\lor$ G $\lnot$ M $\lor$ S
+   
+![[Drawing 2024-11-14 11.18.15.excalidraw]]
+
+![[Drawing 2024-11-14 11.18.45.excalidraw]]

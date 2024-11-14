@@ -40,7 +40,10 @@ $E(X)=E\left( \overset{n+1}{\underset{j=0}{\sum}}  X_{i} \right) = E\left( \over
 
 Par définition de l'espacement :
 
-$$E(X_{j}) = \sum^{+\infty}_{k=0} k \times p(X_{j}=k)=\sum^{+\infty}_{k=0} k \times(1-p)^{k-1}\times p$$
+$$\begin{align}
+&E(X_{j}) = \sum^{+\infty}_{k=0} k \times p(X_{j}=k) \\
+&\sum^{+\infty}_{k=0} k \times(1-p)^{k-1}\times p
+\end{align}$$
 Théorème : $\overset{+\infty}{\underset{k=1}{\sum}}k\times(1-p)^k=\frac{1-p}{p^2}$
 
 >[!info] 
@@ -49,8 +52,8 @@ Théorème : $\overset{+\infty}{\underset{k=1}{\sum}}k\times(1-p)^k=\frac{1-p}{p
 Ainsi, 
 $$
 \begin{align}
-E(X_{j})=\frac{p}{1-p}\times \sum^{+\infty}_{k=1}k \times (1-p)^k \\
-=\frac{p}{p}\times \frac{1-p}{p^2}\times \frac{1}{p}=\frac{n}{n-j}
+E(X_{j})&=\frac{p}{1-p}\times \sum^{+\infty}_{k=1}k \times (1-p)^k \\
+&=\frac{p}{p}\times \frac{1-p}{p^2}\times \frac{1}{p}=\frac{n}{n-j}
 \end{align}
 $$
 Donc
@@ -97,9 +100,104 @@ $$\int^{n}_{1} \frac{1}{x}\leq \sum^{n}_{i=1} \frac{1}{i} \leq \int^{n+1}_{2} \f
    Informellement, $X_k$ représente le temps d'exécution de l'algorithme si on exclu le coût de l'appel récursif soit $\mathcal{O}(k)$, soit $\mathcal{O}(1)$
    $$
    \begin{align}
-E(X_{k})=\overset{+\infty}{\underset{j=-\infty}{\sum}} j \times p(K_{k}=j) \\
-=1 \times p(X_{k}=1+k) \times p(X_{k}=k)=1\times \frac{k-1}{k}+k \times \frac{1}{k} \\
- = \frac{k \cancel{-1} \cancel{+1}}{k}=1
+&E(X_{k})=\overset{+\infty}{\underset{j=-\infty}{\sum}} j \times p(K_{k}=j) \\
+&=1 \times p(X_{k}=1+k) \times p(X_{k}=k)=1\times \frac{k-1}{k}+k \times \frac{1}{k} \\
+ &= \frac{k \cancel{-1} \cancel{+1}}{k}=1
   \end{align}
 $$
 $$E(X)=\sum^{1}_{k=n}E(X_{k})=\sum^{n}_{k=1}\mathcal{O}(1)=n\times \mathcal{O}(1)=\mathcal{O}(n)$$
+# Exercice 3
+
+1. Soit un graphe $G=(V,E)$, on a une fonction $f:V\to \{\text{VERT}, \text{BLEU}, \text{ROUGE}\}$, soit $c^{*}(G)$ le nombre maximal d'arêtes valides d'une 3-colorations de $G$.
+   
+   On veut un algorithme polynomial probabiliste qui calcule une 3-coloration f du graphe G tel que le nombre attendu d’arêtes valides est au moins $\frac{2\times c^{*}(G)}{3}$ :
+   
+```python
+   def Coloration3Max(G) :
+	   for s in G.sommets:
+		   s.couleur = Rand(ROUGE, VERT, BLEU)
+```
+   
+   
+   Montrons que le nombre attendu d'arêtes valides est $\frac{2}{3}\times m$ (nombre d'arêtes de $G$)
+   Soit $X$ une variable aléatoire égale au nombre d'arêtes valides
+   On note $X_{u,v}$ la variable aléatoire tel que:
+   $$X_{u,v}=
+   \begin{cases}
+1 ~~~~~~~~ \text{si l'arête \{u,v\} a une coloration valide} \\
+0
+\end{cases}$$
+Ainsi, $X=\sum_{\{u,v\}\in E}X_{u,v}$
+$$\begin{align}
+&E[X_{u,v}]=\sum^{+\infty}_{j=-\infty}j\times P(X_{u,v}=j) \\
+&=0\times P(X_{u,v}=0)+1\times P(X_{u,v}=1) \\
+&=P(X_{u,v}=1)=\frac{6}{9}=\frac{2}{3}
+\end{align}$$
+$$\begin{align}
+&= E[X]=E\left[ \sum_{\{u,v\} \in E} X_{u,v} \right]\\
+&= \sum_{\{u,v\} \in E} E[X_{u,v}] = \frac{2}{3}m
+\end{align}$$
+
+|  u  | v   |
+| :-: | --- |
+|  R  | R   |
+|  R  | B   |
+|  R  | V   |
+|  B  | R   |
+|  B  | B   |
+|  B  | V   |
+|  V  | R   |
+|  V  | B   |
+|  V  | V   |
+Puisque l'algo satisfait en moyenne $\frac{2}{3}m$ arêtes du graphes, alors il en satisfait au moins $\frac{2}{3}c^{*}$.
+
+Étant donné un graphe, calculons le nombre maximum de couleur nécessaire pour obtenir une coloration valide (qui est un problème NP-Complets):
+ 
+```python
+def coloration(G):
+	k = 1
+	C[k] = U
+	for s in G.sommets :
+		for i in range(1,k):
+			if v.voisin == null in C[i]:
+				C[i]=C[i]U{V}
+				break
+		if v not in C[i]:
+			k = k + 1
+			C[k] = {V}
+```
+ 
+2. $S'$ est un ensemble stable d'un graphe $G=(V,E)$ si et seulement si $\forall u \in S, \forall v \in S, \{u,v\} \notin E$
+   
+   Dans une coloration valide, chaque classe de couleur est un ensemble stable, on peut même s'arranger pour qu'une des classes de couleurs soit un stable maximal.
+   
+   $G=(V,E)$
+   $\forall X \subseteq V$, on veut calculer $\mathcal{X}(G[X])$, c'est à dire le plus petit nombre de couleurs nécessaire pour calculer le graphe induit par les sommets $X$
+   $X=V$, $\mathcal{X}(G[X])$
+   On stocke dans $\text{OPT}[X]$ la valeur de $\mathcal{X}(G[X])$ 
+   
+   Pour chaque sous-ensemble $X \subseteq V$ considéré par taille croissante faire:
+   -- $\text{OPT}[X]=\text{MIN}\text{ OPT}[X \setminus S]$
+   -- $S \subseteq X$
+   -- tant que $S$ est un stable : 
+   -- -- max de $G[X]$
+   Retourne $\text{OPT}[V]$
+
+
+# Exercice 4
+1. .
+	1. On peut avoir $\frac{n}{2}$ arêtes dans une coupe retournée par cet algorithme
+	   $X=\text{nombre d'arêtes traversant la coupe (A,B)}$
+	   $X=\sum_{\{ u,v \}\in E }X_{u,v}$ où
+	   $$X_{u,v}=
+	   \begin{cases}
+1 ~~~~~~~~ \text{si \{u,v\} traverse la coupe} \\
+0
+\end{cases}$$
+	   $$\begin{align}
+E[X_{u,v}]&=0 \times p(X_{u,v}=0)+1\times p(X_{u,v}=1) \\
+&=p(X_{u,v}=1) = \frac{1}{2}
+\end{align}$$
+	   Donc $E[X_{u,v}]=m\times \frac{1}{2} = \frac{m}{2}$
+	   2. 
+
