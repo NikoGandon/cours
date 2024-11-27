@@ -199,5 +199,37 @@ E[X_{u,v}]&=0 \times p(X_{u,v}=0)+1\times p(X_{u,v}=1) \\
 &=p(X_{u,v}=1) = \frac{1}{2}
 \end{align}$$
 	   Donc $E[X_{u,v}]=m\times \frac{1}{2} = \frac{m}{2}$
-	   2. 
+		1. Le nombre attendu d'arêtes qui traversent la coupe après l'exécution de l'algo est $\frac{m}{2}$.
+		2. La taille de le coupe maximale contient au moins $\frac{m}{2}$ arêtes
+	2. .
+		1. ![[Drawing 2024-11-27 08.21.28.excalidraw]]
+		2. Voir 1.
+		3. $N(v_{i})=\{v_{j} \text{ tel que } \{v_{i},v_{j} \in E\}$
+		   $d(v_{i})=\mid N(v_{i})\mid$
+		   $\tilde{N}(v_{i})=\{v_{j} \text{ tel que } \{ v_{i}, v_{j} \in E \text{ et } j\leq i \}\})$
+		   $\hat{d}(v_{i})=\mid \tilde{N}(v_{i}) \mid$
+		   <u>Propriétés</u> : $\underset{v_{i} \in V}{\sum}d(v_{i})=2\times m$ et $\underset{v_{i}\in V}{\sum}\hat{d}(v_{i})$
+		   La condition ($*$) de l'algo se traduit par XXX 
+		   Si $\mid \tilde{N}(v_{i}) \cap A \mid \geq \mid \tilde{N} \cap B \mid$ alors $B \leftarrow B \cup \{v_{i}\}$, sinon $A \leftarrow A \cup \{v_{i}\}$		   Plein et autres mutations 
+		   - $m_{AB}$ le nombre d'arêtes traversant la coupe ($A,B$) (à la fin de l'exécution de l'algo)
+		   - $m_{A}$ le nombre d'arêtes totalement à l'intérieur de $A$
+		   - $m_{B}$ le nombre d'arêtes totalement à l'intérieur de $B$
+		   - $m_{AB}^i$ le nombre d'arêtes traversant la coupe ($A,B$) et ayant le sommet $v_i$ comme extrémité et le sommet $v_j$ comme autre extrémité avec $j < i$.
+		   - $m_{A}^i$ le nombre d'arêtes totalement à l'intérieur de $A$ et ayant le sommet $v_i$ comme extrémité et le sommet $v_j$ comme autre extrémité avec $j < i$
+		   - $m_{B}^i$ le nombre d'arêtes totalement à l'intérieur de $B$ et ayant le sommet $v_i$ comme extrémité et le sommet $v_j$ comme autre extrémité avec $j < i$
+		    
+		    Pour le choix ($*$) de l'algo, on a $\forall i$ :
+		    $m_{AB}^i>m_{A}^i$ si $v_{i}\in A$ (et dans ce cas, $m_{B}^i=0$)
+		    ou :
+		    $m_{AB}^i>m_{B}^i$ si $v_{i}\in B$ (et dans ce cas, $m_{A}^i=0$)
+		    
+		    Par conséquent, $\underset{i=1}{\overset{n}{\sum}}m_{AB}^i\geq\underset{i=1}{\overset{n}{\sum}}(m_{A}+m_{B})$
+		    De plus, $\underset{i=1}{\overset{n}{\sum}}m_{AB}^i=m_{AB}$
+		    Et, $\underset{i=1}{\overset{n}{\sum}}(m_{A}^i+m_{B}^i) = m_{A} + m_{B}$
+		    Ainsi, $m_{AB}\geq m_{A}+m_{B}$
+		    Puisque chaque arête se trouve quelque part $-m_{AB}+m_{A}+m_{B}$
+		    Donc $m_{AB} + m_{AB} \geq m$
+		    D'où $2\times m_{AB} \geq m$
+		    Donc, $m_{AB}\geq \frac{m}{2}$
+		    Comme la coupe max optimale ne peut pas couper plus que les $m$ arêtes du graphe on a le 2-approx
 
