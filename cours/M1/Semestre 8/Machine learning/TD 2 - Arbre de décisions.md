@@ -1,5 +1,5 @@
 1. Soit $X_{1},\dots,X_{m}$ sont des attributs d'entrée catégoriels et $Y$ est un attribut de sortie catégorique. Supposons que nous prévoyons d'apprendre un arbre de décision sans élagage en utilisant l'algorithme standard, est-ce que la profondeur maximale de l'arbre de décision doit être inférieur à $m+1$ : Oui car les attributs sont catégoriques et chacun ne peuvent être split qu'une fois
-2. .
+2. 
 	1. ``A && !B``
 	   	   
 |  A  |  B  | ``A and not B``/classe |
@@ -10,7 +10,8 @@
 |  1  |  1  | $\emptyset$            |
 ![[Drawing 2025-02-03 14.01.38.excalidraw]]
 	2. ``A xor B``
-	   	   
+
+
 |      A      |      B      | ``A and not B``/classe |
 | :---------: | :---------: | :--------------------- |
 | $\emptyset$ | $\emptyset$ | $\emptyset$            |
@@ -19,8 +20,9 @@
 |      1      |      1      | $\emptyset$            |
 
 ![[Drawing 2025-02-03 14.03.33.excalidraw]]
-	1. ``A or (B and C)``
-	   	   
+	3. ``A or (B and C)``
+
+
 |  A  |  B  | C   | ``A and not B``/classe |
 | :-: | :-: | --- | :--------------------- |
 |  0  |  0  | 0   | $\emptyset$            |
@@ -74,14 +76,16 @@ $E(S)=--\frac{1}{3}\log_{2} \frac{1}{3} -\frac{2}{3} \log_{2} \frac{2}{3}=0.93$
 | male | +           | -           | =   |
 | :--: | ----------- | ----------- | --- |
 | yes  | $\emptyset$ | $2$         | $2$ |
-|  no  | $2$         | $\emptyset$ | $2$ |
+
 
 
 ![[Drawing 2025-02-03 15.00.43.excalidraw]]
 
 ```
 IF chest_pain = yes THEN heart_attack = yes
-IF chest_pain = n AND 
+IF chest_pain = n AND male = yes THEN heart_attack = no
 ```
 # Exercice 4
 
+![[Drawing 2025-02-03 15.10.04.excalidraw]]
+$=0.44$
