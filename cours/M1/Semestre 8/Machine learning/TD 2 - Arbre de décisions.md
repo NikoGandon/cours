@@ -64,5 +64,24 @@ $E(\text{smoke}) + : \frac{4}{6} \left[ -\frac{3}{4} \log_{2} \frac{3}{4} - \fra
 $E(\text{smoke}) - : \frac{2}{6}\left[ -\frac{1}{2}\log_{2} \frac{1}{2} - \frac{1}{2}\log_{2} \frac{1}{4}\right]$
 $=0.53 + 0.33 = 0.86$
 
+![[Drawing 2025-02-03 14.50.58.excalidraw]]
 
+$\text{chest} = \text{no}$
+$P(\text{yes}) = \frac{1}{3}$
+$P(\text{no}) = \frac{2}{3}$
+$E(S)=--\frac{1}{3}\log_{2} \frac{1}{3} -\frac{2}{3} \log_{2} \frac{2}{3}=0.93$
+
+| male | +           | -           | =   |
+| :--: | ----------- | ----------- | --- |
+| yes  | $\emptyset$ | $2$         | $2$ |
+|  no  | $2$         | $\emptyset$ | $2$ |
+
+
+![[Drawing 2025-02-03 15.00.43.excalidraw]]
+
+```
+IF chest_pain = yes THEN heart_attack = yes
+IF chest_pain = n AND 
+```
 # Exercice 4
+
