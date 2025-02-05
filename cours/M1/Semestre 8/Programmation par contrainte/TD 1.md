@@ -55,3 +55,9 @@ Un des deux personnages ment au moins une fois, quelles sont les propositions vr
 | André 1     | ??   |
 | André 2     | ??   |
 | André 3     | ??   |
+Variables : A, B, C, D, R1, R2, R3, A1, A2, A3
+
+
+# Exercice 7
+
+
