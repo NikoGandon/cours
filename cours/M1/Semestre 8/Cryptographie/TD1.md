@@ -35,10 +35,18 @@ $m=1111 1111, m'=0000 0000, c=0001 0000, k=1110 1111, k'=0001 0000$
 3. ?
 # Exercice 3
 
+>[!error] Pas de correction sur le tableau
+
 1. Un algorithme de chiffrement par flot est un schéma dans lequel, à partir d’une clé initiale, on génère une séquence (ou un flot) de bits que l’on XOR avec le message pour obtenir le ciphertext. Dans ce cas, l’algorithme s’appuie sur un état interne de taille fixe. 
 2. 
 ![[Drawing 2025-02-06 15.00.18.excalidraw]]
+??
 
+3. ??
+
+# Exercice 4
+
+4. 
 ```
 RC4 init(k):
 	for i = 0 to 7:
@@ -57,4 +65,5 @@ RC4 init(k):
 	return (S, i, j)		
 ```
 
-3. .
+
+5. 
