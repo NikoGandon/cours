@@ -25,3 +25,11 @@ $$P(S=i / B=i)=\frac{P(S=i\cap B=i)}{P(B=i)}=\frac{P(B=i|S=i)\times P(S=i)}{P(B=
 
 # Exercice 2
 
+1. 
+$\mathcal{M}=\{ 0,1 \}^n$
+$\text{Gen}=k \in \{  0,1 \}^n \text{ mais tel que } | k_{|1} | > \frac{n}{4}$
+
+$m=1111 1111, m'=0000 0000, c=0001 0000, k=1110 1111, k'=0001 0000$
+
+2. Non, car ce n'est pas indistinguable
+3. Soit deux messages $m_{0}, m_{1} \in M$ et $c$
