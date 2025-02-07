@@ -51,8 +51,15 @@ e_{1}\land e_{2}\to e_{1}' \land e_{2}'
 # Exercice 2
 
 1. Définir le type des listes
-	
+	$$\frac{}{\text{nil}:\text{list nat}} ~~~~~~~~ \frac{l:\text{list nat} ~~~~ n:\text{nat}}{\text{Cons}(n,l).\text{list nat}}$$
+	- $\forall l :\text{list nat}, P(l) \text{ si}$
+		- $P(\text{nil})$
+		- $\forall l:\text{list nat} ~~ n:\text{nat}, P(l)\to P(\text{Cons}(n,l))$
+		- $\frac{}{\text{sorted}(\text{nil})}~~~~~~~~\frac{n:\text{nat}}{\text{sorted}(\text{Cons}(n,l))}$
+		$$\frac{n:n<1}{o\leq n}~~~~~~~~\frac{n\leq m}{n\leq S(m)}$$
+
 2. Donner le principe d'induction
+	On veut montrer $\forall l,\text{si sorted}(l)\text{ alors } P(l)$
 	
 3. Définir par induction un prédicat $\text{sorted}: \forall \alpha ~~ \text{list } \alpha \to \text{prop}$ qui caractérise les listes triées + si d'autres prédicats sont nécessaires, les définir également (ainsi que leur principe d'induction)
 	
