@@ -11,7 +11,9 @@ $x,y,z,w \in \{ 1,\dots,5 \}$
 ordre de variables : $x,y,z,w$
 ordre de valeur : croissant
 
-<u>??</u>
+<u>Backtracking</u>
+
+![[Drawing 2025-02-12 08.23.02.excalidraw|2500px]]
 
 <u>BT+FC</u>
 
