@@ -62,3 +62,9 @@
 >[!info] 
 >r.e. : récursivement énumérable
 
+# Exercice 2
+
+5. Le problème est-il décidable ?
+	- **Entrée** : une $\text{MT } M \text{, un mot } u \in \sum^*\text{ et un état } q \in Q$
+	- **Question** : lors de son calcul sur l'entrée $u$, la machine $M$ passe-t-elle par l'état $q$ ?
+	- 
