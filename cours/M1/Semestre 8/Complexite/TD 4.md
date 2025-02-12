@@ -40,7 +40,13 @@
 	- Si la tête de $M$ dépasse le délimiteur, donc $M_{l}$ accepte
 	- Si la simulation de $M$ s'arrête, alors $M_{l}$ refuse
 	- Si le compteur dépasse $|Q|\times|u|$, $M_{l}$ refuse
-	$M_{l}$ est totale et reconnait $L$. En effet, dans le délimiteur, si le compteur dépasse $|Q|\times|u|$, $M_{l}$ est passé 2 fois par la même configuration avec le même état et la même position de la tête, donc $M_l$ boucle ???????????????? 
+	$M_{l}$ est totale et reconnait $L$. En effet, dans le délimiteur, si le compteur dépasse $|Q|\times|u|$, $M_{l}$ est passé 2 fois par la même configuration avec le même état et la même position de la tête, donc $M_l$ boucle ????????????????
+	$L=\{ <i> ~~~~i \in L(M_{i}) \}$
+	r.e. en simulant $M_{i}$ sur $<i>$
+	On veut montrer que $L$ n'est pas r.e. 
+	- Supposons que $\overline{L}$ soit r.e. alors il existe une $\text{MT}$ qui reconnait $\overline{L}$, c'est-à-dire qu'il existe $i$ tel que $M_i$ reconnait $\overline{L}$. Donc $\overline{L}=L(M_{i})$
+		- Si $<i> \in L(M_{i})$ alors $<i> \notin \overline{L}$
+		- Si $<i> \notin L(M_{i})$ alors $<i> \in \overline{L}$-
 
 5.  Est-ce que le problème est décidable ?
 	- **Entrée** : une $\text{MT}$ $M$ et un mot $u \in \sum^*$
@@ -51,3 +57,8 @@
 	- **Entrée** : un entier $i \in \mathbb{N}$
 	- **Question** : Existe t il un entier $j$ compris entre $0$ et $i$ et tel que la $\text{MT}$ numéro $i$ s'arrête sur $j$ en moins de $i$ étapes ?
 	- **Réponse** : 
+
+
+>[!info] 
+>r.e. : récursivement énumérable
+
