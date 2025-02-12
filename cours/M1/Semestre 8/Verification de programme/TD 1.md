@@ -60,6 +60,10 @@ e_{1}\land e_{2}\to e_{1}' \land e_{2}'
 
 2. Donner le principe d'induction
 	On veut montrer $\forall l,\text{si sorted}(l)\text{ alors } P(l)$
-	
+	- $P(\text{Nil})$
+	- $\forall n: \text{Nil}, P(\text{Cons}(n:\text{Nil}))$
+	- $\forall n_{1},n_{2}:\text{nat}, l:\text{list nat tel que } n_{1}\leq n_{2}$
+	- $P(\text{Cons}(n,l))\to P(\text{Cons}(n_{1}, \text{Cons}(n_{2},l)))$
+	  
 3. Définir par induction un prédicat $\text{sorted}: \forall \alpha ~~ \text{list } \alpha \to \text{prop}$ qui caractérise les listes triées + si d'autres prédicats sont nécessaires, les définir également (ainsi que leur principe d'induction)
 	
