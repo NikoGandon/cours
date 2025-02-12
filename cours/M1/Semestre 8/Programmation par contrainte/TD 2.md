@@ -17,3 +17,15 @@ ordre de valeur : croissant
 
 <u>BT+FC</u>
 
+![[Drawing 2025-02-12 08.42.19.excalidraw|1500px]]
+>[!error] Correction trop longue
+
+
+<u>AC 3</u>
+
+$Q=c_{1}y_{3},~~c_{2}xy,~~c_{3}xz,~~c_{3}zx,~~c_{4}wx,~~c_{4}xw,~~c_{5}wy,~~c_{5}yw$
+
+|    arc    | domaine              | arc ajouté de $Q$                                 |
+| :-------: | -------------------- | ------------------------------------------------- |
+| $c_{1}yz$ | $y \in \{ 1,..,4 \}$ | $c_{2}xy,~~c_{5}wy$ non ajouté car degré dans $Q$ |
+| $c_{1}zy$ |                      |                                                   |
