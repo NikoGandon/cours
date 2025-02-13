@@ -115,4 +115,16 @@ Dans cet exercice, les messages sont constitués d'une suite d'entiers codés su
     b & 8 \\
     2 & c
     \end{matrix}\right)$$
-    
+    $$K_{0}= \left(\begin{matrix}
+    1 & 6 \\
+    6 & 4
+    \end{matrix}\right) ~~~~~~~~ K_{1}=\left(\begin{matrix}
+    2 & 2 \\
+    4 & 6 
+    \end{matrix}\right) ~~~~~~~~ K_{2}=\left(\begin{matrix}
+    b & d \\
+    f & b
+    \end{matrix}\right) ~~~~~~~~ M=\left(\begin{matrix}
+    7 & 6 \\
+    9 & f
+    \end{matrix}\right) = y_{0}$$
