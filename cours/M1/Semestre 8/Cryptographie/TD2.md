@@ -128,3 +128,15 @@ Dans cet exercice, les messages sont constitués d'une suite d'entiers codés su
     7 & 6 \\
     9 & f
     \end{matrix}\right) = y_{0}$$
+
+| $M_{1}$ | "B," |
+| :-----: | :--: |
+| $M_{2}$ | " A" |
+| $M_{3}$ | ", " |
+| $M_{4}$ | "BA" |
+| $M_{5}$ | ", " |
+| $M_{6}$ | "Co" |
+| $M_{7}$ | "mp" |
+| $M_{8}$ | "ri" |
+| $M_{9}$ | "s." |
+Donc BA,BA, compris
