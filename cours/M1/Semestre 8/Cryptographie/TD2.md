@@ -1,8 +1,8 @@
 # Exercice 1
 
-Dans cet exercice, les messages sont constitués d'une suite d'entiers codés sur 4 bits et noté en hexadécimal. Chaque caractère est codé en ASCII par deux entiers successifs. Ainsi le mot ``CAKE`` est ``43414B45``. Les tables en annexe permettent d'adapter l'algo Mini AES vu en cours à la notation hexadécimal.
+Dans cet exercice, les messages sont constitués d'une suite d'entiers codés sur 4 bits et noté en hexadécimal. Chaque caractère est codé en ASCII par deux entiers successifs. Ainsi le mot `CAKE` est `43414B45`. Les tables en annexe permettent d'adapter l'algo Mini AES vu en cours à la notation hexadécimal.
 
-1. Chiffrer le message ``Ok`` avec la clé ``cafe``
+1. Chiffrer le message `Ok` avec la clé `cafe`
 	- $\text{O} \to \text{4F}$
 	- $\text{k} \to \text{6B}$
 	- Donc le message est $\text{4F6B}$
@@ -17,12 +17,10 @@ Dans cet exercice, les messages sont constitués d'une suite d'entiers codés su
 	$$K_{0}=\left(\begin{matrix}
     k_{0} & c & k_{2} \\
     k_{1} & \alpha & k_{3}
-    \end{matrix}\right)$$
-	$$K_{1} = \left(\begin{matrix}
+    \end{matrix}\right) ~~~~~~~~ K_{1} = \left(\begin{matrix}
     k_{4} & k_{6} \\
     k_{5} & k_{7}
-    \end{matrix}\right)$$
-	$$K_{2}=\left(\begin{matrix}
+    \end{matrix}\right) ~~~~~~~~ K_{2}=\left(\begin{matrix}
     k_{8} & k_{10}\\
     k_{9} & k_{11}
     \end{matrix}\right)$$
@@ -54,11 +52,10 @@ Dans cet exercice, les messages sont constitués d'une suite d'entiers codés su
 	$$K_{0}=\left(\begin{matrix}
     c & f \\
     a & ??
-    \end{matrix}\right)$$    $$K_{1}=\left(\begin{matrix}
+    \end{matrix}\right) ~~~~~~~~ K_{1}=\left(\begin{matrix}
     1 & 8 \\
     7 & 6
-    \end{matrix}\right)$$
-    $$K_{2}=\left(\begin{matrix}
+    \end{matrix}\right) ~~~~~~~~ K_{2}=\left(\begin{matrix}
     4 & b \\
     3 & ??
     \end{matrix}\right)$$
@@ -139,4 +136,12 @@ Dans cet exercice, les messages sont constitués d'une suite d'entiers codés su
 | $M_{7}$ | "mp" |
 | $M_{8}$ | "ri" |
 | $M_{9}$ | "s." |
-Donc BA,BA, compris
+
+Donc `B, A, BA, Compris.`
+
+$M_{1}=\text{AES}'(G)\oplus C_{?-1}$
+$$M_{2}=\text{AES}^{-1}(c_{2})\oplus C_{1}$$
+$$=\text{a7f1} \oplus \text{87b0}$$
+$$=\text{2041}=\text{" A"}$$
+$$M_{3}=\text{AES}^{-1}(C_{3})\oplus C_{2}$$
+$$M_{4}=\text{AES}^{-1}(C_{3}) \oplus C_{2} \oplus \Delta = M_{3} \oplus 1$$
