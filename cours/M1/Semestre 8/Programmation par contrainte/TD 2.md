@@ -50,3 +50,36 @@ $x \in \{ 2,3 \}$
 $y \in \{ 2,3 \}$
 $z \in \{ 4,5 \}$
 $w \in \{ 1,2 \}$
+
+# Exercice 3 ?
+
+1. $D(x)=\{ 0,\dots,20 \}$
+   $D(Y)=\{ 0,\dots,17 \}$
+   $X\geq 5$
+   $Y=2X$
+   
+   Consistance d'arc :
+	   - $D(x)=\{ 5, 6, 7, 8 \}$
+	   - $D(Y)=\{ 0, 12, 14, 15 \}$
+	   - $\mathcal{O}(d^2)$
+
+   Consistance de borne :
+	   - $D(X)=5..8$
+	   - $D(Y)=10..16$
+	   - $AC1 : \mathcal{O}(n^3 d^3)$
+	   - $AC3 : \mathcal{O}(n^2 d^3)$
+	   - $AC4 : \mathcal{O}(n^2 d^2)$
+
+2. $D(X)=12..20$
+   $D(Y)=2..10$
+   $D(Z)=5..10$
+   $X+Y=2Z$
+   
+   Règles de propagation de consistance de borne :
+	  -  $min X \leftarrow$
+	   - $max X \leftarrow$
+	   - $min Y \leftarrow$
+	   - $max Y \leftarrow$
+	   - $min Z \leftarrow$
+	   - $max Z \leftarrow$
+   

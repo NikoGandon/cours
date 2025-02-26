@@ -145,3 +145,4 @@ $$=\text{a7f1} \oplus \text{87b0}$$
 $$=\text{2041}=\text{" A"}$$
 $$M_{3}=\text{AES}^{-1}(C_{3})\oplus C_{2}$$
 $$M_{4}=\text{AES}^{-1}(C_{3}) \oplus C_{2} \oplus \Delta = M_{3} \oplus 1$$
+
