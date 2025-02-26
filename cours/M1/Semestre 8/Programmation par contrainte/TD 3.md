@@ -53,4 +53,4 @@ Une association veut organiser la fête de fin d’année. Elle sait qu’elle p
 | Daniel   | animation                   |
 | Emma     | animation, accueil, service |
 | Fred     | accueil, service            |
-![[Drawing 2025-02-26 09.44.45.excalidraw|1000px]]
+![[Drawing 2025-02-26 09.44.45.excalidraw|1000]]
