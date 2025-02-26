@@ -70,16 +70,20 @@ $w \in \{ 1,2 \}$
 	   - $AC3 : \mathcal{O}(n^2 d^3)$
 	   - $AC4 : \mathcal{O}(n^2 d^2)$
 
-2. $D(X)=12..20$
-   $D(Y)=2..10$
-   $D(Z)=5..10$
-   $X+Y=2Z$
+2. .
+	  - $D(X)=12..20$
+	  -  $D(Y)=2..10$
+	  -  $D(Z)=5..10$
+	  -  $X+Y=2Z$
+	  -  $X=2Z-Y$
+	  -  $Y=2Z-X$
+	  -  $Z=\frac{1}{2}(X+Y)$
    
    Règles de propagation de consistance de borne :
-	  -  $min X \leftarrow$
-	   - $max X \leftarrow$
-	   - $min Y \leftarrow$
-	   - $max Y \leftarrow$
-	   - $min Z \leftarrow$
-	   - $max Z \leftarrow$
+	  -  $\text{min}~ X \leftarrow \text{maximum}(2\times\text{min}(Z)-\text{max}(Y), \text{min}(X))$
+	   - $\text{max}~ X \leftarrow \text{minimum}(2\times\text{max}(Z)-\text{min}(Y), \text{max}(X))$
+	   - $\text{min}~ Y \leftarrow \text{idem X}$
+	   - $\text{max}~ Y \leftarrow \text{idem X}$
+	   - $\text{min}~ Z \leftarrow \text{maximum}\left( \left\lceil\frac{\text{min}(X)+\text{min}(Y)}{2}\right\rceil, \text{min}(Z) \right)$
+	   - $\text{max}~ Z \leftarrow \text{minimum}\left( \left\lfloor\frac{\text{min}(X)+\text{max}(Y)}{2}\right\rfloor, \text{max}(Z) \right)$
    
