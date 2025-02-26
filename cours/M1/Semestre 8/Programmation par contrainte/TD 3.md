@@ -54,3 +54,6 @@ Une association veut organiser la fête de fin d’année. Elle sait qu’elle p
 | Emma     | animation, accueil, service |
 | Fred     | accueil, service            |
 ![[Drawing 2025-02-26 09.44.45.excalidraw|1000]]
+
+Les composantes fortement connexes sont $E 4 F 3 E$, $E 4 P 3 E$, $E 4 P 4 F 3 E$, $B 2 C 1 B$
+
