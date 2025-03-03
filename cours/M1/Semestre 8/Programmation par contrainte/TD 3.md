@@ -1,6 +1,6 @@
 # Exercice 1
 
-$X s\leq Y \to Z \leq 3$
+$X \leq Y \to Z \leq 3$
 $D(X) = \{ 1, \dots, 4 \}$
 $D(Y) = \{ 1, \dots, 3 \}$
 $D(Z) = \{ 1, \dots, 5 \}$
