@@ -18,3 +18,20 @@ Le vote par la majorité pondérée donne aussi $F$
 
 Quel que soit la méthode utilisée, l'individu est classé $F$
 # Exercice 4
+
+>[!error] A vérifier
+
+Un k-NN doit être utilisé pour prédire les prix des maisons - ensemble d'entraînement (apprentissage). La nouvelle observation est présentée au modèle. Le modèle k-NN détermine les deux observations les plus proches de l'ensemble de l'entraînement pour faire la prédiction. Quelle serait la valeur du prix de la maison prédite ?
+
+| Chambre | Nbr salle de bain | Pieds carrés | Garage | Prix |
+| :------ | ----------------- | ------------ | ------ | ---- |
+| $2$     | $2$               | $1810$       | $0$    | ?    |
+
+| Chambre | Nbr salle de bain | Pieds carrés | Garage | Prix     |
+| :------ | ----------------- | ------------ | ------ | -------- |
+| $2$     | $2$               | $1504$       | $0$    | $333000$ |
+| $2$     | $2$               | $1690$       | $0$    | $352000$ |
+| $2$     | $3$               | $1945$       | $0$    | $349000$ |
+| $3$     | $2$               | $2146$       | $0$    | $356000$ |
+| $3$     | $2$               | $1942$       | $0$    | $351000$ |
+
