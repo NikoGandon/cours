@@ -84,3 +84,10 @@ $$
 $$
 
 $\mathcal{O}(n \times W)$ n'est pas polynomial. Il l'est uniquement si les données numériques sont représentées en unaire (qui n'est pas ??).
+
+# Exercice 4
+
+$A=\{ 0^k, 1^k,\dots,k \geq 0\}$
+
+Soit un ruban de longueur $n$, la complexité est $\mathcal{O}(n^2)$
+
