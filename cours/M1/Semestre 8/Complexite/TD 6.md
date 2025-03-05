@@ -89,11 +89,10 @@ $\mathcal{O}(n \times W)$ n'est pas polynomial. Il l'est uniquement si les donn�
 
 $A=\{ 0^k, 1^k:k \geq 0\}$
 
-Soit un ruban de longueur $n$, la complexité est $\mathcal{O}(n^2)$
+Soit un ruban de longueur $n$, la complexité est $\mathcal{O}(n^2)$.
 
-1. On ajoute des délimiteurs autours de l'entrée $\mathcal{O}(n)$ 
-2. Pour chaque paire de $1$ (respectivement $0$), on en supprime 1 sur 2
-	   - Si un $1$ reste tout seul, on vérifie qu'un $0$ reste tout seul et on les supprime
+1. On ajoute des délimiteurs autours de l'entrée $\mathcal{O}(n)$.
+2. Pour chaque paire de $1$ (respectivement $0$), on en supprime 1 sur 2.
+	   - Si un $1$ reste tout seul, on vérifie qu'un $0$ reste tout seul et on les supprime.
 3. On recommence l'étape 2 jusqu'à ce que l'un des deux côtés soit complétement effacé.
-4. Répondre oui si l'autre côté est totalement effacé, non sinon
-
+4. Répondre oui si l'autre côté est totalement effacé, non sinon.
