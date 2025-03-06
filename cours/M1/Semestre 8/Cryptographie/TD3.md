@@ -1,6 +1,9 @@
 # Exercice 1
 
-1. Dessiner le schéma de calcul du code CBC-MAC d’un message M = M1 · · ·Mn avec une clé K et une fonction de chiffrement F :
+1. Dessiner le schéma de calcul du code CBC-MAC d’un message M = M1 · · ·Mn avec une clé K et une fonction de chiffrement F : ![[Drawing 2025-03-06 14.39.49.excalidraw|350]]
+   - $T:\text{MAC du message}$
+   - $M,T$
+   - $IV', M', T$
    
 2. L’utilisation d’un IV fixe est fondamental. Montrer que si l’IV est variable et communiqué avec le message chiffré alors un adversaire peut forger des codes CBC-MAC valides.
    
@@ -29,3 +32,10 @@ def recevoir(K):
 	sinon 
 		lever une exception 
 ```
+
+
+# Exercice 2
+
+1. Écrire la formule de calcul du code HMAC d'un message $M$ avec une clé $K$ et une fonction de hachage $H$.
+   
+2. Térence propose d'utiliser l'algorithme suivant pour effectuer le contrôle d'intégrité. Qu'en pensez-vous ? Quelle différence avec $\text{HMAC-MD5}$. 
