@@ -146,3 +146,12 @@ $$=\text{2041}=\text{" A"}$$
 $$M_{3}=\text{AES}^{-1}(C_{3})\oplus C_{2}$$
 $$M_{4}=\text{AES}^{-1}(C_{3}) \oplus C_{2} \oplus \Delta = M_{3} \oplus 1$$
 
+# Exercice 4
+
+ ![[Drawing 2025-03-06 13.42.51.excalidraw||1000]]
+   ![[Drawing 2025-03-06 14.11.59.excalidraw|1500]]
+   Donc : 
+   - Demo : nocake4U (?)
+   - Alice : W_rabbit
+   - Bob : b0b_1337
+   - Charlie : ch4r1i3z

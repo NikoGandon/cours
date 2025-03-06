@@ -1,6 +1,6 @@
 # Exercice 1
 
-1. Dessiner le schéma de calcul du code CBC-MAC d’un message M = M1 · · ·Mn avec une clé K et une fonction de chiffrement F : ![[Drawing 2025-03-06 13.42.51.excalidraw||1000px]]
+1. Dessiner le schéma de calcul du code CBC-MAC d’un message M = M1 · · ·Mn avec une clé K et une fonction de chiffrement F :
    
 2. L’utilisation d’un IV fixe est fondamental. Montrer que si l’IV est variable et communiqué avec le message chiffré alors un adversaire peut forger des codes CBC-MAC valides.
    
@@ -29,5 +29,3 @@ def recevoir(K):
 	sinon 
 		lever une exception 
 ```
-
-6. 
