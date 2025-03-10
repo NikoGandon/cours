@@ -116,4 +116,6 @@ $\{ A, B, C, D, AB, AC, AD, BC, BD, CD, ABC, ABD, ACD, BCD, ABCD \}$
    
    
 9. Donnez les classes d'équivalence de la relation $\simeq$
+   $A,B,C,AC,AD,BC,ABD,ACD,ABCD$
+   
 10. On note qu'un itemset $X$ est fermé si et seulement si $X$ est un élément maximal de sa classe d'équivalence. Donnez les itemsets fermés de la base $D$
