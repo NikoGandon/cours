@@ -92,3 +92,28 @@ Itemsets présent dans $P_{2}$:
 Donc l'union des itemsets les plus fréquents de $P_{1}$ et $P_{2}$ :
 $\{ A, B, C, D, AB, AC, AD, BC, BD, CD, ABC, ABD, ACD, BCD, ABCD \}$
 
+
+4. Dessiner le treillis des itemsets avec leur support absolu (i.e. le nombre de transactions qui contiennent cet itemset)
+   ![[Drawing 2025-03-10 17.10.37.excalidraw|600]]
+   
+5. Calculez $t(\{ A \}),~t(\{ B \}),~t(\{ AB \}),~t(\{ AC \}),~t(\{ ABC \})$. Que peut-on dire sur le cardinal ?
+   
+   - $t(A)=\{ t_{1},t_{2},t_{3},t_{4},t_{7},t_{8} \}$
+   - $t(B)=\{ t_{1},t_{2},t_{3},t_{5},t_{8} \}$
+   - $t(AB)=\{ t_{1},t_{2},t_{3},t_{8} \}$
+   - $t(AB)=t(A)\cap t(B)$
+   - $i(t(A))=A$, donc $A$ est fermé (il caractérise les transactions)
+   
+6. Calculez $i(\{ t_{1} \}),~i(\{ t_{1},t_{2} \}),~i(\{ t_{1},t_{4} \}),~i(\{ t_{1},t_{4},t_{6} \}),~$. Que remarque t'on ?
+   - $i(\{ t_{1} \}) \leq ABCD$
+   - $i(\{ t_{1},t_{4} \}) = AC$
+   - $i(t(CD))=ACD$
+   - $i(t(ACD))=ACD$
+
+7. On définit la fermeture de $X$ par $f(X)=i(t(X))$. Calculez $f(\{ A \}),~f(\{ AB \}),~f(\{ ABC \})$.
+   
+8. Montrez que $\simeq$ est une relation d'équivalence
+   
+   
+9. Donnez les classes d'équivalence de la relation $\simeq$
+10. On note qu'un itemset $X$ est fermé si et seulement si $X$ est un élément maximal de sa classe d'équivalence. Donnez les itemsets fermés de la base $D$
