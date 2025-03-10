@@ -2,6 +2,9 @@
 
 1. Dessiner le schéma de calcul du code CBC-MAC d’un message M = M1 · · ·Mn avec une clé K et une fonction de chiffrement F : ![[Drawing 2025-03-06 14.39.49.excalidraw|350]]
 2. L’utilisation d’un IV fixe est fondamental. Montrer que si l’IV est variable et communiqué avec le message chiffré alors un adversaire peut forger des codes CBC-MAC valides.
+
+   >[!error] Je ne sais pas où je dois mettre ça
+   
    
    - $T:\text{MAC du message}$
    - $M,T$
@@ -15,6 +18,8 @@
    - $M_{1},\dots,M_{n}, T_{1}$
    - $M'_{1},\dots,M'_{n}, T_{2}$
    - $M''=M''_{1},\dots,M''_{n+m})~~ T_{1}$
+
+
 3. Lors du chiffrement de messages en mode CBC, l’utilisation d’IV non prédictibles est fondamental. Expliquer cette apparente contradiction avec la question précédente.
    
    
