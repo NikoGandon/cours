@@ -1,4 +1,4 @@
-# Exercice 1
+	# Exercice 1
 
 En utilisant le k-NN avec $k=3$ et la distance euclidienne. Pour prendre une décision concernant la classe, on teste la règle de vote à la majorité et la règle de vote à la majorité pondérée
 
