@@ -49,5 +49,34 @@ ___
 ## Partie 1
 Montrez que la classe NP est close par union et par intersection
 
+**NP close par union** :
+
+Pour reconnaitre $L_{1}\text{ et }L_{2}$ on simule $M_1$ (la machine non déterministe qui reconnaît $L_1$) et si $M_{1}$ arrive dans un état acceptant, alors on accepte le mot; sinon on simule $M_{2}$ (la MTND qui reconnaît $L_2$) et si $M_2$ accepte, alors le mot est accepté
+
+Le temps en exécution est $\mathcal{O}(p_{1}(n)+p_{2}(n))$
+Donc polynômial sur une MTND
+
+**NP close par intersection** :
+
+Pour reconnaître $L_{1} \cap L_{2}$, on construit une MTND $M$ qui étant donné un mot $w$ :
+- exécute $M_{1}$ sur $w$
+- exécute $M_{2}$ sur $w$
+- accepte si et seulement si les deux machines $M_1$ et $M_2$ 
+
+Le temps d'exécution est poly
+
 ## Partie 2
-Montrez que $\text{P} \subseteq \text{NP}$  
+Montrez que $\text{P} \subseteq \text{NP}$  :
+
+Soit $X \in P$. Donc il existe un algo $A$ qui
+
+
+
+
+
+# Exercice 4
+
+- $\text{NP}$ est la classe des langages qui admettent un certificateur polynomial
+- Un certificateur pour un langage $A$ est un algorithme $V$ où
+	- $A=\{ w \text{ tel que } V \text{ accepte } <w,c> \text{ pour un certifiant } x \}$
+- 
