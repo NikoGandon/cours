@@ -11,3 +11,5 @@
 
 1. `while (x < 10) do print x; x:= (x + 1)`
 2. `if (x < 5) then print x else print (x + 1)`
+
+# Exercice 3
