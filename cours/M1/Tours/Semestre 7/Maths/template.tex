@@ -11,6 +11,9 @@
 \usepackage{amsmath,amssymb,mathtools,amsthm}
 \usepackage{cancel}  % Pour les barrages dans les calculs
 
+% Tableaux
+\usepackage{longtable,booktabs,array}
+
 % Couleurs et graphiques
 \usepackage{xcolor}
 \definecolor{mathbg}{RGB}{245,248,252}      % Fond bleu très clair pour les formules
@@ -140,7 +143,7 @@
 %\tableofcontents
 %\newpage
 %$endif$
-
+\newcommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 $body$
 
 \end{document}
