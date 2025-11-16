@@ -1,149 +1,147 @@
-\documentclass[11pt,a4paper]{article}
+% ======================================================================
+%         TEMPLATE LaTeX Pandoc - XeLaTeX Modern (2025)
+% ======================================================================
 
-% Packages essentiels
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[french]{babel}
-\usepackage{lmodern}
-\usepackage[margin=2.5cm,top=3cm]{geometry}
+\documentclass[11pt, a4paper]{article}
 
-% Mathématiques avancées
-\usepackage{amsmath,amssymb,mathtools,amsthm}
-\usepackage{cancel}  % Pour les barrages dans les calculs
+% ------------------------------------------------------
+% FONTS (Best practice for XeLaTeX)
+% ------------------------------------------------------
+\usepackage{fontspec}
+% Polices modernes (très recommandées)
+\setmainfont{TeX Gyre Pagella}      % Texte
+\setsansfont{TeX Gyre Heros}        % Sans serif
+\setmonofont{JetBrains Mono}        % Code (ou autre)
 
-% Tableaux
-\usepackage{longtable,booktabs,array}
 
-% Couleurs et graphiques
+% ------------------------------------------------------
+% MICROTYPOGRAPHIE
+% ------------------------------------------------------
+\usepackage{microtype}
+
+
+% ------------------------------------------------------
+% COULEURS & CODAGE DES LIENS
+% ------------------------------------------------------
 \usepackage{xcolor}
-\definecolor{mathbg}{RGB}{245,248,252}      % Fond bleu très clair pour les formules
-\definecolor{mathdisplay}{RGB}{240,245,250} % Fond pour les équations display
-\definecolor{sectioncolor}{RGB}{0,51,102}   % Bleu foncé pour les titres
-\definecolor{subsectioncolor}{RGB}{0,102,204} % Bleu moyen
+\definecolor{linkcolor}{HTML}{0A4AA1}
+\definecolor{urlcolor}{HTML}{0A4AA1}
 
-% Boîtes colorées pour formules importantes
-\usepackage{tcolorbox}
-\tcbuselibrary{most,skins,breakable}
+\usepackage[
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=urlcolor,
+    citecolor=linkcolor
+]{hyperref}
 
-% Boîte pour les équations importantes
-\newtcolorbox{importantbox}{
-  colback=yellow!5!white,
-  colframe=orange!75!black,
-  fonttitle=\bfseries,
-  title=Formule importante,
-  arc=2mm,
-  boxrule=1pt,
-  breakable
+
+% ------------------------------------------------------
+% GEOMETRIE & ESPACEMENT
+% ------------------------------------------------------
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\setlength{\parskip}{0.6em}
+\setlength{\parindent}{0pt}
+
+
+% ------------------------------------------------------
+% TITRE PANDOC
+% ------------------------------------------------------
+$if(title)$
+    \title{$title$}
+$endif$
+
+$if(subtitle)$
+    \usepackage{titling}
+    \posttitle{\par\large $subtitle$ \par}
+$endif$
+
+$if(author)$
+    \author{$for(author)$$author$$sep$ \\ $endfor$}
+$endif$
+
+$if(date)$
+    \date{$date$}
+$else$
+    \date{}
+$endif$
+
+
+% ------------------------------------------------------
+% TABLE OF CONTENTS
+% ------------------------------------------------------
+\usepackage{tocloft}
+\setlength{\cftbeforesecskip}{4pt}
+
+% ------------------------------------------------------
+% LISTES (Pandoc good practice)
+% ------------------------------------------------------
+% Pour éviter le warning \tightlist
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+% ------------------------------------------------------
+% CODE HIGHLIGHTING (Pandoc - avec framed environ.)
+% ------------------------------------------------------
+\usepackage{fvextra}      % améliore verbatim
+\usepackage{minted}       % si Python disponibles, sinon fallback
+\usepackage{framed}
+
+% ------------------------------------------------------
+% SUPPORT PANDOC CODE HIGHLIGHTING (Highlighting)
+% ------------------------------------------------------
+
+% Environment used by Pandoc for syntax highlighting
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{
+  commandchars=\\\{\},
+  breaklines,
+  breakanywhere
 }
 
-% Boîte pour les résultats
-\newtcolorbox{resultbox}{
-  colback=green!5!white,
-  colframe=green!50!black,
-  fonttitle=\bfseries,
-  title=Résultat,
-  arc=2mm,
-  boxrule=1pt,
-  breakable
+% Environnement Shaded pour Pandoc
+\definecolor{shadecolor}{RGB}{245,245,245}
+\newenvironment{Shaded}{%
+  \begin{snugshade}
+}{%
+  \end{snugshade}
 }
 
-% Amélioration du rendu des équations display
-\usepackage{empheq}
-\usepackage[framemethod=TikZ]{mdframed}
+% ------------------------------------------------------
+% IMAGES
+% ------------------------------------------------------
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{{./}}
 
-% Fond coloré pour les équations en mode display
-\definecolor{eqnbg}{RGB}{248,249,250}
-\newmdenv[
-  backgroundcolor=eqnbg,
-  linewidth=0pt,
-  innertopmargin=8pt,
-  innerbottommargin=8pt,
-  skipabove=12pt,
-  skipbelow=12pt,
-  roundcorner=3pt
-]{eqnbox}
-
-% En-têtes personnalisés
+% ------------------------------------------------------
+% HEADER / FOOTER
+% ------------------------------------------------------
 \usepackage{fancyhdr}
-\usepackage{lastpage}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\textsc{$title$}}
-\fancyhead[R]{\small Page \thepage/\pageref{LastPage}}
-\fancyfoot[C]{\small $author$ -- $date$}
-\renewcommand{\headrulewidth}{0.5pt}
-\renewcommand{\footrulewidth}{0.5pt}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}
 
-% Style des titres avec meilleur contraste
-\usepackage{titlesec}
-\titleformat{\section}
-  {\normalfont\LARGE\bfseries\color{sectioncolor}}
-  {\thesection}{1em}{}[\titlerule]
-\titleformat{\subsection}
-  {\normalfont\Large\bfseries\color{subsectioncolor}}
-  {\thesubsection}{1em}{}
-\titleformat{\subsubsection}
-  {\normalfont\large\bfseries\color{subsectioncolor!80!black}}
-  {\thesubsubsection}{1em}{}
 
-% Espacement optimisé pour les maths
-\setlength{\parskip}{0.8em}
-\setlength{\parindent}{0pt}
-\linespread{1.2}
-\renewcommand{\arraystretch}{1.4}  % Plus d'espace dans les matrices
-
-% Espacement autour des équations (plus d'air)
-\AtBeginDocument{%
-  \abovedisplayskip=15pt plus 4pt minus 8pt
-  \belowdisplayskip=15pt plus 4pt minus 8pt
-  \abovedisplayshortskip=10pt plus 3pt minus 5pt
-  \belowdisplayshortskip=10pt plus 3pt minus 5pt
-}
-
-% Amélioration des matrices avec plus d'espace
-\makeatletter
-\renewcommand*\env@matrix[1][\arraystretch]{%
-  \edef\arraystretch{#1}%
-  \hskip -\arraycolsep
-  \let\@ifnextchar\new@ifnextchar
-  \array{*\c@MaxMatrixCols c}}
-\makeatother
-
-% Séparateurs visuels élégants
-\newcommand{\separator}{%
-  \vspace{0.5em}
-  \noindent\textcolor{gray!50}{\rule{\textwidth}{0.4pt}}
-  \vspace{0.5em}
-}
-
-% Liens avec bon contraste
-\usepackage[colorlinks=true,linkcolor=blue!70!black,urlcolor=blue!80!black,citecolor=blue!70!black]{hyperref}
-
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\providecommand{\passthrough}[1]{#1}
+% ======================================================================
+% DOCUMENT
+% ======================================================================
 
 \begin{document}
 
-%% Page de titre
-%\begin{titlepage}
-%\centering
-%\vspace*{2cm}
-%{\Huge\bfseries $title$ \par}
-%\vspace{1cm}
-%{\Large $author$ \par}
-%\vspace{0.5cm}
-%{\large $date$ \par}
-%\vfill
-%{\large Master 1 -- Mathématiques\par}
-%{\large Université de Tours\par}
-%\end{titlepage}
-%
-%$if(toc)$
-%\tableofcontents
-%\newpage
-%$endif$
-\newcommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+$if(title)$
+\maketitle
+$endif$
+
+$if(toc)$
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+\newpage
+}
+$endif$
+
 $body$
 
 \end{document}
+
+

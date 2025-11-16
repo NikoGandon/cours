@@ -1,0 +1,245 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages essentiels
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm,top=3cm]{geometry}
+
+% Mathématiques avancées
+\usepackage{amsmath,amssymb,mathtools,amsthm}
+\usepackage{cancel}
+
+% Tableaux
+\usepackage{longtable,booktabs,array}
+
+% Couleurs et graphiques
+\usepackage{xcolor}
+\definecolor{mathbg}{RGB}{245,248,252}
+\definecolor{mathdisplay}{RGB}{240,245,250}
+\definecolor{sectioncolor}{RGB}{0,51,102}
+\definecolor{subsectioncolor}{RGB}{0,102,204}
+
+% Couleurs pour le code Cypher
+\definecolor{codebg}{RGB}{248,249,250}
+\definecolor{codeframe}{RGB}{220,220,220}
+\definecolor{cypherblue}{RGB}{0,102,204}
+\definecolor{cyphergreen}{RGB}{0,128,0}
+\definecolor{cypherpurple}{RGB}{128,0,128}
+\definecolor{cypherred}{RGB}{163,21,21}
+
+% Boîtes colorées
+\usepackage{tcolorbox}
+\tcbuselibrary{most,skins,breakable}
+
+\newtcolorbox{importantbox}{
+  colback=yellow!5!white,
+  colframe=orange!75!black,
+  fonttitle=\bfseries,
+  title=Formule importante,
+  arc=2mm,
+  boxrule=1pt,
+  breakable
+}
+
+\newtcolorbox{resultbox}{
+  colback=green!5!white,
+  colframe=green!50!black,
+  fonttitle=\bfseries,
+  title=Résultat,
+  arc=2mm,
+  boxrule=1pt,
+  breakable
+}
+
+% Pour la coloration syntaxique du code
+\usepackage{listings}
+\usepackage{listingsutf8}
+
+% Style pour le code Cypher (amélioré)
+\lstdefinelanguage{Cypher}{
+  keywords=[1]{MATCH, RETURN, WHERE, CREATE, WITH, UNWIND, ORDER, BY, LIMIT, ASC, DESC, DISTINCT, DELETE, SET, REMOVE, MERGE},
+  keywords=[2]{Movie, Person, ACTED_IN, DIRECTED, REVIEWED, FOLLOWS, roles, title, name, released, born, tagline},
+  keywords=[3]{collect, avg, count, size, elementId},
+  keywordstyle=[1]\color{cypherblue}\bfseries,
+  keywordstyle=[2]\color{cypherpurple},
+  keywordstyle=[3]\color{cyphergreen}\bfseries,
+  string=[s]{"}{"},
+  stringstyle=\color{cypherred},
+  comment=[l]{//},
+  commentstyle=\color{gray}\itshape,
+  morecomment=[s]{/*}{*/},
+  sensitive=true,
+  morestring=[b]',
+  literate=
+    {->}{{{\color{cypherblue}\textbf{->}}}}2
+    {<-}{{{\color{cypherblue}\textbf{<-}}}}2
+    {-}{{{\color{cypherblue}\textbf{-}}}}1
+    {:}{{{\color{cypherpurple}\textbf{:}}}}1
+}
+
+\lstset{
+  backgroundcolor=\color{codebg},
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+  frame=single,
+  framerule=0.5pt,
+  rulecolor=\color{codeframe},
+  numbers=none,
+  xleftmargin=1em,
+  framexleftmargin=0.5em,
+  captionpos=b,
+  tabsize=2,
+  keepspaces=true,
+  showstringspaces=false,
+  columns=flexible
+}
+
+% Amélioration du rendu des équations display
+\usepackage{empheq}
+\usepackage[framemethod=TikZ]{mdframed}
+
+\definecolor{eqnbg}{RGB}{248,249,250}
+\newmdenv[
+  backgroundcolor=eqnbg,
+  linewidth=0pt,
+  innertopmargin=8pt,
+  innerbottommargin=8pt,
+  skipabove=12pt,
+  skipbelow=12pt,
+  roundcorner=3pt
+]{eqnbox}
+
+% En-têtes personnalisés
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textsc{}}
+\fancyhead[R]{\small Page \thepage/\pageref{LastPage}}
+\fancyfoot[C]{\small  -- }
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+% Style des titres
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\LARGE\bfseries\color{sectioncolor}}
+  {\thesection}{1em}{}[\titlerule]
+\titleformat{\subsection}
+  {\normalfont\Large\bfseries\color{subsectioncolor}}
+  {\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\large\bfseries\color{subsectioncolor!80!black}}
+  {\thesubsubsection}{1em}{}
+
+% Espacement
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\linespread{1.2}
+\renewcommand{\arraystretch}{1.4}
+
+\AtBeginDocument{%
+  \abovedisplayskip=15pt plus 4pt minus 8pt
+  \belowdisplayskip=15pt plus 4pt minus 8pt
+  \abovedisplayshortskip=10pt plus 3pt minus 5pt
+  \belowdisplayshortskip=10pt plus 3pt minus 5pt
+}
+
+% Amélioration des matrices
+\makeatletter
+\renewcommand*\env@matrix[1][\arraystretch]{%
+  \edef\arraystretch{#1}%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{*\c@MaxMatrixCols c}}
+\makeatother
+
+% Séparateurs
+\newcommand{\separator}{%
+  \vspace{0.5em}
+  \noindent\textcolor{gray!50}{\rule{\textwidth}{0.4pt}}
+  \vspace{0.5em}
+}
+
+% Liens
+\usepackage[colorlinks=true,linkcolor=blue!70!black,urlcolor=blue!80!black,citecolor=blue!70!black]{hyperref}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\passthrough}[1]{#1}
+
+\begin{document}
+
+%% Page de titre (décommentez si besoin)
+%\begin{titlepage}
+%\centering
+%\vspace*{2cm}
+%{\Huge\bfseries  \par}
+%\vspace{1cm}
+%{\Large  \par}
+%\vspace{0.5cm}
+%{\large  \par}
+%\vfill
+%{\large Master 1 -- ISA\par}
+%{\large Université de Tours\par}
+%\end{titlepage}
+
+
+\newcommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+<ol type="1">
+<li><pre><code>    Match (n)-[r]-&gt;(m)
+    Return n,r,m</code></pre></li>
+<li>174 nodes et 256 relations</li>
+<li>Done</li>
+<li><pre><code>MATCH (m:Movie {title: &quot;The Departed&quot;})-[r]-(n)
+RETURN m, r, n</code></pre></li>
+<li><pre><code>MATCH (p:Person)-[r]-(m:Movie)
+RETURN p, r, m</code></pre></li>
+<li><pre><code>MATCH (p:Person)-[r:ACTED_IN]-&gt;(m:Movie)
+RETURN p, r, m</code></pre></li>
+<li><pre><code>MATCH (p:Person)-[:DIRECTED]-&gt;(m:Movie)
+MATCH (p)-[:ACTED_IN]-&gt;(m)
+RETURN p,m</code></pre></li>
+<li><pre><code>MATCH (p:Person)-[:ACTED_IN]-&gt;(m:Movie)&lt;-[:DIRECTED]-(p)
+RETURN p, m
+</code></pre></li>
+<li><pre><code>MATCH (p:Person)-[r:REVIEWED]-(m:Movie)
+RETURN p</code></pre></li>
+<li><pre><code>MATCH (m:Movie)-[:REVIEWED]-(reviewer:Person)
+WITH m, collect(reviewer) as reviewers
+WHERE size(reviewers) &gt; 1
+RETURN m, reviewers</code></pre></li>
+<li><pre><code>MATCH (m:Movie) WHERE m.released &gt; 2010 RETURN m</code></pre></li>
+<li><pre><code>MATCH (actor:Person)-[r:ACTED_IN]-&gt;(m:Movie)
+WHERE m.released &gt; 2010
+RETURN actor, m</code></pre></li>
+<li><pre><code>MATCH (a1:Person)-[:ACTED_IN]-&gt;(m:Movie)&lt;-[:ACTED_IN]-(a2:Person)
+WHERE m.released &gt; 2010 AND elementid(a1) &lt; elementid(a2)
+RETURN a1.name as Acteur1, a2.name as Acteur2, m.title as Film, m.released as Annee</code></pre></li>
+<li><pre><code>MATCH (a1:Person)-[:ACTED_IN]-&gt;(m:Movie)&lt;-[:ACTED_IN]-(a2:Person)
+WITH a1, a2, collect(m), as movies
+WHERE elementId(a1) &lt; elementId(a2) AND size(movies) &gt; 1
+UNWIND movies as movie
+## WITH m as film, collect(a)
+RETURN a1, a2, movie</code></pre></li>
+<li><pre><code>MATCH(reviewer1:Person)-[:FOLLOWS*1..]-&gt;(reviewer2:Person)
+RETURN reviewer1, reviewer2</code></pre></li>
+<li><pre><code>MATCH (clint:Person {name: &quot;Clint Eastwood&quot;})
+MATCH path = (clint)-[*1..3]-(n)
+RETURN DISTINCT n
+LIMIT 12</code></pre></li>
+<li><pre><code>MATCH (actor:Person)-[:ACTED_IN]-&gt;(m:Movie {title: &quot;Apollo 13&quot;})
+RETURN m,actor.name,m.released - actor.born</code></pre></li>
+<li><pre><code>MATCH (p:Person)-[r:ACTED_IN]-&gt;(m:Movie {title: &quot;Apollo 13&quot;})
+RETURN m,avg(m.released - actor.born)</code></pre></li>
+<li><pre><code>MATCH (m:Movie)-[r:ACTED_IN]-(actor:Person)
+RETURN m,avg(m.released - actor.born) as averageAge</code></pre></li>
+<li><pre><code>MATCH (m:Movie)-[r:ACTED_IN]-(actor:Person)
+RETURN m,avg(m.released - actor.born) as averageAge
+ORDER BY averageAge ASC LIMIT 10</code></pre></li>
+</ol>
+
+\end{document}
