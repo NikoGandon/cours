@@ -8,11 +8,30 @@
 % FONTS (Best practice for XeLaTeX)
 % ------------------------------------------------------
 \usepackage{fontspec}
-% Polices modernes (très recommandées)
+% Polices TeX Gyre (nécessitent installation via MiKTeX)
+% Alternative: polices système Windows (décommentez si TeX Gyre non disponible)
 \setmainfont{TeX Gyre Pagella}      % Texte
 \setsansfont{TeX Gyre Heros}        % Sans serif
-\setmonofont{JetBrains Mono}        % Code (ou autre)
+\setmonofont{Courier New}[Scale=0.9]   % Code (toujours disponible sur Windows)
 
+% Alternative système Windows:
+% \setmainfont{Times New Roman}
+% \setsansfont{Arial}
+% \setmonofont{Courier New}[Scale=0.9]
+
+
+% ------------------------------------------------------
+% SYMBOLES MATHÉMATIQUES
+% ------------------------------------------------------
+\usepackage{amssymb}  % Pour \square et autres symboles
+\usepackage{amsmath}  % Pour les mathématiques
+
+% ------------------------------------------------------
+% TABLEAUX
+% ------------------------------------------------------
+\usepackage{longtable}  % Pour les tableaux sur plusieurs pages
+\usepackage{booktabs}   % Pour de beaux tableaux
+\usepackage{array}      % Améliorations des tableaux
 
 % ------------------------------------------------------
 % MICROTYPOGRAPHIE
@@ -24,14 +43,30 @@
 % COULEURS & CODAGE DES LIENS
 % ------------------------------------------------------
 \usepackage{xcolor}
-\definecolor{linkcolor}{HTML}{0A4AA1}
-\definecolor{urlcolor}{HTML}{0A4AA1}
+
+% Palette de couleurs moderne
+\definecolor{primaryblue}{HTML}{2563EB}      % Bleu principal
+\definecolor{secondaryblue}{HTML}{3B82F6}   % Bleu secondaire
+\definecolor{accentpurple}{HTML}{7C3AED}    % Violet accent
+\definecolor{successgreen}{HTML}{10B981}    % Vert succès
+\definecolor{warningorange}{HTML}{F59E0B}   % Orange avertissement
+\definecolor{errorred}{HTML}{EF4444}         % Rouge erreur
+\definecolor{codebg}{RGB}{248,250,252}      % Fond code clair
+\definecolor{codeborder}{RGB}{226,232,240}  % Bordure code
+\definecolor{sectioncolor}{HTML}{1E40AF}    % Couleur sections
+\definecolor{subsectioncolor}{HTML}{3B82F6} % Couleur sous-sections
+
+% Couleurs pour les liens
+\definecolor{linkcolor}{HTML}{2563EB}
+\definecolor{urlcolor}{HTML}{3B82F6}
+\definecolor{citecolor}{HTML}{7C3AED}
 
 \usepackage[
     colorlinks=true,
     linkcolor=linkcolor,
     urlcolor=urlcolor,
-    citecolor=linkcolor
+    citecolor=citecolor,
+    pdfborder={0 0 0}
 ]{hyperref}
 
 
@@ -46,13 +81,17 @@
 % ------------------------------------------------------
 % TITRE PANDOC
 % ------------------------------------------------------
+\usepackage{titling}
+\pretitle{\begin{center}\LARGE\bfseries\color{sectioncolor}}
+\posttitle{\end{center}\vspace{0.5em}}
+
 $if(title)$
     \title{$title$}
 $endif$
 
 $if(subtitle)$
-    \usepackage{titling}
-    \posttitle{\par\large $subtitle$ \par}
+    \preauthor{\begin{center}\large\color{subsectioncolor}}
+    \postauthor{\end{center}}
 $endif$
 
 $if(author)$
@@ -60,6 +99,8 @@ $if(author)$
 $endif$
 
 $if(date)$
+    \predate{\begin{center}\small\color{gray!60}}
+    \postdate{\end{center}}
     \date{$date$}
 $else$
     \date{}
@@ -71,12 +112,35 @@ $endif$
 % ------------------------------------------------------
 \usepackage{tocloft}
 \setlength{\cftbeforesecskip}{4pt}
+\renewcommand{\cftsecfont}{\color{sectioncolor}\bfseries}
+\renewcommand{\cftsubsecfont}{\color{subsectioncolor}}
+
+% ------------------------------------------------------
+% STYLE DES TITRES
+% ------------------------------------------------------
+\usepackage{titlesec}
+\titleformat{\section}
+  {\Large\bfseries\color{sectioncolor}}
+  {\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{1.5em}{1em}
+
+\titleformat{\subsection}
+  {\large\bfseries\color{subsectioncolor}}
+  {\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{1.2em}{0.8em}
+
+\titleformat{\subsubsection}
+  {\normalsize\bfseries\color{accentpurple}}
+  {\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{1em}{0.6em}
 
 % ------------------------------------------------------
 % LISTES (Pandoc good practice)
 % ------------------------------------------------------
 % Pour éviter le warning \tightlist
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Style pour les séparateurs horizontaux (gérés par Pandoc automatiquement)
 
 
 % ------------------------------------------------------
@@ -85,6 +149,24 @@ $endif$
 \usepackage{fvextra}      % améliore verbatim
 \usepackage{minted}       % si Python disponibles, sinon fallback
 \usepackage{framed}
+
+% Boîtes colorées pour le code
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable,skins}
+\tcbset{
+  codebox/.style={
+    colback=codebg,
+    colframe=codeborder,
+    boxrule=0.8pt,
+    arc=3pt,
+    left=6pt,
+    right=6pt,
+    top=4pt,
+    bottom=4pt,
+    breakable,
+    fonttitle=\bfseries\small\color{sectioncolor}
+  }
+}
 
 % ------------------------------------------------------
 % SUPPORT PANDOC CODE HIGHLIGHTING (Highlighting)
@@ -97,13 +179,49 @@ $endif$
   breakanywhere
 }
 
-% Environnement Shaded pour Pandoc
-\definecolor{shadecolor}{RGB}{245,245,245}
+% Environnement Shaded amélioré pour Pandoc
+\definecolor{shadecolor}{RGB}{248,250,252}
 \newenvironment{Shaded}{%
-  \begin{snugshade}
+  \begin{tcolorbox}[codebox]
 }{%
-  \end{snugshade}
+  \end{tcolorbox}
 }
+
+% Définitions des commandes de coloration syntaxique Pandoc
+% (utilisées quand Pandoc génère du code avec coloration - couleurs améliorées)
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\AlertTok}[1]{\textcolor{errorred}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor{warningorange}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor{warningorange}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor{accentpurple}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor{secondaryblue}{#1}}
+\newcommand{\CharTok}[1]{\textcolor{successgreen}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor{gray!70}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor{gray!60}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor{accentpurple}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor{primaryblue}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor{accentpurple}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor{accentpurple}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor{gray!70}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor{errorred}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{\textcolor{secondaryblue}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor{accentpurple}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor{primaryblue}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor{secondaryblue}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor{secondaryblue}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor{primaryblue}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor{errorred}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor{gray!60}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor{gray!70}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor{accentpurple}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor{successgreen}{#1}}
+\newcommand{\StringTok}[1]{\textcolor{successgreen}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor{accentpurple}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor{successgreen}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor{warningorange}{\textbf{\textit{#1}}}}
+\newcommand{\CommandTok}[1]{\textcolor{primaryblue}{\textbf{#1}}}
+\newcommand{\CharNumTok}[1]{\textcolor{accentpurple}{#1}}
 
 % ------------------------------------------------------
 % IMAGES
@@ -118,8 +236,13 @@ $endif$
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
-\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\color{sectioncolor}\leftmark}
+\fancyhead[R]{\small\color{subsectioncolor}\rightmark}
+\fancyfoot[C]{\small\color{gray!60}\thepage}
+\fancyfoot[L]{\small\color{gray!50}}
+\fancyfoot[R]{\small\color{gray!50}}
 
 
 % ======================================================================
