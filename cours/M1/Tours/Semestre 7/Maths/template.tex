@@ -1,4 +1,4 @@
-% ======================================================================
+% ==
 %         TEMPLATE LaTeX Pandoc - XeLaTeX Modern (2025)
 % ======================================================================
 
@@ -29,9 +29,24 @@
 % ------------------------------------------------------
 % TABLEAUX
 % ------------------------------------------------------
-\usepackage{longtable}  % Pour les tableaux sur plusieurs pages
-\usepackage{booktabs}   % Pour de beaux tableaux
+% Configuration spéciale pour éviter les erreurs avec Pandoc
 \usepackage{array}      % Améliorations des tableaux
+\usepackage{booktabs}   % Pour de beaux tableaux
+\setlength{\heavyrulewidth}{1.2pt}  % Lignes plus épaisses pour les tableaux
+\setlength{\lightrulewidth}{0.5pt}
+
+% Définir les compteurs AVANT longtable (important pour Pandoc)
+\makeatletter
+\@ifundefined{c@table}{\newcounter{table}}{}
+% Définir le compteur 'none' pour éviter l'erreur quand Pandoc utilise \LTcaptype{none}
+\@ifundefined{c@none}{\newcounter{none}}{}
+\makeatother
+
+\usepackage{longtable}  % Pour les tableaux sur plusieurs pages
+\setlength{\LTcapwidth}{\textwidth}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+% Note: Pandoc utilise parfois \LTcaptype{none} pour éviter d'incrémenter le compteur
 
 % ------------------------------------------------------
 % MICROTYPOGRAPHIE
@@ -82,8 +97,8 @@
 % TITRE PANDOC
 % ------------------------------------------------------
 \usepackage{titling}
-\pretitle{\begin{center}\LARGE\bfseries\color{sectioncolor}}
-\posttitle{\end{center}\vspace{0.5em}}
+\pretitle{\begin{center}\LARGE\bfseries\color{sectioncolor}\vspace{1em}}
+\posttitle{\par\vspace{0.5em}\rule{0.6\textwidth}{1.5pt}\end{center}\vspace{1em}}
 
 $if(title)$
     \title{$title$}
@@ -111,34 +126,47 @@ $endif$
 % TABLE OF CONTENTS
 % ------------------------------------------------------
 \usepackage{tocloft}
-\setlength{\cftbeforesecskip}{4pt}
+\setlength{\cftbeforesecskip}{6pt}
+\setlength{\cftbeforesubsecskip}{3pt}
 \renewcommand{\cftsecfont}{\color{sectioncolor}\bfseries}
 \renewcommand{\cftsubsecfont}{\color{subsectioncolor}}
+\renewcommand{\cftsecpagefont}{\color{sectioncolor}\normalfont}
+\renewcommand{\cftsubsecpagefont}{\color{subsectioncolor}\normalfont}
+\renewcommand{\cftdotsep}{2}
 
 % ------------------------------------------------------
 % STYLE DES TITRES
 % ------------------------------------------------------
 \usepackage{titlesec}
+% Sections avec style moderne
 \titleformat{\section}
   {\Large\bfseries\color{sectioncolor}}
-  {\thesection}{1em}{}
-\titlespacing*{\section}{0pt}{1.5em}{1em}
+  {\thesection}{0.8em}{}
+\titlespacing*{\section}{0pt}{2em}{1.2em}
 
+% Sous-sections avec style moderne
 \titleformat{\subsection}
   {\large\bfseries\color{subsectioncolor}}
-  {\thesubsection}{1em}{}
-\titlespacing*{\subsection}{0pt}{1.2em}{0.8em}
+  {\thesubsection}{0.8em}{}
+\titlespacing*{\subsection}{0pt}{1.5em}{0.8em}
 
+% Sous-sous-sections
 \titleformat{\subsubsection}
   {\normalsize\bfseries\color{accentpurple}}
-  {\thesubsubsection}{1em}{}
-\titlespacing*{\subsubsection}{0pt}{1em}{0.6em}
+  {\thesubsubsection}{0.8em}{}
+\titlespacing*{\subsubsection}{0pt}{1.2em}{0.6em}
 
 % ------------------------------------------------------
 % LISTES (Pandoc good practice)
 % ------------------------------------------------------
 % Pour éviter le warning \tightlist
-\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0.3em}\setlength{\parskip}{0pt}}
+
+% Amélioration des listes
+\usepackage{enumitem}
+\setlist{leftmargin=1.5em, itemsep=0.3em, topsep=0.5em}
+\setlist[itemize]{label=\textcolor{sectioncolor}{\textbullet}}
+\setlist[enumerate]{label=\textcolor{sectioncolor}{\arabic*.}}
 
 % Style pour les séparateurs horizontaux (gérés par Pandoc automatiquement)
 
@@ -152,20 +180,36 @@ $endif$
 
 % Boîtes colorées pour le code
 \usepackage{tcolorbox}
-\tcbuselibrary{breakable,skins}
+\tcbuselibrary{breakable,skins,listings}
 \tcbset{
   codebox/.style={
     colback=codebg,
     colframe=codeborder,
-    boxrule=0.8pt,
-    arc=3pt,
-    left=6pt,
-    right=6pt,
-    top=4pt,
-    bottom=4pt,
+    boxrule=1pt,
+    arc=4pt,
+    left=8pt,
+    right=8pt,
+    top=6pt,
+    bottom=6pt,
     breakable,
+    enhanced,
     fonttitle=\bfseries\small\color{sectioncolor}
   }
+}
+
+% Style pour les blockquotes (notes importantes)
+\newtcolorbox{blockquote}{
+  colback=codebg!50,
+  colframe=warningorange,
+  boxrule=0.8pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=8pt,
+  bottom=8pt,
+  before skip=1em,
+  after skip=1em,
+  fonttitle=\bfseries\small\color{warningorange}
 }
 
 % ------------------------------------------------------
@@ -236,11 +280,11 @@ $endif$
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\renewcommand{\headrulewidth}{0.5pt}
-\renewcommand{\footrulewidth}{0.5pt}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0.8pt}
 \fancyhead[L]{\small\color{sectioncolor}\leftmark}
 \fancyhead[R]{\small\color{subsectioncolor}\rightmark}
-\fancyfoot[C]{\small\color{gray!60}\thepage}
+\fancyfoot[C]{\small\color{sectioncolor}\bfseries\thepage}
 \fancyfoot[L]{\small\color{gray!50}}
 \fancyfoot[R]{\small\color{gray!50}}
 
@@ -248,6 +292,12 @@ $endif$
 % ======================================================================
 % DOCUMENT
 % ======================================================================
+
+\makeatletter
+\let\LT@cap\relax
+\providecommand{\LT@captype}{table}
+\makeatother
+
 
 \begin{document}
 
@@ -266,5 +316,6 @@ $endif$
 $body$
 
 \end{document}
+
 
 
