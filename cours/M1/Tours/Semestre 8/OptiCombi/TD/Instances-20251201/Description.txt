@@ -1,0 +1,9 @@
+NAME : Nom de l'instance
+COMMENT : Commentaires
+TYPE : Type de problème
+DIMENSION : Nombre de sites (incluant le dépôt)
+EDGE_WEIGHT_TYPE : Représentation des distances (ici toutes sont en distances euclidiennes)
+CAPACITY : capacité des vehicules
+NODE_COORD_SECTION : Coordonnées des sites
+DEMAND_SECTION : Demande par site
+DEPOT SECTION : Numéro des dépôts
